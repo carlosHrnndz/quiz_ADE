@@ -1,125 +1,66 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Quiz · Recursos Humanos y Dirección de Equipos</title>
-    <link rel="stylesheet" href="styles.css" />
-    <style>
-      /* --- Pequeño refuerzo visual para iPhone --- */
-      body {
-        background-color: #0f1115;
-        color: #e8e8ea;
-        margin: 0;
-        font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
-      }
-      select, button {
-        font-size: 15px;
-      }
-    </style>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz · RRHH y Dirección de Equipos</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Quiz · RRHH y Dirección de Equipos</h1>
 
-  <body>
-    <!-- ==================================== -->
-    <!-- ENCABEZADO -->
-    <!-- ==================================== -->
-    <header class="app-header">
-      <h1>Quiz · Recursos Humanos y Dirección de Equipos</h1>
+  <div class="config">
+    <label for="mode">Modo:</label>
+    <select id="mode">
+      <option value="study" selected>Estudio</option>
+      <option value="quiz">Examen</option>
+    </select>
 
-      <div class="controls">
-        <!-- ✅ Selector de unidad -->
-        <label>
-          Unidad:
-          <select id="unidadSelect">
-            <option value="Unidad01">Unidad 01</option>
-            <option value="Unidad02">Unidad 02</option>
-            <option value="Unidad03">Unidad 03</option>
-            <option value="Unidad04">Unidad 04</option>
-            <option value="Unidad05">Unidad 05</option>
-            <option value="Unidad06">Unidad 06</option>
-            <option value="Unidad07">Unidad 07</option>
-            <option value="Unidad08">Unidad 08</option>
-            <option value="Unidad09">Unidad 09</option>
-            <option value="Unidad10">Unidad 10</option>
-          </select>
-        </label>
+    <label for="unidadSelector">Unidad:</label>
+    <select id="unidadSelector">
+      <option value="Unidad01">Unidad 01</option>
+      <option value="Unidad02">Unidad 02</option>
+      <option value="Unidad03">Unidad 03</option>
+    </select>
 
-        <!-- ✅ Selector de modo -->
-        <label>
-          Modo:
-          <select id="mode">
-            <option value="study">Estudio</option>
-            <option value="quiz">Examen</option>
-          </select>
-        </label>
+    <label for="archivoSelector">Test:</label>
+    <select id="archivoSelector">
+      <option value="01">Test 01</option>
+      <option value="02">Test 02</option>
+      <option value="03">Test 03</option>
+      <option value="04">Test 04</option>
+      <option value="05">Test 05</option>
+      <option value="06">Test 06</option>
+      <option value="07">Test 07</option>
+      <option value="08">Test 08</option>
+      <option value="09">Test 09</option>
+      <option value="10">Test 10</option>
+    </select>
 
-        <!-- ✅ Botones -->
-        <button id="startBtn">Comenzar</button>
-        <button id="resetBtn" class="secondary" title="Reiniciar">Reiniciar</button>
-      </div>
-    </header>
+    <button id="startBtn">Comenzar</button>
+    <button id="resetBtn" title="Reiniciar (borra progreso)">Reiniciar</button>
+  </div>
 
-    <!-- ==================================== -->
-    <!-- CONTENIDO PRINCIPAL -->
-    <!-- ==================================== -->
-    <main id="main" class="container">
-      <!-- Loader -->
-      <section id="loader" class="card hidden">Cargando preguntas…</section>
+  <div id="quizContainer" class="hidden">
+    <div id="questionHeader">
+      <span id="questionCount"></span> ·
+      Aciertos: <span id="score">0</span>
+    </div>
+    <p id="questionText"></p>
+    <div id="options"></div>
 
-      <!-- Pantalla de introducción -->
-      <section id="intro" class="card">
-        <p>
-          Este quiz funciona completamente en el navegador y carga las preguntas
-          desde cada carpeta (<code>Unidad01</code>, <code>Unidad02</code>, etc.)
-          sin necesidad de servidor.
-        </p>
-        <ul>
-          <li><strong>Modo Estudio</strong>: ves la respuesta correcta al responder.</li>
-          <li><strong>Modo Examen</strong>: la puntuación se muestra al final.</li>
-        </ul>
-      </section>
+    <button id="checkBtn">Comprobar</button>
+    <button id="nextBtn">Siguiente ▶</button>
+  </div>
 
-      <!-- Pantalla del quiz -->
-      <section id="quiz" class="card hidden">
-        <div class="meta">
-          <span id="progress">Pregunta 1 / 1</span>
-          <span id="score">Aciertos: 0</span>
-        </div>
-        <h2 id="q-text">Texto de la pregunta…</h2>
-        <form id="options" class="options"></form>
-        <div class="actions">
-          <button id="checkBtn">Comprobar</button>
-          <button id="nextBtn" class="secondary">Siguiente ▶</button>
-        </div>
-        <p id="feedback" class="feedback"></p>
-      </section>
+  <div id="results" class="hidden">
+    <h2>Resultados</h2>
+    <p id="finalScore"></p>
+    <button id="restartBtn">Volver a empezar</button>
+  </div>
 
-      <!-- Pantalla de resultados -->
-      <section id="results" class="card hidden">
-        <h2>Resultados</h2>
-        <p id="finalScore"></p>
-        <details>
-          <summary>Revisión de respuestas</summary>
-          <ol id="reviewList"></ol>
-        </details>
-        <div class="actions">
-          <button id="restartBtn">Volver al inicio</button>
-        </div>
-      </section>
-    </main>
+  <p class="footer">Hecho con HTML/CSS/JS · Carga JSON sin servidor</p>
 
-    <!-- ==================================== -->
-    <!-- PIE DE PÁGINA -->
-    <!-- ==================================== -->
-    <footer class="app-footer">
-      <small>
-        Hecho con HTML, CSS y JS · Carga dinámica desde carpetas de unidades
-      </small>
-    </footer>
-
-    <!-- ==================================== -->
-    <!-- SCRIPT PRINCIPAL -->
-    <!-- ==================================== -->
-    <script src="app.js"></script>
-  </body>
+  <script src="app.js"></script>
+</body>
 </html>
