@@ -3,13 +3,48 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Quiz | RRHH y Dirección de Equipos</title>
+    <title>Quiz · Recursos Humanos y Dirección de Equipos</title>
     <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* --- Pequeño refuerzo visual para iPhone --- */
+      body {
+        background-color: #0f1115;
+        color: #e8e8ea;
+        margin: 0;
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
+      }
+      select, button {
+        font-size: 15px;
+      }
+    </style>
   </head>
+
   <body>
+    <!-- ==================================== -->
+    <!-- ENCABEZADO -->
+    <!-- ==================================== -->
     <header class="app-header">
-      <h1>Quiz · RRHH y Dirección de Equipos</h1>
+      <h1>Quiz · Recursos Humanos y Dirección de Equipos</h1>
+
       <div class="controls">
+        <!-- ✅ Selector de unidad -->
+        <label>
+          Unidad:
+          <select id="unidadSelect">
+            <option value="Unidad01">Unidad 01</option>
+            <option value="Unidad02">Unidad 02</option>
+            <option value="Unidad03">Unidad 03</option>
+            <option value="Unidad04">Unidad 04</option>
+            <option value="Unidad05">Unidad 05</option>
+            <option value="Unidad06">Unidad 06</option>
+            <option value="Unidad07">Unidad 07</option>
+            <option value="Unidad08">Unidad 08</option>
+            <option value="Unidad09">Unidad 09</option>
+            <option value="Unidad10">Unidad 10</option>
+          </select>
+        </label>
+
+        <!-- ✅ Selector de modo -->
         <label>
           Modo:
           <select id="mode">
@@ -17,24 +52,34 @@
             <option value="quiz">Examen</option>
           </select>
         </label>
+
+        <!-- ✅ Botones -->
         <button id="startBtn">Comenzar</button>
-        <button id="resetBtn" class="secondary" title="Reiniciar (borra progreso)">Reiniciar</button>
+        <button id="resetBtn" class="secondary" title="Reiniciar">Reiniciar</button>
       </div>
     </header>
 
+    <!-- ==================================== -->
+    <!-- CONTENIDO PRINCIPAL -->
+    <!-- ==================================== -->
     <main id="main" class="container">
+      <!-- Loader -->
       <section id="loader" class="card hidden">Cargando preguntas…</section>
 
+      <!-- Pantalla de introducción -->
       <section id="intro" class="card">
         <p>
-          Este quiz lee las preguntas desde <code>questions.json</code> y funciona 100% en el navegador (GitHub Pages).
+          Este quiz funciona completamente en el navegador y carga las preguntas
+          desde cada carpeta (<code>Unidad01</code>, <code>Unidad02</code>, etc.)
+          sin necesidad de servidor.
         </p>
         <ul>
-          <li>Modo <strong>Estudio</strong>: ves la solución al responder.</li>
-          <li>Modo <strong>Examen</strong>: al final verás tu puntuación y revisión.</li>
+          <li><strong>Modo Estudio</strong>: ves la respuesta correcta al responder.</li>
+          <li><strong>Modo Examen</strong>: la puntuación se muestra al final.</li>
         </ul>
       </section>
 
+      <!-- Pantalla del quiz -->
       <section id="quiz" class="card hidden">
         <div class="meta">
           <span id="progress">Pregunta 1 / 1</span>
@@ -49,23 +94,32 @@
         <p id="feedback" class="feedback"></p>
       </section>
 
+      <!-- Pantalla de resultados -->
       <section id="results" class="card hidden">
         <h2>Resultados</h2>
         <p id="finalScore"></p>
         <details>
-          <summary>Revisión pregunta por pregunta</summary>
+          <summary>Revisión de respuestas</summary>
           <ol id="reviewList"></ol>
         </details>
         <div class="actions">
-          <button id="restartBtn">Volver a empezar</button>
+          <button id="restartBtn">Volver al inicio</button>
         </div>
       </section>
     </main>
 
+    <!-- ==================================== -->
+    <!-- PIE DE PÁGINA -->
+    <!-- ==================================== -->
     <footer class="app-footer">
-      <small>Hecho con HTML/CSS/JS · Carga <code>questions.json</code> sin servidor.</small>
+      <small>
+        Hecho con HTML, CSS y JS · Carga dinámica desde carpetas de unidades
+      </small>
     </footer>
 
+    <!-- ==================================== -->
+    <!-- SCRIPT PRINCIPAL -->
+    <!-- ==================================== -->
     <script src="app.js"></script>
   </body>
 </html>
