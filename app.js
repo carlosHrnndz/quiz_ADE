@@ -1,212 +1,318 @@
-// -------- Config editable --------
-const MODULE_MIN = 1, MODULE_MAX = 20;   // Modulo01..Modulo20
-const UNIT_MIN   = 1, UNIT_MAX   = 40;   // unidad_01..unidad_40
-const PARALLEL_UNIT_FETCH = 8;           // nº de peticiones simultáneas por módulo
+// ===== Config =====
+const MODULE_MIN = 1, MODULE_MAX = 30;   // Modulo01..Modulo30
+const UNIT_MIN   = 1, UNIT_MAX   = 60;   // unidad_01..unidad_60
 
-// -------- Estado --------
+// ===== Estado =====
 let state = {
   name: "",
-  mode: "study",
-  modules: [],           // [{id:'Modulo01', units:['Modulo01/unidad_01.json', ...]}]
-  questions: [],
+  moduleId: null,
+  mode: "study", // 'study' | 'exam'
+  questions: [],       // [{texto, opciones, correcta, gid}]
+  order: [],           // índices del banco actual (para 'solo pendientes' o random en examen)
   idx: 0,
   score: 0,
-  answers: []
+  answers: [],         // [{gid, selected, correct, ok}]
+  pending: new Set(),  // set de gid
+  hasSaved: false
 };
 
-// -------- Elementos --------
+// ===== Helpers DOM =====
 const $ = id => document.getElementById(id);
 const els = {
   askName: $("askName"), nameInput: $("nameInput"), saveNameBtn: $("saveNameBtn"),
   intro: $("intro"), loader: $("loader"), quiz: $("quiz"), results: $("results"),
   moduloSelect: $("moduloSelect"), mode: $("mode"),
-  startBtn: $("startBtn"), resetBtn: $("resetBtn"),
-  checkBtn: $("checkBtn"), nextBtn: $("nextBtn"), restartBtn: $("restartBtn"),
+  startBtn: $("startBtn"), continueBtn: $("continueBtn"), pendingOnlyBtn: $("pendingOnlyBtn"),
+  resetBtn: $("resetBtn"), clearPendBtn: $("clearPendBtn"),
+  markPendingBtn: $("markPendingBtn"), skipBtn: $("skipBtn"),
+  restartBtn: $("restartBtn"), startPendingFromResults: $("startPendingFromResults"),
   qText: $("q-text"), options: $("options"), feedback: $("feedback"),
-  progress: $("progress"), score: $("score"), finalScore: $("finalScore"), reviewList: $("reviewList"),
-  detectWrap: $("detectWrap"), detectBar: $("detectBar"), detectMsg: $("detectMsg")
+  progress: $("progress"), score: $("score"), pendingCount: $("pendingCount"),
+  finalScore: $("finalScore"), reviewList: $("reviewList"),
+  detectMsg: $("detectMsg"), pillModulo: $("pillModulo"), pillStats: $("pillStats")
 };
 const show = el => el.classList.remove("hidden");
 const hide = el => el.classList.add("hidden");
 
-// -------- Util --------
-function shuffle(a){ for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]];} return a; }
-const sleep = ms => new Promise(r=>setTimeout(r, ms));
+// ===== Util =====
+function pad2(n){ return String(n).padStart(2,"0"); }
+function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]];} return a; }
+function gidOf(modId, unitNum, qIdx){ return `${modId}|${pad2(unitNum)}|${qIdx}`; }
 
-// -------- Nombre --------
+// ===== Persistencia =====
+const KEY = "quiz_rrhh_state_v2";
+function saveProgress(){
+  const payload = {
+    name: state.name,
+    moduleId: state.moduleId,
+    mode: state.mode,
+    idx: state.idx,
+    score: state.score,
+    answers: state.answers,
+    pending: Array.from(state.pending),
+    order: state.order
+  };
+  localStorage.setItem(KEY, JSON.stringify(payload));
+  state.hasSaved = true;
+}
+function loadProgress(){
+  try{
+    const raw = localStorage.getItem(KEY);
+    if(!raw) return null;
+    return JSON.parse(raw);
+  }catch{ return null; }
+}
+function clearProgress(){ localStorage.removeItem(KEY); }
+
+// ===== Nombre =====
 function ensureName(){
-  const saved = localStorage.getItem("quizName") || "";
-  if(saved.trim()){ state.name = saved.trim(); hide(els.askName); return true; }
+  const raw = loadProgress();
+  if(raw?.name){ state.name = raw.name; hide(els.askName); return true; }
+  const mem = localStorage.getItem("quizName");
+  if(mem){ state.name = mem; hide(els.askName); return true; }
   show(els.askName); return false;
 }
 els.saveNameBtn.addEventListener("click", ()=>{
   const v = (els.nameInput.value||"").trim();
   if(!v) return alert("Escribe tu nombre.");
   state.name = v; localStorage.setItem("quizName", v); hide(els.askName);
-  alert(`¡Hola, ${state.name}! Elige un módulo y pulsa Comenzar.`);
+  alert(`¡Hola, ${state.name}!`);
 });
 
-// -------- Detección de módulos/unidades (rápida + progreso) --------
-async function headOrGetJSON(url){
-  // GET directo (HEAD no siempre habilitado en Pages). Devuelve true si 200 y JSON válido.
+// ===== Detección de módulos/unidades =====
+async function existsJson(url){
   try{
-    const r = await fetch(url + `?_=${Date.now()}`, {cache:"no-store"});
-    if(!r.ok) return false;
-    await r.clone().json().catch(()=>{ throw 0; });
-    return true;
+    const r = await fetch(url+`?_=${Date.now()}`, {cache:"no-store"});
+    if(!r.ok) return false; await r.clone().json(); return true;
   }catch{ return false; }
 }
-
 async function detectModules(){
-  const totalChecks = (MODULE_MAX-MODULE_MIN+1) * (UNIT_MAX-UNIT_MIN+1);
-  let done = 0;
-  const update = () => {
-    const pct = Math.round((done/totalChecks)*100);
-    els.detectBar.style.width = pct + "%";
-    els.detectMsg.textContent = `Detectando módulos y unidades… ${pct}%`;
-  };
-  update();
-
-  const found = await Promise.all(
-    Array.from({length: MODULE_MAX - MODULE_MIN + 1}, (_,i)=> MODULE_MIN+i)
-      .map(async m => {
-        const modId = `Modulo${String(m).padStart(2,"0")}`;
-        const unitNumbers = Array.from({length: UNIT_MAX - UNIT_MIN + 1}, (_,k)=> UNIT_MIN+k);
-        const units = [];
-
-        // Lotes en paralelo (para no saturar)
-        for(let start=0; start<unitNumbers.length; start+=PARALLEL_UNIT_FETCH){
-          const batch = unitNumbers.slice(start, start+PARALLEL_UNIT_FETCH);
-          const results = await Promise.all(batch.map(async u=>{
-            const num = String(u).padStart(2,"0");
-            const url = `${modId}/unidad_${num}.json`;
-            const ok = await headOrGetJSON(url);
-            done++; update();
-            return ok ? url : null;
-          }));
-          results.forEach(u=>{ if(u) units.push(u); });
-          // Pequeño respiro para UI
-          await sleep(20);
-        }
-        return units.length ? { id: modId, units } : null;
-      })
-  );
-
-  state.modules = found.filter(Boolean);
-  els.moduloSelect.innerHTML = "";
-  if(state.modules.length === 0){
-    els.moduloSelect.innerHTML = `<option value="">No se encontraron módulos</option>`;
-  }else{
-    state.modules.forEach(m=>{
-      const opt = document.createElement("option");
-      opt.value = m.id;
-      opt.textContent = `${m.id} (${m.units.length} unidades)`;
-      els.moduloSelect.appendChild(opt);
-    });
+  els.moduloSelect.innerHTML = `<option value="">Detectando…</option>`;
+  const found = [];
+  for(let m=MODULE_MIN; m<=MODULE_MAX; m++){
+    const modId = `Modulo${pad2(m)}`;
+    // probamos una unidad rápida para decidir si existe el módulo
+    const quick = await existsJson(`${modId}/unidad_${pad2(1)}.json`);
+    if(!quick){
+      // quizá no tenga unidad_01 pero sí otras; probamos 02–05
+      let any=false;
+      for(let k=2;k<=5;k++){ if(await existsJson(`${modId}/unidad_${pad2(k)}.json`)){ any=true; break; } }
+      if(!any) continue;
+    }
+    found.push(modId);
   }
-  // ocultar barra
-  els.detectBar.style.width = "100%";
-  els.detectMsg.textContent = state.modules.length
-    ? "Detección completada."
-    : "No se encontraron módulos/unidades en las rutas esperadas.";
-  setTimeout(()=>{ els.detectWrap.style.display = "none"; els.detectMsg.textContent=""; }, 800);
+  if(!found.length){
+    els.moduloSelect.innerHTML = `<option value="">No se encontraron módulos</option>`;
+    els.detectMsg.textContent = "No hay ModuloXX con unidad_YY.json accesibles.";
+    return;
+  }
+  els.moduloSelect.innerHTML = found.map(m=>`<option value="${m}">${m}</option>`).join("");
+  els.detectMsg.textContent = `Detectados: ${found.join(", ")}`;
 }
 
-// -------- Carga y flujo --------
+// ===== Carga del banco de preguntas =====
 async function loadModuleQuestions(modId){
-  const mod = state.modules.find(m=>m.id===modId);
-  if(!mod) throw new Error("Módulo no encontrado.");
   const all = [];
-  for(const url of mod.units){
+  for(let u=UNIT_MIN; u<=UNIT_MAX; u++){
+    const url = `${modId}/unidad_${pad2(u)}.json`;
     try{
       const r = await fetch(url+`?_=${Date.now()}`, {cache:"no-store"});
       if(!r.ok) continue;
       const data = await r.json();
       const preguntas = data?.preguntas || data || [];
-      preguntas.forEach(q=>{
+      preguntas.forEach((q, i)=>{
         all.push({
-          pregunta: q.pregunta || q.texto || "",
+          texto: q.pregunta || q.texto || "",
           opciones: q.opciones || q.options || {},
-          respuesta_correcta: (q.respuesta_correcta || q.correcta || "").toString()
+          correcta: (q.respuesta_correcta || q.correcta || "").toString().trim().toLowerCase(),
+          gid: gidOf(modId, u, i)
         });
       });
-    }catch{}
+    }catch{/* ignora unidad inexistente */}
   }
   return all;
 }
 
+// ===== Construcción del orden de pase =====
+function buildOrder({onlyPending=false}={}){
+  const baseIdxs = state.questions.map((_,i)=>i);
+  let idxs = baseIdxs;
+  if(onlyPending){
+    const pendingIdxs = baseIdxs.filter(i => state.pending.has(state.questions[i].gid));
+    idxs = pendingIdxs;
+  }
+  // examen mezcla, estudio respeta orden
+  if(state.mode === "exam") shuffle(idxs);
+  state.order = idxs;
+  state.idx = 0;
+  state.score = 0;
+  state.answers = [];
+  updatePills();
+}
+
+// ===== Render y flujo =====
+function updatePills(){
+  const total = state.questions.length;
+  const answered = state.answers.length;
+  const pend = state.pending.size;
+  els.pillModulo.textContent = `Módulo: ${state.moduleId ?? "—"}`;
+  els.pillStats.textContent  = `${answered} respondidas · ${pend} pendientes · ${total} totales`;
+  els.pendingCount.textContent = `Pendientes: ${pend}`;
+}
 function renderQuestion(){
-  const q = state.questions[state.idx];
-  els.progress.textContent = `Pregunta ${state.idx+1} / ${state.questions.length}`;
+  if(state.order.length === 0){ showResults(); return; }
+  const qIndex = state.order[state.idx];
+  const q = state.questions[qIndex];
+
+  els.progress.textContent = `Pregunta ${state.idx+1} / ${state.order.length}`;
   els.score.textContent = `Aciertos: ${state.score}`;
-  els.qText.textContent = q?.pregunta || "Pregunta sin texto";
+  els.qText.textContent = q.texto || "Pregunta sin texto";
   els.options.innerHTML = "";
-  Object.entries(q?.opciones||{}).forEach(([k,v])=>{
-    const id=`opt_${k}`;
-    const label=document.createElement("label");
-    label.className="option"; label.htmlFor=id;
-    label.innerHTML=`<input type="radio" name="opt" id="${id}" value="${k}"> <div><strong>${k.toUpperCase()}.</strong> ${v}</div>`;
-    els.options.appendChild(label);
+
+  Object.entries(q.opciones).forEach(([k,v])=>{
+    const id = `opt_${k}`;
+    const lab = document.createElement("label");
+    lab.className = "option"; lab.htmlFor = id;
+    lab.innerHTML = `<input type="radio" name="opt" id="${id}" value="${k}"> <div><strong>${k.toUpperCase()}.</strong> ${v}</div>`;
+    // Autoadvance al seleccionar
+    lab.querySelector("input").addEventListener("change", ()=>onSelectAnswer(q, k));
+    els.options.appendChild(lab);
   });
-  els.feedback.textContent=""; els.checkBtn.disabled=false; els.nextBtn.disabled=true;
+
+  els.feedback.textContent = "";
+  updatePills();
+  saveProgress();
 }
-function selected(){ const x = els.options.querySelector('input[name="opt"]:checked'); return x?x.value:null; }
-function checkAnswer(){
-  const q = state.questions[state.idx]; const sel = selected();
-  if(!sel) return alert("Selecciona una opción.");
-  const correct = (q.respuesta_correcta||"").toLowerCase().trim();
-  const ok = sel.toLowerCase().trim()===correct;
-  if(ok){ state.score++; els.feedback.textContent="✅ ¡Correcto!"; }
-  else  { els.feedback.textContent=`❌ Incorrecto. Respuesta correcta: ${correct.toUpperCase()}`; }
-  state.answers.push({selected:sel, correct, ok});
+function nextQuestion(){
+  state.idx += 1;
+  if(state.idx >= state.order.length){ showResults(); }
+  else { renderQuestion(); }
+}
+function onSelectAnswer(q, selectedKey){
+  const sel = (selectedKey||"").toString().trim().toLowerCase();
+  const ok  = sel === q.correcta;
+  state.answers.push({ gid:q.gid, selected:sel, correct:q.correcta, ok });
+
+  if(ok) state.score += 1;
+
+  // Estilos de feedback
   els.options.querySelectorAll(".option").forEach(l=>{
-    const val = l.querySelector("input").value;
-    if(val.toLowerCase()===correct) l.classList.add("correct");
-    else if(val===sel) l.classList.add("incorrect");
+    const v = l.querySelector("input").value.toString().toLowerCase();
+    if(v === q.correcta) l.classList.add("correct");
+    else if(v === sel)   l.classList.add("incorrect");
   });
-  els.checkBtn.disabled=true; els.nextBtn.disabled=false;
+
+  if(state.mode === "study"){
+    els.feedback.textContent = ok ? "✅ ¡Correcto!" : `❌ Incorrecto. Correcta: ${q.correcta.toUpperCase()}`;
+    saveProgress();
+    setTimeout(nextQuestion, 700);
+  }else{
+    // examen: no mostramos corrección
+    saveProgress();
+    setTimeout(nextQuestion, 200);
+  }
 }
-function nextQuestion(){ state.idx++; (state.idx>=state.questions.length)?showResults():renderQuestion(); }
+
+// Marcar pendiente / Omitir
+function markPending(){
+  const qIndex = state.order[state.idx];
+  const q = state.questions[qIndex];
+  state.pending.add(q.gid);
+  updatePills();
+  saveProgress();
+}
+function skipQuestion(){
+  markPending();
+  nextQuestion();
+}
+
+// Resultados
 function showResults(){
   hide(els.quiz); show(els.results);
-  const name = state.name?`, ${state.name}`:"";
-  els.finalScore.textContent = `Puntuación${name}: ${state.score} / ${state.questions.length}`;
+  const name = state.name ? `, ${state.name}` : "";
+  els.finalScore.textContent = `Puntuación${name}: ${state.score} / ${state.order.length}`;
   els.reviewList.innerHTML = "";
-  state.questions.forEach((q,i)=>{
-    const a = state.answers[i];
+  state.answers.forEach(a=>{
+    const q = state.questions.find(x=>x.gid===a.gid);
     const li = document.createElement("li");
-    li.innerHTML = `<div><strong>${q.pregunta}</strong></div>
-      <div>Tu respuesta: <code>${(a?.selected||'?').toUpperCase()}</code> · Correcta: <code>${(a?.correct||'?').toUpperCase()}</code> ${a?.ok?'✅':'❌'}</div>`;
+    li.innerHTML = `<div><strong>${q?.texto||""}</strong></div>
+      <div>Tu respuesta: <code>${(a.selected||'?').toUpperCase()}</code> · Correcta: <code>${(a.correct||'?').toUpperCase()}</code> ${a.ok?'✅':'❌'}</div>`;
     els.reviewList.appendChild(li);
   });
-}
-function resetAll(){ localStorage.removeItem("quizState"); location.reload(); }
-
-async function startQuiz(){
-  if(!ensureName()) return alert("Escribe tu nombre y pulsa Guardar.");
-  const modId = els.moduloSelect.value;
-  if(!modId) return alert("Selecciona un módulo.");
-  state.mode = els.mode.value; state.idx=0; state.score=0; state.answers=[]; state.questions=[];
-  hide(els.results); hide(els.intro); show(els.loader); show(els.quiz);
-  try{
-    const all = await loadModuleQuestions(modId);
-    if(!all.length) throw new Error("No hay preguntas en este módulo.");
-    state.questions = (state.mode==="quiz") ? shuffle(all) : all;
-    renderQuestion();
-  }catch(e){
-    hide(els.quiz); alert("Error cargando preguntas: "+e.message); show(els.intro);
-  }finally{ hide(els.loader); }
+  updatePills();
+  saveProgress();
 }
 
-// -------- Eventos --------
-els.startBtn.addEventListener("click", startQuiz);
-els.resetBtn.addEventListener("click", resetAll);
-els.checkBtn.addEventListener("click", e=>{e.preventDefault(); checkAnswer();});
-els.nextBtn.addEventListener("click", e=>{e.preventDefault(); nextQuestion();});
+// ===== Eventos de UI =====
+els.startBtn.addEventListener("click", startFresh);
+els.continueBtn.addEventListener("click", continueSaved);
+els.pendingOnlyBtn.addEventListener("click", startPending);
+els.resetBtn.addEventListener("click", ()=>{ clearProgress(); location.reload(); });
+
+els.markPendingBtn.addEventListener("click", ()=>{ markPending(); nextQuestion(); });
+els.skipBtn.addEventListener("click", skipQuestion);
 els.restartBtn.addEventListener("click", ()=>{ hide(els.results); show(els.intro); });
+els.startPendingFromResults.addEventListener("click", startPending);
+els.clearPendBtn.addEventListener("click", ()=>{ state.pending.clear(); updatePills(); saveProgress(); });
 
-// -------- Init --------
+// ===== Flujos =====
+async function startFresh(){
+  if(!ensureName()) return alert("Escribe tu nombre y pulsa Guardar.");
+  const modId = els.moduloSelect.value; if(!modId) return alert("Selecciona un módulo.");
+  state.moduleId = modId;
+  state.mode = els.mode.value;
+
+  show(els.loader); hide(els.results); hide(els.intro); show(els.quiz);
+
+  state.questions = await loadModuleQuestions(modId);
+  if(!state.questions.length){ hide(els.quiz); show(els.intro); alert("No hay preguntas en este módulo."); return; }
+
+  // no tocamos pendientes previas: persisten entre pases
+  buildOrder({onlyPending:false});
+  renderQuestion();
+}
+function continueSaved(){
+  const raw = loadProgress(); if(!raw) return;
+  Object.assign(state, {
+    name: raw.name, moduleId: raw.moduleId, mode: raw.mode,
+    idx: raw.idx, score: raw.score, answers: raw.answers || [],
+    pending: new Set(raw.pending || []), order: raw.order || []
+  });
+  hide(els.results); hide(els.intro); show(els.quiz);
+  renderQuestion();
+}
+function startPending(){
+  if(!state.moduleId){ // si no hay módulo cargado, intenta desde guardado
+    const raw = loadProgress(); if(!raw?.moduleId) return alert("No hay módulo cargado/guardado.");
+    state.moduleId = raw.moduleId; state.pending = new Set(raw.pending || []);
+    state.mode = els.mode.value || raw.mode || "study";
+    show(els.loader);
+    loadModuleQuestions(state.moduleId).then(qs=>{
+      state.questions = qs;
+      buildOrder({onlyPending:true});
+      hide(els.results); hide(els.intro); show(els.quiz); renderQuestion();
+      hide(els.loader);
+    });
+    return;
+  }
+  if(state.pending.size === 0) return alert("No hay pendientes.");
+  buildOrder({onlyPending:true});
+  hide(els.results); hide(els.intro); show(els.quiz); renderQuestion();
+}
+
+// ===== Init =====
 window.addEventListener("DOMContentLoaded", async ()=>{
   ensureName();
-  await detectModules(); // ahora con paralelismo + barra de progreso
+  await detectModules();
+
+  const saved = loadProgress();
+  if(saved){
+    els.continueBtn.classList.remove("hidden");
+    state.pending = new Set(saved.pending || []);
+    state.moduleId = saved.moduleId || null;
+    if(state.moduleId) els.pillModulo.textContent = `Módulo: ${state.moduleId}`;
+    updatePills();
+    els.pendingOnlyBtn.classList.toggle("hidden", state.pending.size===0);
+    els.clearPendBtn.classList.toggle("hidden", state.pending.size===0);
+  }
 });
