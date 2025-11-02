@@ -1,0 +1,115 @@
+{
+  "unidad": 20,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Qué significa inversión?",
+      "opciones": {
+        "a": "Es la aplicación de recursos financieros para la creación, renovación, ampliación y/o mejora de la capacidad operativa de la empresa.",
+        "b": "Invertir es sinónimo de pérdidas.",
+        "c": "Para ser un buen inversor, es necesario disponer de mas de 100.000.000€.",
+        "d": "Las inversiones reales son las relacionadas con el proceso tecnológico."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "pregunta": "Defina “aspectos cualitativos”:",
+      "opciones": {
+        "a": "Permiten hacer cálculos como el coste de adquisición.",
+        "b": "Son las particularidades de los proyectos de inversión que no pueden ser valorados económicamente, pero que es necesario tener en cuenta.",
+        "c": "Permiten hacer cálculos como la producción que se obtiene.",
+        "d": "Permiten hacer cálculos como el coste de funcionamiento."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 3,
+      "pregunta": "Todo proyecto de inversión se caracteriza por constar de cobros y pagos. Indique qué opción define “cobro”:",
+      "opciones": {
+        "a": "Entrada de dinero a consecuencia del proyecto.",
+        "b": "Cualquier movimiento negativo de caja (pagos mayores que cobros).",
+        "c": "Salida de dinero de la empresa asociada al proyecto.",
+        "d": "Se incluye el pago inicial de la adquisición, la instalación, el mantenimiento, etc."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Qué significa la variable n?",
+      "opciones": {
+        "a": "Desembolso inicial.",
+        "b": "Duración.",
+        "c": "Pago correspondiente al periodo t.",
+        "d": "Flujo de caja o movimiento neto de caja correspondiente al periodo t (Ct – Pt)."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Cuál de las siguientes fórmulas utilizamos para encontrar el interés simple?",
+      "opciones": {
+        "a": "Cn = C0 (1+ i)^n",
+        "b": "[C1/(1+k) + C2/(1+k)^2 + … + Cn/(1+k)^n] – [P1/(1+k) + P2/(1+k)^2 + … + Pn/(1+k)^n]",
+        "c": "Cn = C0 (1+ n*i)",
+        "d": "IS = CT – CV"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 6,
+      "pregunta": "Indique la respuesta correcta:",
+      "opciones": {
+        "a": "Si VAN = 0, sería indiferente realizar o no el proyecto.",
+        "b": "Si VAN < 0, no debería realizarse el proyecto ya que disminuye el patrimonio de la empresa.",
+        "c": "Si el VAN > 0: el proyecto de inversión resulta conveniente para la empresa.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 7,
+      "pregunta": "Indique la respuesta correcta:",
+      "opciones": {
+        "a": "La TIR es siempre negativa.",
+        "b": "Cuanto mayor sea r (TIR) más conveniente será el proyecto.",
+        "c": "r > k en esta situación la TIR será negativa.",
+        "d": "La TIR debe ser negativa."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 8,
+      "pregunta": "Marque la respuesta correcta con respecto a las inversiones no simples:",
+      "opciones": {
+        "a": "En las inversiones no simples, puede haber flujos netos de caja positivos, negativos o nulos a lo largo de toda la vida del proyecto.",
+        "b": "Algunas de las soluciones pueden ser números negativos o imaginarios.",
+        "c": "Podrá no existir ninguna solución positiva y real: cuando el VAN no toca el eje de abscisas, sino que es tangente.",
+        "d": "Todas las anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 9,
+      "pregunta": "El VAN…",
+      "opciones": {
+        "a": "Determina el rendimiento neto de un proyecto en términos absolutos.",
+        "b": "Determina el rendimiento bruto de un proyecto en términos porcentuales.",
+        "c": "Es la tasa de rendimiento propia del proyecto.",
+        "d": "Una vez calculada hay que recurrir a la subjetividad para poder compararla con algún estándar aceptable."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 10,
+      "pregunta": "La TIR…",
+      "opciones": {
+        "a": "Es más subjetivo ya que hay que considerar a priori el coste del capital que se usará para la actualización de flujos.",
+        "b": "Es independiente del hecho de que el inversor recurra a deuda para financiar el proyecto o no.",
+        "c": "Determina el rendimiento neto de un proyecto en términos absolutos.",
+        "d": "Determina el rendimiento bruto de un proyecto en términos porcentuales."
+      },
+      "respuesta_correcta": "d"
+    }
+  ]
+}

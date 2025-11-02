@@ -1,0 +1,115 @@
+{
+  "unidad": 22,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿A partir de qué siglo es estudiado científicamente el tema del liderazgo desde una vertiente psicológica social?",
+      "opciones": {
+        "a": "A partir del siglo XIV.",
+        "b": "A partir del siglo XX.",
+        "c": "A partir del siglo XV.",
+        "d": "A partir del siglo XVIII."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Qué destacaría de la dimensión emocional?",
+      "opciones": {
+        "a": "Recoge rasgos de liderazgo.",
+        "b": "Recoge rasgos de extroversión.",
+        "c": "Mide el grado de interés por ir delante de los demás.",
+        "d": "Todas las respuesta anteriores son ciertas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 3,
+      "pregunta": "Marque la opción que define la dimensión de la empatía:",
+      "opciones": {
+        "a": "Comprende rasgos de estabilidad emocional.",
+        "b": "Recoge rasgos de liderazgo.",
+        "c": "Incluye rasgos relacionados con el logro.",
+        "d": "Valora rasgos de armonía interpersonal."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 4,
+      "pregunta": "La dimensión de la apertura de la experiencia es...",
+      "opciones": {
+        "a": "La disposición a cambiar y probar cosas nuevas.",
+        "b": "Valorar rasgos de armonía interpersonal.",
+        "c": "Son cosas personales.",
+        "d": "Depende de cada persona el grado dimensional de apertura."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Qué hace el estilo de liderazgo autocrático?",
+      "opciones": {
+        "a": "Este estilo no existe.",
+        "b": "Toma decisiones, ordena y supervisa muy de cerca.",
+        "c": "Se critica a sí mismo.",
+        "d": "Valora la crítica de los demás y actúa en consecuencia."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿A qué está orientado el modelo de la Universidad de Michigan?",
+      "opciones": {
+        "a": "Este modelo sirve para comprender los comportamientos abstractos de un líder.",
+        "b": "A los empresarios.",
+        "c": "A los universitarios.",
+        "d": "A las tareas y a las personas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 7,
+      "pregunta": "En relación a los comportamientos de liderazgo de la Universidad de Ohio, señale la respuesta correcta:",
+      "opciones": {
+        "a": "Estructura inicial y consideración, lo que hace que su modelo sea unidimensional.",
+        "b": "Tareas y orientación a las personas.",
+        "c": "Orientada a las tareas y a las personas.",
+        "d": "Ninguna de las anteriores."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿Qué estilo de liderazgo es más efectivo?",
+      "opciones": {
+        "a": "El autoritario.",
+        "b": "La dirección de autoridad y obediencia.",
+        "c": "La dirección de club social.",
+        "d": "La dirección en equipo (9,9)."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿En qué consiste la curva de madurez?",
+      "opciones": {
+        "a": "Cuando un líder ya es mayor.",
+        "b": "Determina el grado en que los subordinados están dispuestos a hacer lo que se espera de ellos.",
+        "c": "La experiencia de los trabajadores.",
+        "d": "Ninguna de las anteriores."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Qué relación existe entre un líder y sus miembros?",
+      "opciones": {
+        "a": "Uno manda y los demás hacen lo que se les dice siempre que les vaya bien en ese momento.",
+        "b": "No existe ninguna relación.",
+        "c": "Los dos forman parte de la misma organización, pero con distintos objetivos a asumir.",
+        "d": "Determina el grado de respeto de los seguidores al líder."
+      },
+      "respuesta_correcta": "d"
+    }
+  ]
+}

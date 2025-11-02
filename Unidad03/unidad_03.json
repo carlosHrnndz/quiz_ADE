@@ -1,0 +1,115 @@
+{
+  "unidad": 3,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "Los conflictos se originan en una organización como resultado de…",
+      "opciones": {
+        "a": "Conflictos de estructura y personales.",
+        "b": "Conflictos de comunicación, conflictos de estructura, conflictos de relaciones personales.",
+        "c": "Conflictos de negociación, conflictos de intereses.",
+        "d": "Conflictos de compromiso, conflictos de estructura y conflictos personales."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "El esfuerzo para el cambio tiene mayor éxito cuando se aplica a:",
+      "opciones": {
+        "a": "Empresas con mayor trayectoria empresarial y con mayor número de empleados.",
+        "b": "Cuando las partes involucradas no están dispuestas a colaborar.",
+        "c": "Organizaciones que no buscan beneficios.",
+        "d": "Si los esfuerzos del cambio están dirigidos al total de la organización."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 3,
+      "pregunta": "Entre las presiones externas se incluyen:",
+      "opciones": {
+        "a": "Huelga, altos grados de descontento, absentismo, número inaceptable de despidos, despilfarro de materiales, calidad insuficiente en los productos, costes en crecimiento, etc.",
+        "b": "Huelgas, altos grados de descontento, insatisfacción de los clientes, quejas sobre la calidad y la entrega.",
+        "c": "Competencia de precios y de nuevos productos, insatisfacción de los clientes, quejas sobre la calidad y la entrega, injerencia de la administración, legislación adversa, etc.",
+        "d": "Todas las anteriores son correctas."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 4,
+      "pregunta": "En el modelo de diagnóstico, en el análisis del contexto se incluyen los siguientes puntos:",
+      "opciones": {
+        "a": "Acciones urgentes, rituales, historia, lenguaje y axiomas.",
+        "b": "Tareas, roles y objetivos.",
+        "c": "Identificando cultura, localización, sistema político, social, económico y legal.",
+        "d": "Situación interna, localización, competidores, proveedores y sistema político, social, económico y legal."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 5,
+      "pregunta": "La recogida de datos permitirá a la empresa:",
+      "opciones": {
+        "a": "Detectar áreas con problemas, fomentar una mayor comunicación abierta, planificar las modificaciones necesarias y proporcionar estímulos para introducir alteraciones.",
+        "b": "Proporcionar estímulos para introducir alteraciones.",
+        "c": "Detectar áreas con problemas, fomentar una mayor comunicación abierta.",
+        "d": "Neutralización de las fuerzas que originan esos problemas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿En qué consiste la fase de congelación (consolidación del cambio)?",
+      "opciones": {
+        "a": "Se introducen las modificaciones planeadas, comenzando con las más fáciles de aceptar por parte de la organización, pasando luego gradualmente, a los cambios de mayor complejidad y alcance.",
+        "b": "Se generan y consolidan las fuerzas a favor del cambio.",
+        "c": "Ayuda a la gerencia para que incorpore su nuevo punto de vista: se crean las condiciones y garantías necesarias para asegurar que los cambios logrados no desaparezcan.",
+        "d": "Se recibe el mayor número de oportunidades para reducir la resistencia al cambio."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Cuáles son las etapas por las cuales una persona debe pasar para superar un cambio?",
+      "opciones": {
+        "a": "Negación, cólera, negociación, depresión transitoria, aceptación y crecimiento.",
+        "b": "Negación, aceptación y crecimiento.",
+        "c": "La cólera que consiste en culpar a otros de lo que está ocurriendo y se produce un sentimiento de cierta injusticia y el crecimiento.",
+        "d": "Negación, depresión transitoria y aceptación."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿Qué elementos son claves para superar de forma rápida la depresión transitoria?",
+      "opciones": {
+        "a": "Un líder, un sentido de urgencia positivo.",
+        "b": "Un líder, una visión, un sentido de urgencia positivo, capacitación y sensibilización y retroalimentación y reconocimiento.",
+        "c": "Un líder, ánimo y sentido positivo.",
+        "d": "Ninguna de las anteriores es correcta."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 9,
+      "pregunta": "La utilización de técnicas para resolver problemas consiste en:",
+      "opciones": {
+        "a": "Identificar las causas reales de estas actitudes negativas.",
+        "b": "Tener certeza de que los trabajadores entienden las razones del programa de cambio y el resultado que se piensa que se va a conseguir.",
+        "c": "Hacer lo necesario para facilitar la rápida implantación del cambio recomendado y aprobado, así como dar confianza a los afectados.",
+        "d": "Permitir a los empleados intervenir en la fijación del modo en que se producirá el cambio."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Cuál de estas técnicas sirve para permitir a los empleados intervenir en la fijación del modo en que se producirá el cambio?",
+      "opciones": {
+        "a": "Incorporación de las personas en la implantación del cambio.",
+        "b": "Asegurar una experiencia temprana para el cambio satisfactorio.",
+        "c": "Efectos considerables sobre el ambiente de trabajo y costumbres del grupo.",
+        "d": "Comunicación y uso de la información."
+      },
+      "respuesta_correcta": "a"
+    }
+  ]
+}

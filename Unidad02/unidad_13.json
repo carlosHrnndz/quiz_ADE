@@ -1,0 +1,115 @@
+{
+  "unidad": 13,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Cuál es la técnica de evaluación y revisión de programas?",
+      "opciones": {
+        "a": "PERT (Program evaluation and review technique).",
+        "b": "MRC (Critical path method).",
+        "c": "La robotización empresarial.",
+        "d": "FMI."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "pregunta": "La gráfica de Gantt combina dos funciones, ¿cuáles?",
+      "opciones": {
+        "a": "Las tareas y la estrategia.",
+        "b": "Las tareas.",
+        "c": "Planeación y programación.",
+        "d": "La estrategia."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 3,
+      "pregunta": "En el formato de Actividad en el cuadro (AEC)...",
+      "opciones": {
+        "a": "La actividad está representada por una flecha en el diagrama en red y la descripción de la actividad se escribe encima de la flecha.",
+        "b": "Cada actividad del diagrama en red está representada por un cuadro, y la descripción correspondiente se escribe dentro del cuadro.",
+        "c": "Cada actividad está representada por una flecha.",
+        "d": "Las actividades están conectadas por círculos denominados eventos."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Describe las actividades ficticias?",
+      "opciones": {
+        "a": "Tiempo cero y representada por una flecha discontinua en el diagrama de red.",
+        "b": "Se usan sólo en el formato de AEF.",
+        "c": "Son necesarias por: para ayudar en la identificación única de actividades y para mostrar ciertas relaciones de precedencias que de lo contrario no se podrían presentar.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Tiene alguna ventaja el formato de actividad en el cuadro?",
+      "opciones": {
+        "a": "No tiene ninguna ventaja.",
+        "b": "Su ventaja la podemos ver en el cuadro AFFTC.",
+        "c": "Normalmente no tiene ventajas, todo lo contrario.",
+        "d": "Es que se puede describir la lógica sin la necesidad de utilizar actividades ficticias."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 6,
+      "pregunta": "En un diagrama de red",
+      "opciones": {
+        "a": "Las actividades ficticias no tienen asignado un número de evento.",
+        "b": "Solo las actividades ficticias tienen asignado un número de evento.",
+        "c": "Cada evento debe tener un número de evento único.",
+        "d": "Eventos similares pueden tener el mismo número de evento."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Es cierta la siguiente afirmación? 'Algunos proyectos se componen de un grupo de actividades que se han de repetir varias veces'.",
+      "opciones": {
+        "a": "No.",
+        "b": "Sí, pero sólo cuando nos encontramos en un diagrama de red en flecha.",
+        "c": "No, pero puede serlo cuando nos encontramos en un diagrama de red en flecha.",
+        "d": "Sí, es cierta."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 8,
+      "pregunta": "Para preparar un diagrama de red se ha de disponer de...",
+      "opciones": {
+        "a": "Una relación causal negativa.",
+        "b": "Una relación de actividades y seguir los principios que gobiernan el diseño del diagrama de red.",
+        "c": "Una organización previa.",
+        "d": "Ninguna de las anteriores es correcta."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Qué es lo primero que se ha de hacer en la preparación del diagrama de red?",
+      "opciones": {
+        "a": "Seleccionar el formato a utilizar.",
+        "b": "Realizar la actividad en el cuadro.",
+        "c": "Concretar la actividad en la flecha.",
+        "d": "Dibujar las actividades (de la última a la primera actividad)."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Qué nivel de detalle debe tener el diagrama de red de un proyecto (en términos del número de actividades)?",
+      "opciones": {
+        "a": "Las actividades no deben tener una duración estimada mayor que los intervalos de tiempo establecidos para el seguimiento del proyecto.",
+        "b": "Dibujar primero una red a modo de resumen y después ampliarla en un diagrama de red más detallado.",
+        "c": "Una red de resumen es la que contiene un número pequeño de actividades de alto nivel en lugar de un gran número de actividades pormenorizadas.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    }
+  ]
+}

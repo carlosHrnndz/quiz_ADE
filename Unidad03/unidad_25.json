@@ -1,0 +1,115 @@
+{
+  "unidad": 25,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Cuáles son los contextos idóneos, para la creación del conocimiento?",
+      "opciones": {
+        "a": "Datos, información y conocimientos.",
+        "b": "Estar relajado.",
+        "c": "Haber estudiado los textos.",
+        "d": "Ninguna de las anteriores."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "pregunta": "De las siguientes características del conocimiento marque la incorrecta:",
+      "opciones": {
+        "a": "El conocimiento es personal.",
+        "b": "El conocimiento es impersonal.",
+        "c": "Está en constante cambio.",
+        "d": "Está sustentado por reglas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Con qué relacionaría el proceso de conversión del conocimiento 'tácito a tácito'?",
+      "opciones": {
+        "a": "Externalización.",
+        "b": "Socialización.",
+        "c": "Internalización.",
+        "d": "Combinación."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Con qué relacionaría el proceso de conversión del conocimiento 'explícito a tácito'?",
+      "opciones": {
+        "a": "Combinación.",
+        "b": "Internalización.",
+        "c": "Socialización.",
+        "d": "Externalización."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Cómo se justifica la aparición de nuevos procesos de gestión del conocimiento?",
+      "opciones": {
+        "a": "Las empresas organizan sus negocios, creando mayor valor para sus proveedores.",
+        "b": "La presión de la competencia, aumenta los grupos con conocimiento.",
+        "c": "Está disminuyendo la movilidad entre empresas.",
+        "d": "La tecnología y la información nivelan la competitividad."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Qué implica la variable hard?",
+      "opciones": {
+        "a": "Que nuestra empresa está saneada.",
+        "b": "Los dividendos aumentarán al mismo ritmo que el hard.",
+        "c": "El hard, ya no se utiliza en las empresas industriales, sólo en las navales.",
+        "d": "Los aspectos más duros y formalizables."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 7,
+      "pregunta": "La variable soft…",
+      "opciones": {
+        "a": "Es la gestión operativa.",
+        "b": "Son los conocimientos de la empresa.",
+        "c": "Las respuestas a) y b) son ciertas.",
+        "d": "Formalización the best practices."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 8,
+      "pregunta": "Marque la respuesta incorrecta sobre el concepto de 'Learning organizations':",
+      "opciones": {
+        "a": "A través del aprendizaje individual se puede llegar al aprendizaje organizativo.",
+        "b": "A través del aprendizaje colectivo se puede llegar al aprendizaje organizativo.",
+        "c": "Da sentido y continuidad al proceso de creación de conocimiento.",
+        "d": "Permite aumentar las capacidades de una organización."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Qué intelectual afirma que la suma de todos los empleados de una empresa le dan a ésta una ventaja competitiva?",
+      "opciones": {
+        "a": "Covey.",
+        "b": "Aristóteles.",
+        "c": "Thomas Stewart.",
+        "d": "Nonaka y Takeuchi."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 10,
+      "pregunta": "Si nos fijamos en el elemento de capital relacional, indique el que sea de futuro:",
+      "opciones": {
+        "a": "Notoriedad de la marca.",
+        "b": "Base de clientes relevantes.",
+        "c": "Alianzas estratégicas.",
+        "d": "Capacidad de mejora."
+      },
+      "respuesta_correcta": "d"
+    }
+  ]
+}

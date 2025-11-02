@@ -1,0 +1,122 @@
+[
+  {
+    "unidad": 8,
+    "numero": 1,
+    "pregunta": "¿Qué fue la Revolución Francesa de 1789?",
+    "opciones": {
+      "a": "Un levantamiento campesino en Inglaterra.",
+      "b": "Una revolución política y social que puso fin al Antiguo Régimen en Francia.",
+      "c": "Una guerra colonial en América.",
+      "d": "Una revuelta contra la ocupación napoleónica."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 8,
+    "numero": 2,
+    "pregunta": "¿Qué clase social representaba el Tercer Estado en Francia?",
+    "opciones": {
+      "a": "La nobleza.",
+      "b": "El clero.",
+      "c": "Los campesinos, la burguesía y el pueblo llano.",
+      "d": "El ejército."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 8,
+    "numero": 3,
+    "pregunta": "¿Qué fue la Asamblea Nacional Constituyente?",
+    "opciones": {
+      "a": "El parlamento inglés.",
+      "b": "La reunión de nobles y clérigos.",
+      "c": "La reunión del Tercer Estado que juró no disolverse hasta dar una Constitución.",
+      "d": "Un consejo de guerra durante la revolución."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 8,
+    "numero": 4,
+    "pregunta": "¿Qué ocurrió el 14 de julio de 1789?",
+    "opciones": {
+      "a": "La ejecución de Luis XVI.",
+      "b": "La proclamación de la República.",
+      "c": "La toma de la Bastilla.",
+      "d": "La declaración de los Derechos del Hombre y del Ciudadano."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 8,
+    "numero": 5,
+    "pregunta": "¿Qué documento proclamó la igualdad y libertad de todos los ciudadanos en Francia?",
+    "opciones": {
+      "a": "La Declaración de los Derechos del Hombre y del Ciudadano.",
+      "b": "La Constitución de 1791.",
+      "c": "La Enciclopedia.",
+      "d": "El Contrato Social."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 8,
+    "numero": 6,
+    "pregunta": "¿Qué monarca francés fue ejecutado durante la Revolución?",
+    "opciones": {
+      "a": "Luis XIV.",
+      "b": "Luis XV.",
+      "c": "Luis XVI.",
+      "d": "Carlos X."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 8,
+    "numero": 7,
+    "pregunta": "¿Qué sector social protagonizó la insurrección de las jornadas revolucionarias en París?",
+    "opciones": {
+      "a": "Los nobles.",
+      "b": "Los sans-culottes (pueblo llano urbano).",
+      "c": "El clero.",
+      "d": "El ejército realista."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 8,
+    "numero": 8,
+    "pregunta": "¿Qué institución política tomó el poder en la fase más radical de la Revolución (1792-1794)?",
+    "opciones": {
+      "a": "La Asamblea Nacional.",
+      "b": "La Convención Nacional.",
+      "c": "El Directorio.",
+      "d": "El Consulado."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 8,
+    "numero": 9,
+    "pregunta": "¿Qué político jacobino fue una de las figuras más destacadas del Terror?",
+    "opciones": {
+      "a": "Robespierre.",
+      "b": "Voltaire.",
+      "c": "Mirabeau.",
+      "d": "Napoleón Bonaparte."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 8,
+    "numero": 10,
+    "pregunta": "¿Qué general puso fin a la Revolución Francesa instaurando el Consulado en 1799?",
+    "opciones": {
+      "a": "Luis XVIII.",
+      "b": "Marat.",
+      "c": "Napoleón Bonaparte.",
+      "d": "Danton."
+    },
+    "respuesta_correcta": "c"
+  }
+]

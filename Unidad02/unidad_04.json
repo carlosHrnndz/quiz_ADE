@@ -1,0 +1,115 @@
+{
+  "unidad": 4,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "Una empresa obtiene la ventaja competitiva, desempeñando estas actividades estratégicamente:",
+      "opciones": {
+        "a": "El diseño del envase.",
+        "b": "Las compras.",
+        "c": "Las numerosas actividades de soporte necesarias para lograr el funcionamiento adecuado de la empresa.",
+        "d": "Todas las anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Qué componentes forma parte de la cadena de valores?",
+      "opciones": {
+        "a": "Infraestructura de la empresa.",
+        "b": "Recursos Humanos y compras.",
+        "c": "Investigación y Desarrollo.",
+        "d": "Todas las anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 3,
+      "pregunta": "Las actividades de valor son:",
+      "opciones": {
+        "a": "Los elementos específicos sobre los que desarrolla la ventaja competitiva.",
+        "b": "El precio final del producto, dependiendo del margen de beneficio de cada empresa.",
+        "c": "Todos los elementos relacionados con la ventaja sobre el coste unitario.",
+        "d": "Muy poco importantes para una empresa."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 4,
+      "pregunta": "La categoría genérica de actividad primaria de operaciones es:",
+      "opciones": {
+        "a": "Recepción, almacenamiento, manejo de materiales, depósito, control de inventario, programación de vehículos y devolución a proveedores.",
+        "b": "Transformación de insumos en productos finales.",
+        "c": "Distribución del producto terminado.",
+        "d": "Mantener o mejorar el valor del producto después de la venta."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 5,
+      "pregunta": "Las actividades de apoyo pueden dividirse en cuatro categorías genéricas, ¿cuál de las siguientes frases tiene relación con la gestión de recursos humanos?",
+      "opciones": {
+        "a": "Saber hacer, procedimientos, e insumos tecnológicos necesarios en toda actividad de la cadena de valor.",
+        "b": "La compra de materias primas, suministros y otros artículos de consumo y bienes.",
+        "c": "Dirección General, planificación, finanzas, contabilidad, asuntos legales y gubernamentales, y gestión de la calidad.",
+        "d": "Selección, promoción, evaluación, remuneración, desarrollo profesional, y las relaciones sindicato/empresa."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 6,
+      "pregunta": "Marca la definición de tipo de actividades directas:",
+      "opciones": {
+        "a": "Son actividades que aseguran la calidad de las otras actividades.",
+        "b": "Estas actividades hacen posible el que se puedan desempeñar las actividades directas de forma continuada.",
+        "c": "Son las actividades directamente implicadas en la creación del valor para el comprador.",
+        "d": "Representan una parte importante y creciente de los costes."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 7,
+      "pregunta": "Las interacciones dentro de la cadena de valor...",
+      "opciones": {
+        "a": "Son cruciales para la ventaja competitiva.",
+        "b": "Son sutiles.",
+        "c": "Pasan desapercibidas.",
+        "d": "Todas las anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿En qué consiste seleccionar el alcance del segmento?",
+      "opciones": {
+        "a": "Toda empresa debe decidir si quiere especializarse en un segmento, o competir en varios de ellos.",
+        "b": "En poder identificar los factores críticos para el éxito en cada uno de ellos.",
+        "c": "Consiste en aplicar el modelo de competencia de las Cinco Fuerzas de Porter.",
+        "d": "Todas las anteriores son correctas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 9,
+      "pregunta": "Define el modelo de las Cinco fuerzas:",
+      "opciones": {
+        "a": "Considera que todas las empresas participantes en un mismo sector forman parte de un único grupo.",
+        "b": "Sirve para conocer en profundidad las características estructurales que determinan la competencia en un sector.",
+        "c": "Es un modelo dinámico, al tener las empresas un comportamiento homogéneo.",
+        "d": "Es el modelo que hace denotar la diferencia entre las distintas empresas, ya que dichas empresas tienen la misma manera de competir."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Cuáles son las dos dimensiones más utilizadas para la elaboración de un mapa estratégico?",
+      "opciones": {
+        "a": "La amplitud de la línea de productos que ofrece la empresa y el grado de integración vertical.",
+        "b": "Sus productos y la calidad.",
+        "c": "La gama del producto y las Cinco fuerzas.",
+        "d": "Las cinco fuerzas y los productos."
+      },
+      "respuesta_correcta": "a"
+    }
+  ]
+}

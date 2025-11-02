@@ -1,0 +1,115 @@
+{
+  "unidad": 24,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Qué determina la decisión sobre de la intensidad de la distribución de un producto?",
+      "opciones": {
+        "a": "La cantidad que debemos producir.",
+        "b": "El número de intermediarios que se utilizarán en cada nivel de canal de distribución.",
+        "c": "La cantidad que debemos vender.",
+        "d": "Determina el precio del producto final."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Qué significa la distribución intensiva?",
+      "opciones": {
+        "a": "Significa que el producto puede venderse en muchos puntos de venta del mercado para adquirir la máxima exposición al consumidor.",
+        "b": "Esta distribución puede realizarse tanto para el nivel del mayorista como del detallista.",
+        "c": "Significa que, en un determinado mercado, el producto sólo se encontrará en un único punto de venta.",
+        "d": "Este tipo de distribución se corresponde con una mínima exposición del producto al mercado."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 3,
+      "pregunta": "Indique la descripción correcta acerca de la “distribución selectiva”:",
+      "opciones": {
+        "a": "Significa que se trata de hacer llegar el producto a todos los establecimientos que se correspondan con el tipo de tienda que se ha definido para el canal de distribución.",
+        "b": "Esta distribución puede realizarse tanto para el nivel del mayorista como del detallista.",
+        "c": "Significa que en cada área geográfica del producto se vende en un número limitado de mayoristas o detallistas que cumplen los requisitos del plan de comercialización.",
+        "d": "Este tipo de distribución se corresponde con una mínima exposición del producto al mercado."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 4,
+      "pregunta": "Indique la definición correcta acerca del “diseño del producto”:",
+      "opciones": {
+        "a": "Cuanto mayor sea la necesidad de dar servicio al cliente, más probable es que el fabricante ofrezca una distribución selectiva/exclusiva.",
+        "b": "La empresa desea ejercer su influencia sobre el precio de venta y evitar que se ofrezcan descuentos en la venta del producto.",
+        "c": "La decisión de adoptar una distribución intensiva requiere disponer de una cobertura promocional en muchos puntos de venta.",
+        "d": "Cuanto más caro y complejo es el diseño de un producto, más probable es que sea necesaria una distribución selectiva/exclusiva."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 5,
+      "pregunta": "Selección de mayorista…",
+      "opciones": {
+        "a": "La decisión de intensidad de la distribución puede crear conflicto con las decisiones relativas a la selección de mayoristas.",
+        "b": "Una distribución intensiva no suele ser consistente con una directa.",
+        "c": "Es incluso más acusado si se tiene en cuenta su cada vez mayor poder.",
+        "d": "Hace referencia a los mecanismos que se utilizan para repartir la responsabilidad de la relación de las diversas tareas comerciales por parte del canal."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Cuál es la frecuencia de compra?",
+      "opciones": {
+        "a": "Si la compra de un producto se realiza con frecuencia, la distribución habría de ser más intensiva.",
+        "b": "Dependerá del poder adquisitivo de cada consumidor.",
+        "c": "La frecuencia es nula.",
+        "d": "La frecuencia de compra será mucho más pronunciada a principios de mes, ya que es cuando la gente tiene más poder adquisitivo."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Qué tipo de necesidades puede tener el distribuidor?",
+      "opciones": {
+        "a": "En la mayoría de los casos los distribuidores prefieren una distribución selectiva o exclusiva debido a que ambas limitan la competencia a la que deberán hacer frente.",
+        "b": "No tienen necesidades los distribuidores.",
+        "c": "Necesidad de tener un día a la semana fiesta.",
+        "d": "Prefieren una distribución total, es decir, distribuidores existentes."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 8,
+      "pregunta": "Indique la respuesta correcta: “Los sistemas administrados…”",
+      "opciones": {
+        "a": "Este tipo de sistemas es el más parecido al canal convencional.",
+        "b": "Es un sistema más formalizado que el de tipo “administrado”.",
+        "c": "Probablemente es el sistema vertical de comercialización que se está extendiendo con más rapidez en los últimos tiempos.",
+        "d": "Utiliza la fórmula de contratos para asegurar el compromiso en la ejecución del programa comercial."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 9,
+      "pregunta": "Señale la ventaja que pueden tener los sistemas verticales de comercialización:",
+      "opciones": {
+        "a": "Control comercial.",
+        "b": "Economías de distribución.",
+        "c": "Incertidumbres del entorno.",
+        "d": "Todas las anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Qué desventaja pueden suponer los sistemas verticales de comercialización?",
+      "opciones": {
+        "a": "Incertidumbres del entorno.",
+        "b": "Falta de incentivo.",
+        "c": "Control comercial.",
+        "d": "Economías de distribución."
+      },
+      "respuesta_correcta": "b"
+    }
+  ]
+}

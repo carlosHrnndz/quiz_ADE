@@ -1,0 +1,122 @@
+[
+  {
+    "unidad": 5,
+    "numero": 1,
+    "pregunta": "¿Qué rey español impulsó la Armada Invencible contra Inglaterra en 1588?",
+    "opciones": {
+      "a": "Carlos I.",
+      "b": "Felipe II.",
+      "c": "Felipe III.",
+      "d": "Fernando el Católico."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 5,
+    "numero": 2,
+    "pregunta": "¿Qué monarca instauró en Francia el absolutismo más representativo del Antiguo Régimen?",
+    "opciones": {
+      "a": "Luis XIII.",
+      "b": "Luis XIV.",
+      "c": "Luis XV.",
+      "d": "Luis XVI."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 5,
+    "numero": 3,
+    "pregunta": "¿Qué eran los Austrias menores?",
+    "opciones": {
+      "a": "Los sucesores de Carlos I que gobernaron durante el siglo XVII.",
+      "b": "Los hijos ilegítimos de Felipe II.",
+      "c": "La rama de la familia Habsburgo que gobernó en Austria.",
+      "d": "Los nobles que apoyaban a la Casa de Austria en España."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 5,
+    "numero": 4,
+    "pregunta": "¿Qué consecuencia tuvo la Paz de Westfalia (1648)?",
+    "opciones": {
+      "a": "El fin de la Guerra de los Cien Años.",
+      "b": "El reconocimiento de la independencia de las Provincias Unidas y la hegemonía de Francia.",
+      "c": "El inicio de la hegemonía española en Europa.",
+      "d": "El fin de las guerras napoleónicas."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 5,
+    "numero": 5,
+    "pregunta": "¿Qué fueron los validos en la España del siglo XVII?",
+    "opciones": {
+      "a": "Consejeros del rey que ejercían el poder en su nombre.",
+      "b": "Guerreros de élite al servicio de la monarquía.",
+      "c": "Miembros de la nobleza que se negaban a pagar impuestos.",
+      "d": "Funcionarios encargados de recaudar tributos."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 5,
+    "numero": 6,
+    "pregunta": "¿Qué dinastía sustituyó a los Austrias en el trono de España en 1700?",
+    "opciones": {
+      "a": "Los Borbones.",
+      "b": "Los Habsburgo de Austria.",
+      "c": "Los Tudor.",
+      "d": "Los Valois."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 5,
+    "numero": 7,
+    "pregunta": "¿Qué fue la Revolución inglesa de 1640?",
+    "opciones": {
+      "a": "Una revuelta campesina contra la nobleza.",
+      "b": "Una revolución burguesa que limitó el poder del rey e instauró una monarquía parlamentaria.",
+      "c": "Un levantamiento contra la ocupación francesa.",
+      "d": "Una guerra religiosa entre católicos y protestantes en Escocia."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 5,
+    "numero": 8,
+    "pregunta": "¿Qué pintor español es considerado el gran representante del Siglo de Oro?",
+    "opciones": {
+      "a": "Francisco de Goya.",
+      "b": "Diego Velázquez.",
+      "c": "El Greco.",
+      "d": "Murillo."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 5,
+    "numero": 9,
+    "pregunta": "¿Qué fue la Guerra de los Treinta Años?",
+    "opciones": {
+      "a": "Una guerra civil en Francia.",
+      "b": "Un conflicto europeo de carácter político y religioso entre 1618 y 1648.",
+      "c": "Una serie de guerras coloniales entre España y Portugal.",
+      "d": "Un conflicto entre Inglaterra y Escocia."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 5,
+    "numero": 10,
+    "pregunta": "¿Qué institución creó Felipe II para administrar los asuntos de sus vastos territorios?",
+    "opciones": {
+      "a": "La Inquisición.",
+      "b": "El Consejo de Estado.",
+      "c": "El Ministerio de Ultramar.",
+      "d": "Las Cortes Generales."
+    },
+    "respuesta_correcta": "b"
+  }
+]

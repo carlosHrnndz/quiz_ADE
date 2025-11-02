@@ -1,0 +1,122 @@
+[
+  {
+    "unidad": 22,
+    "numero": 1,
+    "pregunta": "¿Qué es la OTAN?",
+    "opciones": {
+      "a": "Una organización militar de defensa colectiva creada en 1949.",
+      "b": "Una organización económica internacional.",
+      "c": "Un tribunal internacional.",
+      "d": "Una organización cultural de la ONU."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 22,
+    "numero": 2,
+    "pregunta": "¿Qué significa OTAN?",
+    "opciones": {
+      "a": "Organización del Tratado del Atlántico Norte.",
+      "b": "Organización de Trabajo Atlántico Nacional.",
+      "c": "Oficina Técnica de Asuntos Nucleares.",
+      "d": "Organización Territorial Atlántica Neutral."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 22,
+    "numero": 3,
+    "pregunta": "¿Qué países lideraron la creación de la OTAN?",
+    "opciones": {
+      "a": "Estados Unidos, Canadá y varios países europeos.",
+      "b": "URSS y países del Pacto de Varsovia.",
+      "c": "España y Portugal.",
+      "d": "Países africanos y asiáticos."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 22,
+    "numero": 4,
+    "pregunta": "¿Qué principio fundamental establece la OTAN?",
+    "opciones": {
+      "a": "La ayuda mutua en caso de ataque a uno de sus miembros.",
+      "b": "La creación de una moneda común.",
+      "c": "El libre comercio entre países miembros.",
+      "d": "La protección del patrimonio cultural."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 22,
+    "numero": 5,
+    "pregunta": "¿En qué año ingresó España en la OTAN?",
+    "opciones": {
+      "a": "1975.",
+      "b": "1982.",
+      "c": "1986.",
+      "d": "1992."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 22,
+    "numero": 6,
+    "pregunta": "¿Dónde se encuentra el cuartel general de la OTAN?",
+    "opciones": {
+      "a": "Berlín.",
+      "b": "Bruselas.",
+      "c": "París.",
+      "d": "Washington."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 22,
+    "numero": 7,
+    "pregunta": "¿Qué país se retiró de la estructura militar de la OTAN en 1966 y regresó en 2009?",
+    "opciones": {
+      "a": "Reino Unido.",
+      "b": "Francia.",
+      "c": "Italia.",
+      "d": "Turquía."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 22,
+    "numero": 8,
+    "pregunta": "¿Qué conflicto de los años 90 supuso la primera intervención militar de la OTAN?",
+    "opciones": {
+      "a": "La Guerra del Golfo.",
+      "b": "La Guerra de los Balcanes.",
+      "c": "La Guerra de Afganistán.",
+      "d": "La Guerra de Irak."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 22,
+    "numero": 9,
+    "pregunta": "¿Qué artículo del Tratado del Atlántico Norte establece la defensa colectiva?",
+    "opciones": {
+      "a": "Artículo 3.",
+      "b": "Artículo 4.",
+      "c": "Artículo 5.",
+      "d": "Artículo 7."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 22,
+    "numero": 10,
+    "pregunta": "¿Qué países se incorporaron a la OTAN tras la Guerra Fría?",
+    "opciones": {
+      "a": "Países de Europa del Este como Polonia, Hungría y República Checa.",
+      "b": "China y Japón.",
+      "c": "Suecia y Suiza.",
+      "d": "Brasil y Argentina."
+    },
+    "respuesta_correcta": "a"
+  }
+]

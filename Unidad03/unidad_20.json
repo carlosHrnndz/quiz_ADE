@@ -1,0 +1,115 @@
+{
+  "unidad": 20,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Qué cualidades de las siguientes pertenecen a un buen liderazgo?",
+      "opciones": {
+        "a": "Las 4 H del liderazgo.",
+        "b": "Las 2 H del liderazgo.",
+        "c": "Sentido de la humanidad.",
+        "d": "Las 6 H del liderazgo."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 2,
+      "pregunta": "Marque la respuesta correcta:",
+      "opciones": {
+        "a": "Una persona muy humanitaria nunca será un buen líder.",
+        "b": "Para ser un buen líder, no se ha de tener en cuenta el sentido de la humildad.",
+        "c": "La humildad no es síntoma de persona realista.",
+        "d": "Ninguna de las anteriores es correcta."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Qué importancia tiene el humor en nuestras vidas?",
+      "opciones": {
+        "a": "El humor es algo pasajero.",
+        "b": "El humor es más importante sacarlo en muchas circunstancias empresariales, para demostrar nuestra autoridad.",
+        "c": "No es importante.",
+        "d": "Es fundamental en nuestras vidas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 4,
+      "pregunta": "El líder es...",
+      "opciones": {
+        "a": "Persona conformista.",
+        "b": "Persona con estudios.",
+        "c": "Persona inconformista, que va por detrás del resto.",
+        "d": "Persona inconformista, que va por delante del resto."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿En qué peligros puede hallarse un líder que puedan determinar su influencia?",
+      "opciones": {
+        "a": "La confianza.",
+        "b": "El optimismo puede servir de estímulo para asumir los objetivos previstos.",
+        "c": "Ser demasiado prudente.",
+        "d": "Pérdida de motivación."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 6,
+      "pregunta": "El sentido de trascendencia de Brooks, Starc y Caverhill, ¿cómo lo han denominado?",
+      "opciones": {
+        "a": "Trascendencia del sentido.",
+        "b": "No lo han nombrado.",
+        "c": "Intrascendente.",
+        "d": "Legado de liderazgo."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 7,
+      "pregunta": "Si el líder se siente satisfecho de los logros conseguidos y baja la guardia…",
+      "opciones": {
+        "a": "Se reducirán los costes de producción.",
+        "b": "Aumentará la competitividad en la empresa.",
+        "c": "Entonces la empresa conseguirá el pleno desarrollo.",
+        "d": "La empresa corre peligro de iniciar un proceso de decadencia."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿Qué es un antilíder?",
+      "opciones": {
+        "a": "Son los atributos de un líder.",
+        "b": "Es no ser soberbio ni autoritario.",
+        "c": "Son todos los atributos que un líder debe evitar.",
+        "d": "Todas las respuestas son correctas."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Qué se entiende por temerosidad?",
+      "opciones": {
+        "a": "Persona segura.",
+        "b": "Persona que se siente insegura.",
+        "c": "Persona con grandes problemas psicológicos.",
+        "d": "Es prometer y no cumplir."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Cuándo un líder es considerado un iluminado?",
+      "opciones": {
+        "a": "En el momento que tiene una idea.",
+        "b": "En el momento que los objetivos pactados son asumidos por los empleados.",
+        "c": "Cuando se adelanta al futuro dejando de ser realista.",
+        "d": "Todas las anteriores son correctas."
+      },
+      "respuesta_correcta": "c"
+    }
+  ]
+}

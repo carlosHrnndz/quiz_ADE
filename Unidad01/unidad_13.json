@@ -1,0 +1,122 @@
+[
+  {
+    "unidad": 13,
+    "numero": 1,
+    "pregunta": "¿Qué fue el Imperialismo del siglo XIX?",
+    "opciones": {
+      "a": "La expansión territorial, política y económica de las potencias europeas sobre otros continentes.",
+      "b": "El fortalecimiento de los imperios medievales.",
+      "c": "La colonización de América en el siglo XVI.",
+      "d": "El dominio del feudalismo sobre los campesinos."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 13,
+    "numero": 2,
+    "pregunta": "¿Qué conferencia reguló el reparto colonial de África en 1884-1885?",
+    "opciones": {
+      "a": "La Conferencia de París.",
+      "b": "La Conferencia de Berlín.",
+      "c": "El Congreso de Viena.",
+      "d": "El Tratado de Versalles."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 13,
+    "numero": 3,
+    "pregunta": "¿Qué país europeo dominaba la India como colonia principal?",
+    "opciones": {
+      "a": "Francia.",
+      "b": "Inglaterra.",
+      "c": "Portugal.",
+      "d": "Alemania."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 13,
+    "numero": 4,
+    "pregunta": "¿Qué potencias se repartieron gran parte de África?",
+    "opciones": {
+      "a": "España y Portugal.",
+      "b": "Inglaterra y Francia.",
+      "c": "Bélgica, Alemania, Inglaterra y Francia.",
+      "d": "Italia y Rusia."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 13,
+    "numero": 5,
+    "pregunta": "¿Qué rey belga explotó el Congo como propiedad privada?",
+    "opciones": {
+      "a": "Leopoldo II.",
+      "b": "Carlos V.",
+      "c": "Guillermo I.",
+      "d": "Luis Felipe de Orleans."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 13,
+    "numero": 6,
+    "pregunta": "¿Qué potencia se expandió en el norte de África, dominando Argelia, Túnez y Marruecos?",
+    "opciones": {
+      "a": "Francia.",
+      "b": "Italia.",
+      "c": "Inglaterra.",
+      "d": "Alemania."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 13,
+    "numero": 7,
+    "pregunta": "¿Qué fue el Canal de Suez inaugurado en 1869?",
+    "opciones": {
+      "a": "Una vía de navegación que une el mar Rojo con el Mediterráneo.",
+      "b": "Un canal que comunica el mar Negro con el Mediterráneo.",
+      "c": "Un canal artificial en América Central.",
+      "d": "Un río navegable en África."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 13,
+    "numero": 8,
+    "pregunta": "¿Qué potencia colonizó Indonesia en el siglo XIX?",
+    "opciones": {
+      "a": "Portugal.",
+      "b": "Inglaterra.",
+      "c": "Holanda (Países Bajos).",
+      "d": "Francia."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 13,
+    "numero": 9,
+    "pregunta": "¿Qué guerra enfrentó a Inglaterra y los bóeres en Sudáfrica?",
+    "opciones": {
+      "a": "La Guerra de Secesión.",
+      "b": "La Guerra de los Treinta Años.",
+      "c": "La Guerra de los Bóeres.",
+      "d": "La Guerra de Crimea."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 13,
+    "numero": 10,
+    "pregunta": "¿Qué país asiático logró mantenerse independiente y convertirse en potencia imperialista?",
+    "opciones": {
+      "a": "China.",
+      "b": "Japón.",
+      "c": "Corea.",
+      "d": "Filipinas."
+    },
+    "respuesta_correcta": "b"
+  }
+]

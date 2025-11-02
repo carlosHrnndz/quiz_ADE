@@ -1,0 +1,115 @@
+{
+  "unidad": 12,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "Para medir el grado de satisfacción de los empleados, las empresas…",
+      "opciones": {
+        "a": "Realizan encuestas de carácter anual.",
+        "b": "Realizan calendarios de actuaciones.",
+        "c": "Realizan encuestas de carácter semanal.",
+        "d": "No realizan ningún tipo de medida."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "pregunta": "La productividad de una empresa se calcula dividiendo los ingresos totales por el número de empleados de la empresa. ¿Cómo se puede mejorar la productividad?",
+      "opciones": {
+        "a": "Aumentar el numerador, sin aumentar el denominador.",
+        "b": "Reducir el denominador, lo que parece que podría producir beneficios a corto plazo.",
+        "c": "Reducir el numerador, mantener igual el denominador.",
+        "d": "La respuesta a y b son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 3,
+      "pregunta": "Para medir la flexibilidad de la rotación de profesionales se deben considerar dos aspectos…",
+      "opciones": {
+        "a": "La opinión del trabajador y la del empresario.",
+        "b": "La disponibilidad y la capacidad de movilidad.",
+        "c": "La disponibilidad y la opinión del trabajador.",
+        "d": "La disponibilidad y la opinión del empresario."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 4,
+      "pregunta": "Los procesos de negocio pueden dividirse en…",
+      "opciones": {
+        "a": "Procesos operacionales y procesos industriales.",
+        "b": "Procesos operacionales, procesos de soporte y procesos industriales.",
+        "c": "Procesos operacionales y procesos industriales.",
+        "d": "Procesos operacionales y procesos de soporte."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 5,
+      "pregunta": "El indicador de esfuerzo en la formación…",
+      "opciones": {
+        "a": "Es un instrumento para que los trabajadores evalúen el nivel de la formación que desarrolla su empresa.",
+        "b": "Es un instrumento que se encarga de determinar las competencias profesionales de los trabajadores.",
+        "c": "Evalúa el nivel de esfuerzo o inversión que tienen las medidas empresariales utilizadas para llevar a cabo los programas presenciales o cursos de formación de sus empleados.",
+        "d": "Es un instrumento que se encarga de determinar las competencias profesionales de los trabajadores y el grado de formación de los mismos."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 6,
+      "pregunta": "El capital estructural…",
+      "opciones": {
+        "a": "Es aquel que permanecería en la empresa de forma dependiente a la rotación de personas.",
+        "b": "Es aquel que permanecería en la empresa de forma independiente a la rotación de personas.",
+        "c": "Está compuesto por los elementos tangibles e intangibles de la empresa que permanecen en la empresa de forma dependiente a la rotación de personas.",
+        "d": "Está compuesto por los elementos personales y materiales de la empresa que permanecen en la empresa de forma dependiente a la rotación de personas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Qué conceptos se deben considerar como “infraestructura” en el Cuadro de Mando Integral?",
+      "opciones": {
+        "a": "La estrategia de Recursos Humanos, la cultura y los líderes.",
+        "b": "Los trabajadores, la estrategia de los líderes y los rituales estructurales de la empresa.",
+        "c": "Los empleados, la estrategia de Recursos Humanos y los rituales estructurales.",
+        "d": "Únicamente la estrategia de Recursos Humanos."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 8,
+      "pregunta": "Los líderes de una empresa es alguien que debe reunir los siguientes rasgos…",
+      "opciones": {
+        "a": "Saber mandar, ser trabajadores y responsables. No es necesario que sepa dirigir.",
+        "b": "Visionario, potenciador, sabe tomar riesgos, aprende, entrenador y colaborador.",
+        "c": "Saber mandar y saber cumplir órdenes.",
+        "d": "No es necesario que sepa dirigir, únicamente tiene que saber mandar."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 9,
+      "pregunta": "Ser un líder potenciador significa que…",
+      "opciones": {
+        "a": "Tiene la habilidad de visualizar mentalmente la imagen de la organización que desean crear.",
+        "b": "Tiene la habilidad de dar a los colaboradores la responsabilidad sobre los resultados.",
+        "c": "Tiene la capacidad de añadir valor a través de componentes que residen en otras personas de su organización.",
+        "d": "Potencia el aprendizaje."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 10,
+      "pregunta": "Ser un líder entrenador significa que…",
+      "opciones": {
+        "a": "Tiene la habilidad de visualizar mentalmente la imagen de la organización que desean crear.",
+        "b": "Tiene la habilidad de dar a los colaboradores la responsabilidad sobre los resultados.",
+        "c": "Tiene la capacidad de añadir valor a través de componentes que residen en otras personas de su organización.",
+        "d": "Potencia el aprendizaje."
+      },
+      "respuesta_correcta": "c"
+    }
+  ]
+}

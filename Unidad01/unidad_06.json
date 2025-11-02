@@ -1,0 +1,122 @@
+[
+  {
+    "unidad": 6,
+    "numero": 1,
+    "pregunta": "¿Qué fue la Ilustración en el siglo XVIII?",
+    "opciones": {
+      "a": "Un movimiento cultural que defendía la razón, la ciencia y el progreso.",
+      "b": "Una corriente artística barroca.",
+      "c": "Un sistema político absolutista.",
+      "d": "Una corriente filosófica medieval."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 6,
+    "numero": 2,
+    "pregunta": "¿Qué obra de Montesquieu influyó en la división de poderes?",
+    "opciones": {
+      "a": "El contrato social.",
+      "b": "El espíritu de las leyes.",
+      "c": "La enciclopedia.",
+      "d": "Las cartas persas."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 6,
+    "numero": 3,
+    "pregunta": "¿Qué autor defendió que la soberanía reside en el pueblo?",
+    "opciones": {
+      "a": "Voltaire.",
+      "b": "Rousseau.",
+      "c": "Montesquieu.",
+      "d": "Diderot."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 6,
+    "numero": 4,
+    "pregunta": "¿Qué obra fue dirigida por Diderot y D’Alembert?",
+    "opciones": {
+      "a": "La enciclopedia.",
+      "b": "El contrato social.",
+      "c": "El espíritu de las leyes.",
+      "d": "La crítica de la razón pura."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 6,
+    "numero": 5,
+    "pregunta": "¿Qué fue el despotismo ilustrado?",
+    "opciones": {
+      "a": "Una forma de gobierno donde los reyes aplicaban reformas ilustradas sin abandonar el absolutismo.",
+      "b": "Un sistema parlamentario de inspiración inglesa.",
+      "c": "Una teoría económica sobre la libre competencia.",
+      "d": "Una corriente artística vinculada al neoclasicismo."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 6,
+    "numero": 6,
+    "pregunta": "¿Qué rey español es un ejemplo de déspota ilustrado?",
+    "opciones": {
+      "a": "Felipe V.",
+      "b": "Carlos III.",
+      "c": "Fernando VI.",
+      "d": "Carlos IV."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 6,
+    "numero": 7,
+    "pregunta": "¿Qué pensador ilustrado defendió la libertad de expresión y de culto?",
+    "opciones": {
+      "a": "Rousseau.",
+      "b": "Voltaire.",
+      "c": "Diderot.",
+      "d": "Montesquieu."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 6,
+    "numero": 8,
+    "pregunta": "¿Qué lema resume la Ilustración?",
+    "opciones": {
+      "a": "Sapere aude (atrévete a saber).",
+      "b": "Divide et impera.",
+      "c": "Carpe diem.",
+      "d": "Omnia vincit amor."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 6,
+    "numero": 9,
+    "pregunta": "¿Qué ciencias se desarrollaron especialmente en la Ilustración?",
+    "opciones": {
+      "a": "La física y la astronomía.",
+      "b": "La biología y la medicina.",
+      "c": "La economía política.",
+      "d": "Todas las anteriores."
+    },
+    "respuesta_correcta": "d"
+  },
+  {
+    "unidad": 6,
+    "numero": 10,
+    "pregunta": "¿Qué monarca prusiano es considerado déspota ilustrado?",
+    "opciones": {
+      "a": "Federico Guillermo I.",
+      "b": "Federico II el Grande.",
+      "c": "Guillermo II.",
+      "d": "Otón de Baviera."
+    },
+    "respuesta_correcta": "b"
+  }
+]

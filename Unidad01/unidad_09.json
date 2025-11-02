@@ -1,0 +1,122 @@
+[
+  {
+    "unidad": 9,
+    "numero": 1,
+    "pregunta": "¿Quién fue proclamado emperador de los franceses en 1804?",
+    "opciones": {
+      "a": "Luis XVI.",
+      "b": "Napoleón Bonaparte.",
+      "c": "Robespierre.",
+      "d": "Carlos X."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 9,
+    "numero": 2,
+    "pregunta": "¿Qué código legislativo implantó Napoleón y se convirtió en modelo para muchos países?",
+    "opciones": {
+      "a": "El Código Civil o Código Napoleónico.",
+      "b": "El Código Penal.",
+      "c": "El Código Comercial.",
+      "d": "La Constitución de 1791."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 9,
+    "numero": 3,
+    "pregunta": "¿Qué batalla supuso la derrota naval definitiva de Napoleón frente a Inglaterra en 1805?",
+    "opciones": {
+      "a": "La batalla de Waterloo.",
+      "b": "La batalla de Trafalgar.",
+      "c": "La batalla de Austerlitz.",
+      "d": "La batalla de Leipzig."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 9,
+    "numero": 4,
+    "pregunta": "¿Qué batalla terrestre consolidó el poder de Napoleón en Europa en 1805?",
+    "opciones": {
+      "a": "La batalla de Borodinó.",
+      "b": "La batalla de Leipzig.",
+      "c": "La batalla de Austerlitz.",
+      "d": "La batalla de Jena."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 9,
+    "numero": 5,
+    "pregunta": "¿Qué países formaron parte de la coalición contra Napoleón?",
+    "opciones": {
+      "a": "Inglaterra, Austria, Rusia y Prusia.",
+      "b": "España y Portugal únicamente.",
+      "c": "Francia e Italia.",
+      "d": "Holanda y Suiza."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 9,
+    "numero": 6,
+    "pregunta": "¿Qué política económica aplicó Napoleón contra Inglaterra?",
+    "opciones": {
+      "a": "El bloqueo continental.",
+      "b": "La devaluación de la moneda.",
+      "c": "La liberalización del comercio.",
+      "d": "La supresión de aranceles."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 9,
+    "numero": 7,
+    "pregunta": "¿Qué supuso la invasión napoleónica de España en 1808?",
+    "opciones": {
+      "a": "La independencia inmediata de España.",
+      "b": "El inicio de la Guerra de la Independencia.",
+      "c": "La caída del Imperio británico.",
+      "d": "La expansión colonial francesa en América."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 9,
+    "numero": 8,
+    "pregunta": "¿Qué constitución aprobaron las Cortes de Cádiz en 1812?",
+    "opciones": {
+      "a": "Una constitución liberal que limitaba el poder del rey.",
+      "b": "Una constitución absolutista.",
+      "c": "Un código de comercio marítimo.",
+      "d": "Un estatuto imperial francés."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 9,
+    "numero": 9,
+    "pregunta": "¿En qué batalla fue derrotado Napoleón definitivamente en 1815?",
+    "opciones": {
+      "a": "La batalla de Leipzig.",
+      "b": "La batalla de Borodinó.",
+      "c": "La batalla de Trafalgar.",
+      "d": "La batalla de Waterloo."
+    },
+    "respuesta_correcta": "d"
+  },
+  {
+    "unidad": 9,
+    "numero": 10,
+    "pregunta": "¿Dónde fue desterrado Napoleón tras su derrota final?",
+    "opciones": {
+      "a": "Isla de Elba.",
+      "b": "Isla de Santa Elena.",
+      "c": "Córcega.",
+      "d": "Sicilia."
+    },
+    "respuesta_correcta": "b"
+  }
+]

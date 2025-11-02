@@ -1,0 +1,122 @@
+[
+  {
+    "unidad": 7,
+    "numero": 1,
+    "pregunta": "¿Qué fueron las colonias inglesas en Norteamérica durante el siglo XVII y XVIII?",
+    "opciones": {
+      "a": "Territorios conquistados por Inglaterra en Asia.",
+      "b": "Asentamientos de población inglesa en la costa este de América del Norte.",
+      "c": "Territorios bajo dominio español administrados por Inglaterra.",
+      "d": "Zonas comerciales en África."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 7,
+    "numero": 2,
+    "pregunta": "¿Qué impuesto provocó un gran rechazo en las colonias americanas?",
+    "opciones": {
+      "a": "El impuesto sobre la sal.",
+      "b": "El impuesto del té y el papel timbrado.",
+      "c": "El impuesto sobre el tabaco.",
+      "d": "El impuesto sobre la carne."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 7,
+    "numero": 3,
+    "pregunta": "¿Qué suceso histórico dio inicio a la independencia de las Trece Colonias?",
+    "opciones": {
+      "a": "La Guerra de los Siete Años.",
+      "b": "El Motín del Té en Boston (1773).",
+      "c": "La firma de la Constitución de Filadelfia.",
+      "d": "El asalto al Palacio de Versalles."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 7,
+    "numero": 4,
+    "pregunta": "¿Quién fue el principal redactor de la Declaración de Independencia de Estados Unidos (1776)?",
+    "opciones": {
+      "a": "George Washington.",
+      "b": "Benjamin Franklin.",
+      "c": "Thomas Jefferson.",
+      "d": "Alexander Hamilton."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 7,
+    "numero": 5,
+    "pregunta": "¿Qué país apoyó decisivamente a los colonos en su independencia contra Inglaterra?",
+    "opciones": {
+      "a": "España.",
+      "b": "Francia.",
+      "c": "Portugal.",
+      "d": "Rusia."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 7,
+    "numero": 6,
+    "pregunta": "¿Qué batalla supuso la victoria definitiva de los colonos frente a Inglaterra?",
+    "opciones": {
+      "a": "La batalla de Yorktown (1781).",
+      "b": "La batalla de Waterloo.",
+      "c": "La batalla de Gettysburg.",
+      "d": "La batalla de Lexington."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 7,
+    "numero": 7,
+    "pregunta": "¿En qué año se aprobó la Constitución de Estados Unidos?",
+    "opciones": {
+      "a": "1776.",
+      "b": "1787.",
+      "c": "1791.",
+      "d": "1801."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 7,
+    "numero": 8,
+    "pregunta": "¿Qué tipo de gobierno estableció la Constitución de EE. UU.?",
+    "opciones": {
+      "a": "Una monarquía constitucional.",
+      "b": "Una república federal presidencialista.",
+      "c": "Una confederación de estados bajo dominio inglés.",
+      "d": "Una dictadura militar."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 7,
+    "numero": 9,
+    "pregunta": "¿Qué derechos reconocía la Declaración de Independencia de EE. UU.?",
+    "opciones": {
+      "a": "Vida, libertad y búsqueda de la felicidad.",
+      "b": "Propiedad privada y privilegios nobiliarios.",
+      "c": "Derecho de conquista sobre territorios indígenas.",
+      "d": "Exención de impuestos."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 7,
+    "numero": 10,
+    "pregunta": "¿Quién fue el primer presidente de Estados Unidos?",
+    "opciones": {
+      "a": "Thomas Jefferson.",
+      "b": "Benjamin Franklin.",
+      "c": "George Washington.",
+      "d": "James Madison."
+    },
+    "respuesta_correcta": "c"
+  }
+]

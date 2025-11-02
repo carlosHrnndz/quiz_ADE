@@ -1,0 +1,115 @@
+{
+  "unidad": 11,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Con qué están relacionadas las decisiones sobre los procesos de transformación?",
+      "opciones": {
+        "a": "La organización de los flujos de trabajo.",
+        "b": "La selección de la combinación problema-solución-resolución más adecuada.",
+        "c": "Se utiliza poco la tecnología.",
+        "d": "Con los trabajadores."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "pregunta": "Defina la configuración productiva por proyectos:",
+      "opciones": {
+        "a": "Se obtiene siempre el mismo producto en la misma instalación.",
+        "b": "Se obtiene uno o pocos productos con un largo periodo de fabricación.",
+        "c": "Se obtienen productos diferentes en las mismas instalaciones.",
+        "d": "Se obtienen muchos productos."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Por qué se caracteriza la configuración productiva por proyectos?",
+      "opciones": {
+        "a": "Tiene un coste muy bajo.",
+        "b": "Fácil planificación y controlar.",
+        "c": "Utilizar los trabajadores poco cualificados.",
+        "d": "Disponer de maquinaria de uso general, que se puede utilizar para realizar diferentes tareas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 4,
+      "pregunta": "La configuración productiva por lotes…",
+      "opciones": {
+        "a": "Tiene un alto coste.",
+        "b": "Utilizar trabajadores cualificados.",
+        "c": "Se caracteriza por fabricar una cantidad pequeña de una gran variedad de productos.",
+        "d": "Se obtiene siempre el mismo producto en la misma instalación."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Qué son las configuraciones 'Job-Shop'?",
+      "opciones": {
+        "a": "Taller de trabajo.",
+        "b": "Trabajo en equipo.",
+        "c": "Justo a tiempo.",
+        "d": "Trabajar por debajo de las previsiones."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Qué significa configuración en 'batch'?",
+      "opciones": {
+        "a": "El proceso de elaboración del producto requiere un número mayor de operaciones.",
+        "b": "Los centros de trabajo han de disponer de maquinaria algo más sofisticada y enfocada a determinados tipos de operaciones.",
+        "c": "El objetivo de este tipo de configuración es concentrar las destrezas y conocimientos de los operarios y aumentar la utilización de los equipos.",
+        "d": "Todas las anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 7,
+      "pregunta": "Defina la configuración productiva en línea:",
+      "opciones": {
+        "a": "Se transforma en un flujo continuo de producción cuando se eliminan los tiempos ociosos y de espera de forma que siempre se están ejecutando las mismas operaciones.",
+        "b": "Se trata de fabricar lotes de un gran número de unidades, pero de productos poco diferentes y técnicamente homogéneos, usando para ello las mismas instalaciones.",
+        "c": "Se producen lotes pequeños de una amplia variedad de productos de poca o nula estandarización.",
+        "d": "La especialización de los trabajadores es también mayor realizando cada uno de ellos la misma función, aunque pueda consistir en varias operaciones."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿Cuáles son los objetivos básicos de la producción continua?",
+      "opciones": {
+        "a": "Reducir el coste.",
+        "b": "Una rápida realización de los trabajos y generación del valor añadido.",
+        "c": "Aumentar el tiempo.",
+        "d": "Fabricar un número determinado de productos."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Qué significan las siglas 'JIT' en inglés?",
+      "opciones": {
+        "a": "Justo a tiempo.",
+        "b": "Toyota.",
+        "c": "Satisfacer la oferta del mercado.",
+        "d": "Producir más de lo normal, para tener un nivel de stock suficiente para futuras previsiones."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Qué es la automatización?",
+      "opciones": {
+        "a": "Surge al asumir las máquinas funciones cada vez más elevadas y propias de la acción humana.",
+        "b": "No es importante para una empresa.",
+        "c": "Antes era una técnica utilizada por las empresas, actualmente no, debido a su elevado coste.",
+        "d": "Es lo contrario de los robots."
+      },
+      "respuesta_correcta": "a"
+    }
+  ]
+}

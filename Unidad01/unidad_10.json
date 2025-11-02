@@ -1,0 +1,122 @@
+[
+  {
+    "unidad": 10,
+    "numero": 1,
+    "pregunta": "¿Qué fue el Congreso de Viena (1815)?",
+    "opciones": {
+      "a": "Una reunión para proclamar la independencia de América.",
+      "b": "Una conferencia internacional para restaurar el absolutismo tras la derrota de Napoleón.",
+      "c": "Un tratado comercial entre Francia y Reino Unido.",
+      "d": "Una alianza militar entre España y Portugal."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 10,
+    "numero": 2,
+    "pregunta": "¿Qué países formaron la Santa Alianza?",
+    "opciones": {
+      "a": "Francia, España y Portugal.",
+      "b": "Austria, Rusia y Prusia.",
+      "c": "Inglaterra, Holanda y Bélgica.",
+      "d": "Italia, Alemania y Suiza."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 10,
+    "numero": 3,
+    "pregunta": "¿Qué ideología defendía la soberanía nacional y la constitución frente al absolutismo?",
+    "opciones": {
+      "a": "El liberalismo.",
+      "b": "El socialismo.",
+      "c": "El conservadurismo.",
+      "d": "El anarquismo."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 10,
+    "numero": 4,
+    "pregunta": "¿Qué movimiento buscaba la independencia y unidad de los pueblos frente a los imperios?",
+    "opciones": {
+      "a": "El romanticismo.",
+      "b": "El nacionalismo.",
+      "c": "El liberalismo.",
+      "d": "El imperialismo."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 10,
+    "numero": 5,
+    "pregunta": "¿Qué revolución tuvo lugar en Francia en 1830?",
+    "opciones": {
+      "a": "La Revolución de Julio que derrocó a Carlos X.",
+      "b": "La proclamación de la Primera República.",
+      "c": "La Comuna de París.",
+      "d": "La revolución de 1848."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 10,
+    "numero": 6,
+    "pregunta": "¿Qué movimiento revolucionario recorrió Europa en 1848?",
+    "opciones": {
+      "a": "Las revoluciones liberales y nacionalistas.",
+      "b": "La revolución industrial.",
+      "c": "La revolución americana.",
+      "d": "La revolución rusa."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 10,
+    "numero": 7,
+    "pregunta": "¿Qué país logró su unificación bajo el liderazgo de Otto von Bismarck?",
+    "opciones": {
+      "a": "Italia.",
+      "b": "Alemania.",
+      "c": "Austria.",
+      "d": "Hungría."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 10,
+    "numero": 8,
+    "pregunta": "¿Qué monarca impulsó la unificación italiana?",
+    "opciones": {
+      "a": "Víctor Manuel II de Piamonte-Cerdeña.",
+      "b": "Carlos Alberto de Saboya.",
+      "c": "Francisco José de Austria.",
+      "d": "Luis Felipe de Orleans."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 10,
+    "numero": 9,
+    "pregunta": "¿Qué doctrina proclamó EE. UU. en 1823 para rechazar la intervención europea en América?",
+    "opciones": {
+      "a": "La Doctrina Monroe.",
+      "b": "El Destino Manifiesto.",
+      "c": "El Nuevo Trato.",
+      "d": "El Pacto de Varsovia."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 10,
+    "numero": 10,
+    "pregunta": "¿Qué imperio fue denominado el “gigante enfermo de Europa” en el siglo XIX?",
+    "opciones": {
+      "a": "El Imperio austríaco.",
+      "b": "El Imperio ruso.",
+      "c": "El Imperio otomano.",
+      "d": "El Imperio alemán."
+    },
+    "respuesta_correcta": "c"
+  }
+]

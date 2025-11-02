@@ -1,0 +1,122 @@
+[
+  {
+    "unidad": 3,
+    "numero": 1,
+    "pregunta": "¿Qué fue la Escuela de Traductores de Toledo?",
+    "opciones": {
+      "a": "Un centro de traducción de obras árabes, hebreas y griegas al latín y al castellano.",
+      "b": "Un gremio de traductores al servicio de la nobleza.",
+      "c": "Un taller de copistas de manuscritos en latín.",
+      "d": "Una institución universitaria medieval en Castilla."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 3,
+    "numero": 2,
+    "pregunta": "¿Qué invento revolucionó la difusión del conocimiento en el siglo XV?",
+    "opciones": {
+      "a": "La brújula.",
+      "b": "La imprenta de tipos móviles.",
+      "c": "El astrolabio.",
+      "d": "El papel."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 3,
+    "numero": 3,
+    "pregunta": "¿Cuál fue la principal institución bancaria de Florencia en los siglos XIV y XV?",
+    "opciones": {
+      "a": "El Banco de San Giorgio.",
+      "b": "El Banco de Venecia.",
+      "c": "La Banca Medici.",
+      "d": "El Banco de Nápoles."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 3,
+    "numero": 4,
+    "pregunta": "El Renacimiento impulsó un nuevo modelo económico caracterizado por…",
+    "opciones": {
+      "a": "La economía de subsistencia.",
+      "b": "El comercio internacional y las manufacturas.",
+      "c": "El predominio de la agricultura.",
+      "d": "El trueque como base de los intercambios."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 3,
+    "numero": 5,
+    "pregunta": "¿Qué eran las ferias de Champaña en los siglos XII y XIII?",
+    "opciones": {
+      "a": "Reuniones anuales de nobles y clérigos.",
+      "b": "Ferias agrícolas en Francia.",
+      "c": "Importantes mercados internacionales en territorio francés.",
+      "d": "Festejos populares en honor a reyes franceses."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 3,
+    "numero": 6,
+    "pregunta": "¿Qué consecuencia tuvo la caída de Constantinopla en 1453?",
+    "opciones": {
+      "a": "El fin del comercio europeo con Oriente.",
+      "b": "El impulso a la búsqueda de nuevas rutas comerciales hacia Asia.",
+      "c": "La desaparición del Imperio romano de Oriente y la expansión otomana.",
+      "d": "Todas las respuestas son correctas."
+    },
+    "respuesta_correcta": "d"
+  },
+  {
+    "unidad": 3,
+    "numero": 7,
+    "pregunta": "¿Qué institución controlaba gran parte de la vida económica y cultural en la Edad Media?",
+    "opciones": {
+      "a": "Los reinos.",
+      "b": "La Iglesia.",
+      "c": "Los gremios.",
+      "d": "Las universidades."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 3,
+    "numero": 8,
+    "pregunta": "¿Qué era el mercantilismo en la Edad Moderna?",
+    "opciones": {
+      "a": "Un sistema económico basado en la acumulación de metales preciosos y el control estatal del comercio.",
+      "b": "Un movimiento cultural que impulsaba la artesanía.",
+      "c": "La práctica de intercambiar productos sin moneda.",
+      "d": "Un sistema financiero basado en el crédito internacional."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 3,
+    "numero": 9,
+    "pregunta": "¿Qué familia dominó la economía y la política en Florencia durante el Renacimiento?",
+    "opciones": {
+      "a": "Los Sforza.",
+      "b": "Los Borgia.",
+      "c": "Los Medici.",
+      "d": "Los Gonzaga."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 3,
+    "numero": 10,
+    "pregunta": "¿Qué papel jugaban las universidades medievales en la economía?",
+    "opciones": {
+      "a": "Formaban profesionales para la administración y la Iglesia.",
+      "b": "Servían como centros de comercio y préstamo.",
+      "c": "Controlaban los precios de los mercados.",
+      "d": "Recaudaban impuestos para el rey."
+    },
+    "respuesta_correcta": "a"
+  }
+]

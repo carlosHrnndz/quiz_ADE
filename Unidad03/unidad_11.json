@@ -1,0 +1,115 @@
+{
+  "unidad": 11,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Qué necesita el profesional de la empresa en el Cuadro de Mando para la gestión de personal?",
+      "opciones": {
+        "a": "Una óptima base de datos.",
+        "b": "Conocer las dudas de los empleados.",
+        "c": "Indicadores comparativos o de tendencia.",
+        "d": "Conocer el rendimiento de los empleados."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Qué es el Cuadro de Mando para la gestión de personas?",
+      "opciones": {
+        "a": "Es un instrumento de información y de control de la gestión.",
+        "b": "Es un departamento que controla a los candidatos que aspiran a un puesto de trabajo.",
+        "c": "Es el método que se encarga de clasificar el personal según sus capacidades.",
+        "d": "Es un instrumento que se encarga de designar las tareas que se tienen que realizar cada semestre."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 3,
+      "pregunta": "En la creación del valor y la gestión de los recursos humanos, ¿qué es el Capital Estructural?",
+      "opciones": {
+        "a": "Se refiere al conocimiento (explícito o tácito) útil para la empresa que poseen sus personas y equipos, así como su capacidad para regenerarlo.",
+        "b": "Se refiere al valor que tiene para una empresa el conjunto de relaciones que mantiene con el exterior.",
+        "c": "En la medida en que el conocimiento latente en las personas y equipos de la empresa consiga ser explicitado, sistematizado e internalizado por la organización, se puede hablar de capital estructural.",
+        "d": "Es el encargado de potenciar adecuadamente las capacidades internas de la organización."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Qué tipos de indicadores pueden utilizarse en la generación del valor para el accionista?",
+      "opciones": {
+        "a": "Indicadores comparativos o de tendencia.",
+        "b": "Indicadores de medición del valor de la empresa, indicadores pertenecientes al balance de los activos tangibles e indicadores de evaluación de los activos intangibles.",
+        "c": "Indicadores de capital estructural.",
+        "d": "Indicadores de capital relacional."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿De qué están compuestos los indicadores de los activos intangibles?",
+      "opciones": {
+        "a": "De variables o indicadores relacionados con la cuenta de resultados financiera.",
+        "b": "Del valor de la cotización bursátil.",
+        "c": "De capital humano, relacional y estructural.",
+        "d": "Del precio del mercado del producto que se ofrece."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Cuál es el mejor modo de garantizar el valor financiero a largo plazo para los accionistas desde una perspectiva de la gestión de las personas?",
+      "opciones": {
+        "a": "Maximizar el valor añadido de los empleados.",
+        "b": "Maximizar las inversiones en personal.",
+        "c": "Minimizar los costes de gestión de personal.",
+        "d": "Orientar la estrategia hacia una búsqueda coordinada de valor para los empleados, clientes y procesos."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Qué tipos de datos se utilizan para fijar el valor actual de las acciones en bolsa de una empresa?",
+      "opciones": {
+        "a": "El valor financiero.",
+        "b": "El valor nominal, el valor contable y el valor de mercado.",
+        "c": "El valor de comercio.",
+        "d": "El valor de la empresa."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿Qué es el Valor de Mercado Añadido?",
+      "opciones": {
+        "a": "Es la cifra asignada a los títulos de la empresa.",
+        "b": "Expresa la cotización en bolsa.",
+        "c": "Es el beneficio anual de cada acción de la empresa.",
+        "d": "Es la diferencia entre el Valor de Mercado y el Valor Contable."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 9,
+      "pregunta": "En la evaluación del impacto de la gestión de personas en la cuenta de resultados, ¿qué puede suponer un impacto positivo en los resultados?",
+      "opciones": {
+        "a": "Reducir el número de niveles jerárquicos existentes entre la alta Dirección y los empleados de base.",
+        "b": "Fomentar una cultura de conocimiento y aprendizaje compartido en cualquiera de los niveles de la organización, eliminando esfuerzos innecesarios de competencia interna.",
+        "c": "Mejorar las competencias y actitudes de los empleados, de manera que se pueda disponer de personas adecuadas en cada momento, conscientes de sus áreas de mejora individual.",
+        "d": "Todas las anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 10,
+      "pregunta": "En los indicadores de capital relacional, ¿qué indicadores miden el grado de retención o mantenimiento de las relaciones con los clientes actuales?",
+      "opciones": {
+        "a": "La retención de clientes.",
+        "b": "La cuota de mercado.",
+        "c": "La cotización en bolsa.",
+        "d": "El incremento de facturaciones."
+      },
+      "respuesta_correcta": "a"
+    }
+  ]
+}

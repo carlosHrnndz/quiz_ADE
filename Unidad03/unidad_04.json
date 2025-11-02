@@ -1,0 +1,115 @@
+{
+  "unidad": 4,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Qué requisitos debe reunir el calificativo “estratégico”?",
+      "opciones": {
+        "a": "Sus objetivos están orientados a corto plazo, afectan a las políticas sociales e implica necesariamente la participación del elemento humano.",
+        "b": "No implican necesariamente la participación de un elemento humano y sus objetivos son a corto plazo.",
+        "c": "Requieren de la experiencia del cuadro directivo y no requiere creatividad pero sí previsiones.",
+        "d": "Sus objetivos están orientados a largo plazo, afectan a la cultura y gestión del negocio, requieren una visión y análisis de las influencias exteriores, requieren creatividad, además de previsiones, entre otros."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 2,
+      "pregunta": "Mediante la planificación de los recursos humanos las organizaciones intentan...",
+      "opciones": {
+        "a": "Crear empleo.",
+        "b": "Anticiparse a sus necesidades futuras de recursos humanos, tanto en términos cuantitativos como cualitativos.",
+        "c": "Realizar tareas de búsqueda de personal en el momento en el cual se generen bajas en la empresa.",
+        "d": "Ninguna de las anteriores es correcta."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿En qué consiste la coordinación interna?",
+      "opciones": {
+        "a": "Equilibrar el impacto del coste del personal en la cuenta de resultados de la compañía, dotando a la organización de los efectivos idóneos para el logro de sus objetivos.",
+        "b": "Determina el precio de venta y, por tanto, la situación competitiva de una empresa en el sector.",
+        "c": "Busca la congruencia de las acciones desarrolladas por el departamento de Recursos Humanos con los planes de las restantes unidades operativas.",
+        "d": "Incide positivamente sobre el desempeño de los puestos de trabajo, agrupándolos en hileras profesionales, nutriéndolos de los perfiles profesionales idóneos y evitando las situaciones prolongadas de vacantes."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 4,
+      "pregunta": "El proceso de planificación estratégica tiene tres elementos cuáles son?",
+      "opciones": {
+        "a": "Planificación operativos, análisis interno y análisis externo.",
+        "b": "Definir la misión, análisis interno y análisis externo.",
+        "c": "Planificación operativos, objetivos y metas y análisis externo.",
+        "d": "Elaboración de provisiones, ratificación de provisiones proyectales y definir misión."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Cuáles son los objetivos del mapa estratégico?",
+      "opciones": {
+        "a": "Objetivos financieros y objetivos de clientes.",
+        "b": "Objetivos de procesos y objetivos monetarios.",
+        "c": "Objetivos financieros, objetivos de clientes, objetivos de procesos y objetivos de personas.",
+        "d": "Objetivos de clientes y objetivos de procesos."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 6,
+      "pregunta": "La responsabilidad social hace referencia en relación a los empleados de la empresa a…",
+      "opciones": {
+        "a": "Las contribuciones a la mejora social, educación o desarrollo en general de la comunidad.",
+        "b": "Al conocimiento y experiencia.",
+        "c": "Que la empresa le gustaría estar más cerca del empleado.",
+        "d": "La estabilidad del puesto de trabajo, seguridad física y psicológica, problemas y ayudas especiales, etc."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿De qué fuentes pueden provenir los puntos fuertes y débiles internos de la empresa?",
+      "opciones": {
+        "a": "De fuentes económico-financiera, procesos y personas.",
+        "b": "De fuentes directivas, procesos y personas.",
+        "c": "De fuentes económicas, financieras y de procesos.",
+        "d": "Ninguna de las anteriores."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿Cuáles son los principios por los que tenemos que regirnos a la hora de elaborar una estrategia?",
+      "opciones": {
+        "a": "Conocimiento, experiencia, riesgo, tamaño y resultado y beneficios/resultados.",
+        "b": "Conocimiento y experiencia.",
+        "c": "Riesgo, tamaño, proporcionalidad y experiencia.",
+        "d": "Proporcionalidad, conocimiento y experiencia."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 9,
+      "pregunta": "Tras la elaboración de la misión esta se publica por primera vez para…",
+      "opciones": {
+        "a": "Exponer todo lo hecho hasta el momento.",
+        "b": "Entregarla a las personas interesadas.",
+        "c": "Entregarla a las personas clave como documento abierto, de manera que ellas puedan enriquecerla con modificaciones, matices, etc., hasta que quede definida del todo.",
+        "d": "Ninguna de las anteriores es correcta."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Cuál es el séptimo y último paso una vez definida la misión de recursos humano?",
+      "opciones": {
+        "a": "Elaboración de la publicidad.",
+        "b": "Principios.",
+        "c": "Fortalezas y debilidades de la misión.",
+        "d": "Establecimiento de objetivos."
+      },
+      "respuesta_correcta": "d"
+    }
+  ]
+}

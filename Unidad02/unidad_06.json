@@ -1,0 +1,115 @@
+{
+  "unidad": 6,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿De qué se ocupa el diseño organizativo?",
+      "opciones": {
+        "a": "De la concepción y cambio de la estructura de una organización.",
+        "b": "De distribuir los distintos puestos de trabajo.",
+        "c": "De repartir las tareas.",
+        "d": "Todas las anteriores son falsas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "pregunta": "Mencione una de las etapas del proceso de dirección:",
+      "opciones": {
+        "a": "Tener presente y contentos a todos los empleados.",
+        "b": "La organización de la actividad de la empresa.",
+        "c": "La etapa de maduración.",
+        "d": "Planificar la estrategia, y tener presente en todo momento a nuestro máximo competidor, para poder así aprender de sus errores y dirigir en función de las etapas previstas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Cuáles son los principales objetivos de una organización?",
+      "opciones": {
+        "a": "Establecer líneas de autoridad y responsabilidad.",
+        "b": "Establecer procedimientos para alcanzar los objetivos de la organización.",
+        "c": "Suministrar una estructura organizativa que permita definir las funciones de los puestos de trabajo, describirlos y determinar las relaciones entre ellos.",
+        "d": "Todas las anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 4,
+      "pregunta": "Relacione los niveles de alta dirección:",
+      "opciones": {
+        "a": "Desarrollo de programas.",
+        "b": "Ejecución.",
+        "c": "Ejecución y control de la planificación.",
+        "d": "Funciones estratégicas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Cuál de las siguientes es un principio de diseño organizativo?",
+      "opciones": {
+        "a": "El vertical.",
+        "b": "El horizontal.",
+        "c": "De equilibrio interno.",
+        "d": "Todas las anteriores."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Qué es un organigrama?",
+      "opciones": {
+        "a": "Una descripción total de la organización.",
+        "b": "Un conjunto de elementos iguales.",
+        "c": "Es una representación en la cual podemos apreciar que en una empresa no existen posiciones de autoridad sino que existen líderes.",
+        "d": "Define la estructura organizativa de la parte directiva de la empresa."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 7,
+      "pregunta": "El modelo lineal…",
+      "opciones": {
+        "a": "Se caracteriza por una existencia de una única línea directa de autoridad que va desde el más alto hasta el más bajo nivel de jerarquía.",
+        "b": "Se caracteriza por la existencia de especialistas.",
+        "c": "Se refuerza mediante staffs, u órganos consultivos, guiados por el principio de especialización.",
+        "d": "Es la que resulta de la agrupación de tareas o puestos de trabajo en unidades u órganos de encuadramiento."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 8,
+      "pregunta": "Indica la descripción del organigrama divisional por productos:",
+      "opciones": {
+        "a": "Pone el énfasis en los productos de la empresa.",
+        "b": "Es frecuente en departamentos de marketing.",
+        "c": "Pone el énfasis en las distintas áreas geográficas en las que la empresa actúa.",
+        "d": "Modelo complejo, propio de grandes empresas donde la dirección, como coordinación, es un aspecto básico."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Qué ventaja tiene el modelo matricial?",
+      "opciones": {
+        "a": "Propenso a crear confusión si no se equilibran bien los objetivos y el peso de cada dimensión.",
+        "b": "Crea un clima de autosuperación individual al ser poco flexible.",
+        "c": "Luchar de poder entre directivos.",
+        "d": "Es flexible."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 10,
+      "pregunta": "El establecimiento del tipo de estructura, depende de diversos condicionantes. ¿Cuál de los siguientes es de carácter interno?",
+      "opciones": {
+        "a": "La dimensión de la empresa.",
+        "b": "El deseo de asegurar la disciplina o de conseguir agilidad y flexibilidad en el ambiente.",
+        "c": "La tecnología: o la complejidad de sus procesos.",
+        "d": "La estrategia de la empresa."
+      },
+      "respuesta_correcta": "b"
+    }
+  ]
+}

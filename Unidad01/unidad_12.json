@@ -1,0 +1,122 @@
+[
+  {
+    "unidad": 12,
+    "numero": 1,
+    "pregunta": "¿Qué fue la Segunda Revolución Industrial?",
+    "opciones": {
+      "a": "Una nueva etapa de avances técnicos y económicos en el siglo XIX.",
+      "b": "La expansión del feudalismo en Europa.",
+      "c": "La revolución agrícola en Inglaterra.",
+      "d": "Un movimiento cultural en Francia."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 12,
+    "numero": 2,
+    "pregunta": "¿Qué nuevas fuentes de energía impulsaron la Segunda Revolución Industrial?",
+    "opciones": {
+      "a": "La madera y el viento.",
+      "b": "La electricidad y el petróleo.",
+      "c": "El carbón y el agua.",
+      "d": "La energía solar."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 12,
+    "numero": 3,
+    "pregunta": "¿Qué sector industrial experimentó un gran desarrollo en esta etapa?",
+    "opciones": {
+      "a": "La industria textil.",
+      "b": "La industria siderúrgica, química y eléctrica.",
+      "c": "La agricultura.",
+      "d": "La artesanía."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 12,
+    "numero": 4,
+    "pregunta": "¿Qué invento revolucionó el transporte en la Segunda Revolución Industrial?",
+    "opciones": {
+      "a": "El tren de vapor.",
+      "b": "El automóvil con motor de combustión interna.",
+      "c": "El barco de vela.",
+      "d": "La diligencia."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 12,
+    "numero": 5,
+    "pregunta": "¿Qué invento permitió las primeras comunicaciones a distancia por voz?",
+    "opciones": {
+      "a": "El telégrafo.",
+      "b": "El teléfono.",
+      "c": "La radio.",
+      "d": "El correo postal."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 12,
+    "numero": 6,
+    "pregunta": "¿Qué científico formuló la teoría de la evolución a mediados del siglo XIX?",
+    "opciones": {
+      "a": "Isaac Newton.",
+      "b": "Charles Darwin.",
+      "c": "Albert Einstein.",
+      "d": "Louis Pasteur."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 12,
+    "numero": 7,
+    "pregunta": "¿Qué movimiento obrero surgió con fuerza en la Segunda Revolución Industrial?",
+    "opciones": {
+      "a": "El socialismo y el anarquismo.",
+      "b": "El liberalismo.",
+      "c": "El conservadurismo.",
+      "d": "El nacionalismo."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 12,
+    "numero": 8,
+    "pregunta": "¿Qué mejoras se introdujeron en la producción industrial?",
+    "opciones": {
+      "a": "El sistema de fábricas y el trabajo artesanal.",
+      "b": "La cadena de montaje y la producción en serie.",
+      "c": "El trueque y el autoconsumo.",
+      "d": "La abolición de la moneda."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 12,
+    "numero": 9,
+    "pregunta": "¿Qué gran invento transformó la iluminación de las ciudades?",
+    "opciones": {
+      "a": "La lámpara de gas.",
+      "b": "La bombilla eléctrica.",
+      "c": "Las velas de parafina.",
+      "d": "La lámpara de petróleo."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 12,
+    "numero": 10,
+    "pregunta": "¿Qué consecuencias sociales tuvo la Segunda Revolución Industrial?",
+    "opciones": {
+      "a": "El crecimiento de las ciudades y de la clase obrera.",
+      "b": "La desaparición de la burguesía.",
+      "c": "La vuelta al campo de la mayoría de la población.",
+      "d": "La reducción del comercio internacional."
+    },
+    "respuesta_correcta": "a"
+  }
+]

@@ -1,0 +1,115 @@
+{
+  "unidad": 2,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Qué tipos de fuerzas generan un cambio organizacional?",
+      "opciones": {
+        "a": "Las fuerzas internas y las fuerzas externas.",
+        "b": "Las fuerzas internas tales como la variación de los objetivos de la organización, de las políticas administrativas, de las tecnologías y de las actitudes de los empleados.",
+        "c": "Las fuerzas externas que van desde los descubrimientos tecnológicos hasta cambiantes estilos de vida.",
+        "d": "Ninguna de las anteriores es correcta."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "pregunta": "El proceso proactivo es una forma de tratar el cambio que busca…",
+      "opciones": {
+        "a": "Anticiparse a los cambios en el ambiente interno.",
+        "b": "Mantener a la organización en un curso fijo, solucionando los problemas a medida que se presentan.",
+        "c": "Anticiparse a los cambios en el ambiente externo e interno, y trata de las formas de enfrentarse con estas nuevas condiciones pronosticadas.",
+        "d": "Mejorar el comportamiento de los empleados."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Cuáles son las reacciones al cambio más frecuentes?",
+      "opciones": {
+        "a": "Negar que el cambio está teniendo lugar en el entorno.",
+        "b": "Resistirse al cambio.",
+        "c": "Aceptar el cambio y adaptarse a él y anticiparse al cambio y planificarlo.",
+        "d": "Todas las anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 4,
+      "pregunta": "La cultura organizacional o cultura de empresa se refiere a…",
+      "opciones": {
+        "a": "Los cambios acontecidos dentro de una organización.",
+        "b": "Un sistema de significados compartidos, una percepción común, mantenida entre los miembros de una organización, y que la distingue de otras.",
+        "c": "Mejorar el comportamiento del empleado, lo que conduce a una mayor efectividad organizacional.",
+        "d": "No promover cambios e introducir nuevas ideas o métodos a la gestión empresarial."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 5,
+      "pregunta": "Consideraciones que deben tenerse en cuenta para realizar el análisis de la cultura de la empresa:",
+      "opciones": {
+        "a": "Cualquier cultura bien gestionada puede ser eficaz.",
+        "b": "La combinación de culturas a veces dificulta detectar cuál es la dominante.",
+        "c": "Todas las culturas tienen aspectos positivos y negativos, cualquier cultura bien gestionada puede ser eficaz.",
+        "d": "El factor limitante de la cultura de empresa es su inadecuada aplicación y su indefinición."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 6,
+      "pregunta": "Los rituales son…",
+      "opciones": {
+        "a": "Las actividades sistemáticas y programadas que se realizan en la empresa para señalar ciertos momentos clave.",
+        "b": "Una red de comunicaciones que difundan las creencias y los valores.",
+        "c": "Los modelos de comportamiento y personifican las creencias y valores.",
+        "d": "Historias, anécdotas o 'fábulas'."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Qué tres niveles de cultura se pueden distinguir?",
+      "opciones": {
+        "a": "Historia, tradición y cultura.",
+        "b": "Los códigos físico-visuales, los valores compartidos y la forma de pensar.",
+        "c": "Capacidad de cambio, innovación y códigos físico-visuales.",
+        "d": "Los valores compartidos, historia y tradición."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 8,
+      "pregunta": "La cultura por objetivos se basa en…",
+      "opciones": {
+        "a": "Una derivación de la cultura por objetivos y tiene como objetivo conseguir la motivación y, por tanto, la felicidad de las personas que forman la empresa.",
+        "b": "Empresas en las que el poder de decisión se encuentra muy concentrado.",
+        "c": "Que el éxito de esta cultura es el estilo de dirección y la forma en que el mando percibe a sus subordinados.",
+        "d": "Participar de la competitividad y del éxito para conseguir los objetivos a costa de otros elementos."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 9,
+      "pregunta": "Los elementos de la gestión de la cultura de la empresa son:",
+      "opciones": {
+        "a": "Estructura/autoridad y motivación, control de gestión.",
+        "b": "Motivación, formulación de estrategias y cultura autoritaria.",
+        "c": "Cultura por objetivos, control de gestión y gestión de conflictos.",
+        "d": "Formulación de estrategias, estructura/autoridad, motivación, control de gestión, gestión de conflictos y gestión de clientes."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 10,
+      "pregunta": "La gestión de clientes es el signo externo más claro de la cultura de empresa. La organización debe pensar en…",
+      "opciones": {
+        "a": "Permanentemente en su cliente, lo debe redefinir y lo debe etiquetar de manera que lo individualice.",
+        "b": "Definir el conflicto, determinar el modo de gestionarlo y solucionarlo, forma parte de la gestión integral de la cultura organizativa.",
+        "c": "Reforzar la autoridad, pero en las organizaciones pequeñas es la autoridad la que refuerza la estructura.",
+        "d": "Motivar si no existe una cultura previa."
+      },
+      "respuesta_correcta": "a"
+    }
+  ]
+}

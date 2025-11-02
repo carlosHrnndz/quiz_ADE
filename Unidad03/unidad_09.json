@@ -1,0 +1,115 @@
+{
+  "unidad": 9,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Qué es el alineamiento estratégico de la función de la compensación?",
+      "opciones": {
+        "a": "Es retribuir según el impacto de cada puesto en los resultados del negocio.",
+        "b": "Son las remuneraciones y beneficios un medio privilegiado para asociar directamente las metas y valores de una organización con la motivación y el desempeño de los trabajadores.",
+        "c": "Es el nivel de remuneración que satisface varios objetivos.",
+        "d": "Es el núcleo básico de cualquier sistema organizacional que constituye la relación existente entre la persona y la organización."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "De las funciones de compensación, la equidad interna busca…",
+      "opciones": {
+        "a": "Permitir la contratación y retención del personal que la organización requiera.",
+        "b": "Garantizar que el desempeño de las personas se oriente a lo que la empresa espera de ellas.",
+        "c": "Valorar los puestos de trabajo con la mayor objetividad, en función de las responsabilidades de cada puesto, y el efecto de éstas sobre las metas organizacionales.",
+        "d": "Establecer en qué nivel de remuneración se deben posicionar."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 3,
+      "pregunta": "De las funciones de compensación, el desempeño de las personas se concibe como…",
+      "opciones": {
+        "a": "El núcleo básico de cualquier sistema organizacional que constituye la relación existente entre la persona y la organización.",
+        "b": "La actitud que la persona muestra hacia el trabajo.",
+        "c": "Las personas que valoran sus puestos de trabajo y como realizan tales trabajos con la mayor responsabilidad y eficiencia posibles.",
+        "d": "El activo más relevante que debe administrar la empresa, y debe establecer los reconocimientos y correcciones contingentes ante las desviaciones respecto del desempeño esperado."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Qué objetivos de la política retributiva destacan?",
+      "opciones": {
+        "a": "Establecer un sistema retributivo muy alto para los trabajadores sin controlar el coste salarial.",
+        "b": "Controlar el coste salarial, establecer un sistema justo y establecer un sistema que permita motivar a los trabajadores.",
+        "c": "Establecer que todos los trabajadores se les va a retribuir de igual manera con independencia de su preparación y conocimientos.",
+        "d": "Controlar el exceso del salario mediante bajadas de sueldo progresivas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 5,
+      "pregunta": "En los principios de la política retributiva existe el principio de individualización que consiste en que…",
+      "opciones": {
+        "a": "Dentro de un mismo grupo o categoría profesional no deben existir grandes diferencias entre sus miembros.",
+        "b": "La retribución es privada de cada individuo y solo él debe conocer las características de esta.",
+        "c": "La retribución debe dar un papel destacado a los resultados alcanzados por cada individuo o a su comportamiento, lo cual debe reflejarse en la política salarial.",
+        "d": "Debe ser fácil de entender para todos los componentes de la empresa, al efecto de evitar malos entendidos o desconfianzas."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 6,
+      "pregunta": "En los factores externos de los condicionantes de la política retributiva se incluyen los sindicatos que pueden…",
+      "opciones": {
+        "a": "Limitar la capacidad de decisión de la Dirección a través de la negociación colectiva.",
+        "b": "Incidir sobre elementos que influyen en el cálculo de la retribución de los trabajadores.",
+        "c": "Establecer el salario mínimo interprofesional e intervenir en las negociaciones del sector público.",
+        "d": "Influir al conjunto de la economía."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 7,
+      "pregunta": "Para la implantación de la política de retribución en la empresa es necesario cubrir la etapa de análisis y valoración de los puestos de trabajo que implica…",
+      "opciones": {
+        "a": "Todos los puestos de trabajo se han de jerarquizar en conjuntos que no superen los 10 ó 15 niveles.",
+        "b": "Todos los factores que pueden afectar al diseño de la política retributiva.",
+        "c": "La política de retribución en la empresa.",
+        "d": "Un inventario de las características de los puestos de trabajo."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 8,
+      "pregunta": "En la implantación de la política retributiva existe la fase del sistema de retribución donde se determina el sistema retributivo que se va a aplicar y existen varias posibilidades que son:",
+      "opciones": {
+        "a": "Retribución basada en el puesto y retribución basada en competencias.",
+        "b": "Retribución basada en las capacidades y retribución basada por los conocimientos.",
+        "c": "Retribución basada en el esfuerzo y retribución basada en los logros.",
+        "d": "Retribución basada en la jornada laboral y retribución basada en los conocimientos."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 9,
+      "pregunta": "En la fase de análisis de la competencia de las retribuciones se estudia el impacto de las retribuciones varios aspectos:",
+      "opciones": {
+        "a": "Términos de política retributiva y desempeño profesional.",
+        "b": "Establecimiento de las “bandas salariales”.",
+        "c": "Satisfacción de expectativas salariales, desempeño profesional, rotación no deseada y absentismo.",
+        "d": "Absentismo, términos de política retributiva y establecimiento de “bandas salariales”."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 10,
+      "pregunta": "La individualización de la retribución comporta unos riesgos y uno de ellos es la destrucción del espíritu de equipo que puede provocar…",
+      "opciones": {
+        "a": "La competencia entre las personas y las rivalidades entre compañeros.",
+        "b": "Que el trabajo en equipo se diluya, en beneficio del trabajo individualizado para la consecución de las metas personales.",
+        "c": "Falta de compañerismo.",
+        "d": "Rencillas y un mayor grado de competitividad que desemboque en mucha tensión en el lugar de trabajo."
+      },
+      "respuesta_correcta": "b"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "unidad": 19,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿En qué país las empresas invierten más de 140.000 millones de dólares al año en la venta personal?",
+      "opciones": {
+        "a": "Alemania.",
+        "b": "España.",
+        "c": "América.",
+        "d": "China."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Cómo podemos considerar las fuerzas de ventas?",
+      "opciones": {
+        "a": "Un servicio que debe realizar el equipo directivo.",
+        "b": "Elemento dentro de la variable de promoción o comunicación del mix comercial.",
+        "c": "Algo innecesario para una empresa.",
+        "d": "Ninguna de las respuestas anteriores es correcta."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 3,
+      "pregunta": "La importancia de la venta personal…",
+      "opciones": {
+        "a": "Es siempre la misma.",
+        "b": "Varía en cada caso en función de la naturaleza de la actividad de la empresa.",
+        "c": "Dependerá del carácter de cada vendedor.",
+        "d": "Determinará los costes unitarios."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Qué habilidades se consideran necesarias en el proceso de venta?",
+      "opciones": {
+        "a": "Hablar mucho y no dejar que el vendedor hable.",
+        "b": "Conocer cómo hacer aflorar los problemas y necesidades de los clientes.",
+        "c": "Tener capacidad de realizar operaciones matemáticas con rapidez.",
+        "d": "Ser ordenado."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Con qué método podemos afrontar la venta personal?",
+      "opciones": {
+        "a": "Venta por pronto pago.",
+        "b": "Venta producto-imagen-producto.",
+        "c": "Estímulo – respuesta frente a la satisfacción de las necesidades.",
+        "d": "Venta negativa."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Qué es el cierre de la venta?",
+      "opciones": {
+        "a": "Es la parte más sencilla de la venta ya que ya en esta fase el cliente ya está decidido a realizar la compra.",
+        "b": "No es importante.",
+        "c": "Para algunos vendedores la parte más difícil de la venta es su cierre o pedir la realización del pedido.",
+        "d": "Determinar el coste del producto."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Qué técnicas pueden ayudar al cierre?",
+      "opciones": {
+        "a": "Ofrecer un incentivo especial para los pedido que se realicen de forma inmediata.",
+        "b": "Sugerir posibles limitaciones respecto a la disponibilidad del producto.",
+        "c": "El precio ofrecido si no se cierra la operación.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿Es importante la formación del equipo de venta?",
+      "opciones": {
+        "a": "No lo es.",
+        "b": "Sí que es importante, pero no es necesario que lo realicen las empresas ya que supone un coste muy elevado.",
+        "c": "Es muy importante, a largo plazo la empresa verá que el esfuerzo que ha realizado para formar a los trabajadores se traduce en una mejora del servicio post venta.",
+        "d": "Es importante, pero la empresa puede prescindir, lo mejor es que haga una buena selección de personal."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Qué esperan los clientes actuales de los vendedores?",
+      "opciones": {
+        "a": "Que los vendedores tengan un profundo conocimiento del producto para poder aportar ideas que contribuyan a mejorar su negocio.",
+        "b": "Nada.",
+        "c": "Que no les molesten cuando están indecisos.",
+        "d": "Es muy importante que todos los vendedores sepan inglés."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Qué es necesario para que un trabajador sea un buen vendedor?",
+      "opciones": {
+        "a": "Conocer e identificarse con la empresa.",
+        "b": "Conocer los productos.",
+        "c": "Conocer las características de los clientes y de los competidores.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    }
+  ]
+}

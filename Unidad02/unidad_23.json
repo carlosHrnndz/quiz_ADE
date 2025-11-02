@@ -1,0 +1,115 @@
+{
+  "unidad": 23,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Qué objetivo tiene el canal de distribución?",
+      "opciones": {
+        "a": "Poner el producto a disposición del consumidor final o del comprador industrial, en la cantidad demandada, en el momento que lo necesite y en el lugar donde desee adquirirlo.",
+        "b": "Vender el producto por debajo del precio de la competencia.",
+        "c": "Ofrecer un servicio post-venta.",
+        "d": "Determinar el público al que la empresa debe dirigirse."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Qué funciones realizan los intermediarios que forman parte del canal de distribución?",
+      "opciones": {
+        "a": "Creación de surtido.",
+        "b": "Prestación de servicios y desarrollo de actividades comerciales.",
+        "c": "Movimiento físico del producto.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Qué sabes de los minoristas o detallistas?",
+      "opciones": {
+        "a": "Se suelen especializar en determinados productos.",
+        "b": "Son negocios independientes que operan con una marca concreta de producto.",
+        "c": "Operan puntos de venta que están en contacto directo con el consumidor. Pueden clasificarse según el tipo de productos que venden.",
+        "d": "Almacenan diversos productos de distintos fabricantes."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Qué son los mayoristas?",
+      "opciones": {
+        "a": "Los líderes del mercado.",
+        "b": "Los trabajadores que transportan el producto final.",
+        "c": "Son los que almacenan diversos productos de distintos fabricantes. Su función es la de vender a los minoristas.",
+        "d": "Son negocios independientes que operan con una marca concreta de producto."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Qué es una franquicia?",
+      "opciones": {
+        "a": "Es un negocio independiente que opera con una marca concreta de producto (habitualmente un servicio) a cambio del pago de una licencia de un porcentaje de las ventas.",
+        "b": "Muchas empresas juntas con un mismo objetivo.",
+        "c": "Es cuando una empresa tiene una marca paraguas.",
+        "d": "Es una situación que se da cuando las empresas tienen pérdidas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Qué son los agentes?",
+      "opciones": {
+        "a": "Los agentes son las personas que poseen más de un 5% de las acciones de la empresa.",
+        "b": "Los agentes venden productos de los fabricantes (o servicios) a cambio de una comisión (porcentaje de los ingresos por ventas).",
+        "c": "Es la competencia de la empresa.",
+        "d": "Los agentes compran productos de los proveedores."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Qué es el 'marketing directo'?",
+      "opciones": {
+        "a": "Es vender por debajo del precio de coste.",
+        "b": "Es vender en tiempo real.",
+        "c": "Cuando un fabricante vende un producto directamente al cliente final, sin intermediarios, se habla de marketing directo.",
+        "d": "Vender con la ayuda de dos intermediarios."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 8,
+      "pregunta": "Si un productor de productos de consumo, utilizando su propia fuerza de venta, lleva su producto al punto de venta, sin la intervención de intermediarios, ¿qué tipo de distribución emplea?",
+      "opciones": {
+        "a": "Marketing directo.",
+        "b": "Distribución mixta directa.",
+        "c": "Distribución directa.",
+        "d": "Distribución indirecta."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Es importante la elección entre una distribución directa o indirecta?",
+      "opciones": {
+        "a": "Es mejor utilizar siempre la distribución indirecta.",
+        "b": "Es clave en el diseño del canal de distribución y es un prototipo para las decisiones respecto al número de niveles.",
+        "c": "Es mejor utilizar siempre la distribución directa.",
+        "d": "No es importante."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Cuándo será mejor utilizar una distribución directa?",
+      "opciones": {
+        "a": "Cuando los clientes están próximos geográficamente.",
+        "b": "Es mejor utilizar siempre la distribución indirecta.",
+        "c": "Siempre que los clientes estén muy dispersos.",
+        "d": "Para los productos estandarizados, no tecnificados, susceptibles de ser almacenados."
+      },
+      "respuesta_correcta": "a"
+    }
+  ]
+}

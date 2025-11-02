@@ -1,0 +1,122 @@
+[
+  {
+    "unidad": 11,
+    "numero": 1,
+    "pregunta": "¿Qué fue la Primera Revolución Industrial?",
+    "opciones": {
+      "a": "Un proceso de transformación económica y social iniciado en Inglaterra en el siglo XVIII.",
+      "b": "Una revuelta política contra el absolutismo.",
+      "c": "Un movimiento cultural ligado al romanticismo.",
+      "d": "Una reforma religiosa."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 11,
+    "numero": 2,
+    "pregunta": "¿Qué invento revolucionó la industria textil en la Primera Revolución Industrial?",
+    "opciones": {
+      "a": "La lanzadera volante y la máquina de hilar.",
+      "b": "La locomotora de vapor.",
+      "c": "El telégrafo.",
+      "d": "El motor eléctrico."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 11,
+    "numero": 3,
+    "pregunta": "¿Qué fuente de energía impulsó la Primera Revolución Industrial?",
+    "opciones": {
+      "a": "La electricidad.",
+      "b": "El carbón y la máquina de vapor.",
+      "c": "El petróleo.",
+      "d": "La energía hidráulica."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 11,
+    "numero": 4,
+    "pregunta": "¿Qué sector económico fue el motor de la Revolución Industrial en sus inicios?",
+    "opciones": {
+      "a": "La agricultura.",
+      "b": "La industria textil.",
+      "c": "La industria química.",
+      "d": "La banca."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 11,
+    "numero": 5,
+    "pregunta": "¿Qué medio de transporte se expandió con la Revolución Industrial?",
+    "opciones": {
+      "a": "El automóvil.",
+      "b": "El ferrocarril.",
+      "c": "El avión.",
+      "d": "El barco a motor de petróleo."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 11,
+    "numero": 6,
+    "pregunta": "¿Qué cambios sociales provocó la Revolución Industrial?",
+    "opciones": {
+      "a": "El auge de la burguesía y la aparición del proletariado.",
+      "b": "El fortalecimiento del absolutismo.",
+      "c": "La desaparición de la nobleza.",
+      "d": "El regreso a una economía agrícola."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 11,
+    "numero": 7,
+    "pregunta": "¿Qué nuevas teorías económicas surgieron en la Revolución Industrial?",
+    "opciones": {
+      "a": "El liberalismo económico de Adam Smith.",
+      "b": "El mercantilismo.",
+      "c": "El keynesianismo.",
+      "d": "El feudalismo."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 11,
+    "numero": 8,
+    "pregunta": "¿Qué ideología surgió como respuesta a las condiciones de los trabajadores?",
+    "opciones": {
+      "a": "El socialismo.",
+      "b": "El liberalismo.",
+      "c": "El conservadurismo.",
+      "d": "El imperialismo."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 11,
+    "numero": 9,
+    "pregunta": "¿Qué invento permitió grandes avances en la comunicación durante la Revolución Industrial?",
+    "opciones": {
+      "a": "La imprenta de tipos móviles.",
+      "b": "El telégrafo.",
+      "c": "El teléfono móvil.",
+      "d": "La radio."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 11,
+    "numero": 10,
+    "pregunta": "¿Qué consecuencia tuvo la Revolución Industrial sobre las ciudades?",
+    "opciones": {
+      "a": "Un proceso de urbanización acelerado.",
+      "b": "El abandono de las ciudades.",
+      "c": "La ruralización de la población.",
+      "d": "La construcción de murallas medievales."
+    },
+    "respuesta_correcta": "a"
+  }
+]

@@ -1,0 +1,115 @@
+{
+  "unidad": 14,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Qué siglas determinan el hecho de empezar una actividad determinada lo más pronto posible?",
+      "opciones": {
+        "a": "ET.",
+        "b": "ES, Earliest Start Time.",
+        "c": "PI = Pronto Inicio.",
+        "d": "PMI."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Qué siglas determinan el tiempo de terminación más temprano?",
+      "opciones": {
+        "a": "TT = Terminación temprana.",
+        "b": "EF, Earliest Finish Time.",
+        "c": "ES, Earliest Start Time.",
+        "d": "TT = Tiempo temprano."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 3,
+      "pregunta": "El tiempo de terminación más tardío se determina por las siglas...",
+      "opciones": {
+        "a": "LF.",
+        "b": "LS.",
+        "c": "LM.",
+        "d": "LN."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Qué es el tiempo de inicio más tardío?",
+      "opciones": {
+        "a": "Es la fecha más tardía en que se puede iniciar una actividad en particular para que todo el proyecto se complete en su fecha de terminación exigida.",
+        "b": "Es lo más tarde que se puede completar una actividad determinada para que todo el proyecto se concluya en la fecha acordada.",
+        "c": "Se calcula sobre la base del momento de terminación establecido para el proyecto y la duración estimada para las actividades sucesivas.",
+        "d": "LF."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Qué significa el tiempo de terminación más tardío?",
+      "opciones": {
+        "a": "Es la fecha más tardía en que se puede iniciar una actividad en particular para que todo el proyecto se complete en su fecha de terminación exigida.",
+        "b": "LS.",
+        "c": "Es lo más tarde que se puede completar una actividad determinada para que todo el proyecto se concluya en la fecha acordada.",
+        "d": "LN."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 6,
+      "pregunta": "El tiempo de terminación más tardío para una actividad determinada…",
+      "opciones": {
+        "a": "Es el mayor tiempo que podemos obtener de inicio.",
+        "b": "Es el menor (el más precoz) de los tiempos de inicio más tardíos de todas las actividades que directamente suceden a dicha actividad.",
+        "c": "Los tiempos de inicio.",
+        "d": "Ninguna de las anteriores es correcta."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 7,
+      "pregunta": "Marque la respuesta correcta:",
+      "opciones": {
+        "a": "Los tiempos de inicio y terminación siempre se indicarán en el propio diagrama de red.",
+        "b": "Los tiempos de inicio y terminación de pueden mostrar en una tabla separada con el detalle del programa.",
+        "c": "El diagrama de red es poco utilizado para empresas que tienen menos de 50 trabajadores.",
+        "d": "El diagrama de red es muy utilizado, en las empresas que tienen menos de 50 trabajadores."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿Cuál es la diferencia entre la fecha de inicio más temprana calculada para una actividad y la fecha de terminación requerida?",
+      "opciones": {
+        "a": "Es el diagrama de red.",
+        "b": "Es el diagrama de red (HT).",
+        "c": "Es la holgura total (HT).",
+        "d": "No hay diferencias."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Qué significa que 'la holgura total es positiva'?",
+      "opciones": {
+        "a": "Esto representa la cantidad de tiempo que hay que adelantar las actividades de una ruta en particular con el fin de completar el proyecto en el tiempo de terminación requerido.",
+        "b": "Significa que no es necesario que se apresuren las actividades en la ruta, pero tampoco se pueden retrasar.",
+        "c": "Es el tiempo mínimo que se pueden demorar las tareas.",
+        "d": "Esto representa la cantidad máxima de tiempo que se pueden demorar las actividades de una ruta en particular sin arriesgar que el proyecto se acabe en el momento exigido."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Qué es la holgura libre?",
+      "opciones": {
+        "a": "Ésta es la cantidad de tiempo que se puede demorar o retrasar una actividad determinada, sin llegar a afectar el tiempo de inicio más temprano de las actividades que inmediatamente la suceden.",
+        "b": "Es el trayecto más largo en el diagrama de red global.",
+        "c": "La holgura libre, para una ruta de actividades determinada es común y compartida entre todas las tareas de esa ruta.",
+        "d": "Es lo más tarde que se puede completar una actividad determinada para que todo el proyecto se concluya en la fecha acordada."
+      },
+      "respuesta_correcta": "a"
+    }
+  ]
+}

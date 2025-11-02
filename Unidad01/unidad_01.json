@@ -1,0 +1,122 @@
+[
+  {
+    "unidad": 1,
+    "numero": 1,
+    "pregunta": "Las pinturas rupestres del norte de España y sudoeste de Francia indican…",
+    "opciones": {
+      "a": "Desarrollo artístico, económico y religioso.",
+      "b": "Desarrollo artístico y religioso.",
+      "c": "Desarrollo artístico.",
+      "d": "Desarrollo religioso y económico."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 1,
+    "numero": 2,
+    "pregunta": "Si la piel arropó al hombre del Paleolítico, su primer sustituto en el Neolítico fue…",
+    "opciones": {
+      "a": "Se siguió arropando sólo con piel.",
+      "b": "El tejido de lana.",
+      "c": "El tejido de lino.",
+      "d": "El tejido de mimbre."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 1,
+    "numero": 3,
+    "pregunta": "La escritura nació en Sumeria antes del 3.000 a.C.",
+    "opciones": {
+      "a": "Como una necesidad económica.",
+      "b": "Para llevar registros administrativos sobre la recaudación de impuestos o tributos.",
+      "c": "Para llevar los registros de los usos de los tributos.",
+      "d": "Todas las respuestas son correctas."
+    },
+    "respuesta_correcta": "d"
+  },
+  {
+    "unidad": 1,
+    "numero": 4,
+    "pregunta": "En la Antigüedad, fueron los primeros en comerciar el famoso tinte púrpura, obtenido de un pequeño molusco…",
+    "opciones": {
+      "a": "Los sumerios.",
+      "b": "Los fenicios.",
+      "c": "Los griegos.",
+      "d": "Los egipcios."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 1,
+    "numero": 5,
+    "pregunta": "¿Qué era el electro en la antigua Grecia?",
+    "opciones": {
+      "a": "Es una moneda de plata que circuló en Atenas durante el siglo V a.C.",
+      "b": "Es una moneda griega de bronce, que es una aleación de cobre y estaño.",
+      "c": "Es una aleación natural de oro y plata de los valles de aluvión de la Anatolia con la que en el Asia Menor se acuñaron las primeras monedas griegas en el siglo VII a.C.",
+      "d": "Es la primera moneda acuñada en Atenas con plata de las ricas minas de Laurión, en el siglo V a.C."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 1,
+    "numero": 6,
+    "pregunta": "Tras las guerras civiles que acabaron con la República de Roma, instituyó la pax romana…",
+    "opciones": {
+      "a": "Augusto.",
+      "b": "Octavio.",
+      "c": "Julio César.",
+      "d": "Marco Aurelio."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 1,
+    "numero": 7,
+    "pregunta": "¿Qué eran los collegia en la antigua Roma?",
+    "opciones": {
+      "a": "Institución de la Hacienda de Roma dedicada a la recaudación de impuestos.",
+      "b": "Institución equivalente a las actuales Escuelas de Oficios.",
+      "c": "Asociaciones creadas para la defensa de los productores de la misma actividad.",
+      "d": "Asociaciones creadas para la defensa del consumidor en los siglos I y II d.C."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 1,
+    "numero": 8,
+    "pregunta": "¿Qué era el aurum coronarium en el Imperio romano?",
+    "opciones": {
+      "a": "Un impuesto creado en el siglo III d.C. por la celebración de fiestas oficiales.",
+      "b": "Un impuesto creado en el siglo II d.C. para construcción de circos y anfiteatros.",
+      "c": "La moneda que introdujo la reforma monetaria de Caracalla en el año 215 d.C.",
+      "d": "Un impuesto establecido por los emperadores ilirios por la coronación del emperador."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 1,
+    "numero": 9,
+    "pregunta": "El edicto llamado Maximum fue promulgado por el emperador romano…",
+    "opciones": {
+      "a": "Augusto (27 a.C.-14 d.C.).",
+      "b": "Alejandro Severo (222-235 d.C.).",
+      "c": "Diocleciano (284-305 d.C.).",
+      "d": "Constantino (316-337 d.C.)."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 1,
+    "numero": 10,
+    "pregunta": "¿Qué eran las villas en el Imperio romano?",
+    "opciones": {
+      "a": "Pequeñas fincas situadas fuera de Roma.",
+      "b": "Grandes explotaciones agrarias y la base de la economía en el Bajo Imperio.",
+      "c": "Posadas establecidas para los viajeros en los caminos o itinera.",
+      "d": "Ninguna respuesta es correcta."
+    },
+    "respuesta_correcta": "b"
+  }
+]

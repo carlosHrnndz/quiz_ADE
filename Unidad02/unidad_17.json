@@ -1,0 +1,115 @@
+{
+  "unidad": 17,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "Las decisiones de precios se interrelacionan con otros elementos del mix comercial, ¿cuáles son?",
+      "opciones": {
+        "a": "Precio y producto.",
+        "b": "Precio y promoción.",
+        "c": "Precio y distribución.",
+        "d": "Todas las anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Qué objetivo persigue al descremar el mercado?",
+      "opciones": {
+        "a": "Cuando el precio se establece por debajo del nivel del precio de mercado con el objetivo de ganar cuota.",
+        "b": "Establecer un precio por encima del precio habitual de mercado.",
+        "c": "Esta reducción de precio no desencadena una respuesta de la competencia.",
+        "d": "La demanda es elástica, el resultado debería ser un crecimiento de la cuota de mercado."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Qué significa 'penetrar en el mercado'?",
+      "opciones": {
+        "a": "Este objetivo persigue establecer un precio por encima del precio habitual de mercado.",
+        "b": "Cuando el objetivo es mantener una estabilidad de precios se opta por fijar el precio según el precio establecido de mercado.",
+        "c": "Cuando el precio se establece por debajo del nivel del precio de mercado con el objetivo de ganar cuota.",
+        "d": "Es eficaz para productos muy diferenciados y considerados como de muy alta calidad."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 4,
+      "pregunta": "El mercado objetivo y su posicionamiento...",
+      "opciones": {
+        "a": "Un producto de gama alta siempre tendrá.",
+        "b": "Un producto cuya posición es aprovechar la ventaja competitiva de un precio bajo, debe tener un objetivo de precio por debajo del precio de mercado.",
+        "c": "El target group no es importante, lo importante es nuestro posicionamiento en el mercado.",
+        "d": "Todas las anteriores son correctas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿En qué situación es posible fijar el objetivo de precio por encima del precio de mercado?",
+      "opciones": {
+        "a": "Nunca, ya que es imposible que alguien compré un producto sabiendo que puede encontrarlo más barato.",
+        "b": "Cuando el producto es diferenciado y la curva de la demanda muestra cierta inelasticidad.",
+        "c": "Cuando la curva de la oferta es inelástica y su demanda elástica.",
+        "d": "Cuando la oferta es elástica."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿En qué se pueden agrupar los determinantes del precio?",
+      "opciones": {
+        "a": "Factores de coste y de oferta.",
+        "b": "Factores de oferta.",
+        "c": "Factores de la calidad.",
+        "d": "Factores de la demanda, del coste y del entorno."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 7,
+      "pregunta": "Para fijar los precios, los costes del producto ¿en qué se deben dividir?",
+      "opciones": {
+        "a": "Fijos.",
+        "b": "Totales.",
+        "c": "Variables.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 8,
+      "pregunta": "En la mayoría de mercados...",
+      "opciones": {
+        "a": "Hay un único precio al que todos los competidores se adhieren.",
+        "b": "Existe una banda de precios que oscila habitualmente un 10% a ambos lados.",
+        "c": "El precio es determinado por la media entre los costes y el precio del principal competidor.",
+        "d": "Los precios fluctúan diariamente."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 9,
+      "pregunta": "Habitualmente la elasticidad es...",
+      "opciones": {
+        "a": "Positiva.",
+        "b": "Negativa.",
+        "c": "Neutra.",
+        "d": "Inestable."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Qué pasos pueden existir en la metodología multidimensional?",
+      "opciones": {
+        "a": "Establecer un precio base.",
+        "b": "Investigar los efectos del cambio de precios.",
+        "c": "Realizar ajustes al precio base.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    }
+  ]
+}

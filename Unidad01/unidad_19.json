@@ -1,0 +1,122 @@
+[
+  {
+    "unidad": 19,
+    "numero": 1,
+    "pregunta": "¿Qué es la Unión Europea?",
+    "opciones": {
+      "a": "Una confederación militar de países europeos.",
+      "b": "Una organización política y económica formada por países europeos.",
+      "c": "Un acuerdo comercial entre Francia y Alemania.",
+      "d": "Un tratado de defensa entre países de la OTAN."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 19,
+    "numero": 2,
+    "pregunta": "¿Qué tratado fundó la Comunidad Económica Europea en 1957?",
+    "opciones": {
+      "a": "El Tratado de Roma.",
+      "b": "El Tratado de París.",
+      "c": "El Tratado de Maastricht.",
+      "d": "El Tratado de Lisboa."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 19,
+    "numero": 3,
+    "pregunta": "¿Qué tratado estableció formalmente la Unión Europea en 1992?",
+    "opciones": {
+      "a": "El Tratado de Roma.",
+      "b": "El Tratado de Maastricht.",
+      "c": "El Tratado de Lisboa.",
+      "d": "El Tratado de París."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 19,
+    "numero": 4,
+    "pregunta": "¿Cuál es la moneda común de gran parte de los países de la Unión Europea?",
+    "opciones": {
+      "a": "El dólar.",
+      "b": "La libra.",
+      "c": "El euro.",
+      "d": "El franco."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 19,
+    "numero": 5,
+    "pregunta": "¿Qué institución representa a los ciudadanos europeos en la UE?",
+    "opciones": {
+      "a": "El Parlamento Europeo.",
+      "b": "La Comisión Europea.",
+      "c": "El Consejo Europeo.",
+      "d": "El Banco Central Europeo."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 19,
+    "numero": 6,
+    "pregunta": "¿Qué institución de la UE propone leyes y supervisa su aplicación?",
+    "opciones": {
+      "a": "El Parlamento Europeo.",
+      "b": "El Consejo Europeo.",
+      "c": "La Comisión Europea.",
+      "d": "El Tribunal de Justicia."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 19,
+    "numero": 7,
+    "pregunta": "¿Qué institución de la UE coordina las políticas de los gobiernos nacionales?",
+    "opciones": {
+      "a": "El Parlamento Europeo.",
+      "b": "El Consejo de la Unión Europea.",
+      "c": "El Banco Central Europeo.",
+      "d": "La Comisión Europea."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 19,
+    "numero": 8,
+    "pregunta": "¿Dónde tiene su sede el Parlamento Europeo?",
+    "opciones": {
+      "a": "Bruselas y Estrasburgo.",
+      "b": "Roma.",
+      "c": "París.",
+      "d": "Madrid."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 19,
+    "numero": 9,
+    "pregunta": "¿Qué país decidió salir de la Unión Europea en 2016?",
+    "opciones": {
+      "a": "Francia.",
+      "b": "Italia.",
+      "c": "Reino Unido.",
+      "d": "Grecia."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 19,
+    "numero": 10,
+    "pregunta": "¿Qué política común de la UE busca garantizar el desarrollo equilibrado de sus regiones?",
+    "opciones": {
+      "a": "La política agrícola común.",
+      "b": "La política de cohesión.",
+      "c": "La política de defensa.",
+      "d": "La política exterior."
+    },
+    "respuesta_correcta": "b"
+  }
+]

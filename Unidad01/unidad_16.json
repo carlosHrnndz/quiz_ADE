@@ -1,0 +1,122 @@
+[
+  {
+    "unidad": 16,
+    "numero": 1,
+    "pregunta": "¿Entre qué años tuvo lugar la Segunda Guerra Mundial?",
+    "opciones": {
+      "a": "1914-1918.",
+      "b": "1939-1945.",
+      "c": "1929-1933.",
+      "d": "1945-1953."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 16,
+    "numero": 2,
+    "pregunta": "¿Qué países formaban parte del Eje?",
+    "opciones": {
+      "a": "Alemania, Italia y Japón.",
+      "b": "Francia, Reino Unido y EE.UU.",
+      "c": "URSS, China y Reino Unido.",
+      "d": "España, Portugal y Suiza."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 16,
+    "numero": 3,
+    "pregunta": "¿Qué fue la Blitzkrieg?",
+    "opciones": {
+      "a": "La guerra de desgaste en el frente oriental.",
+      "b": "La guerra relámpago, táctica militar alemana.",
+      "c": "El bombardeo aéreo de Londres.",
+      "d": "La ocupación naval del Mediterráneo."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 16,
+    "numero": 4,
+    "pregunta": "¿Qué acontecimiento motivó la entrada de EE.UU. en la guerra?",
+    "opciones": {
+      "a": "La invasión alemana de Polonia.",
+      "b": "El ataque japonés a Pearl Harbor (1941).",
+      "c": "El desembarco de Normandía.",
+      "d": "La firma del Pacto de Acero."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 16,
+    "numero": 5,
+    "pregunta": "¿Qué batalla fue la gran derrota alemana en la URSS en 1943?",
+    "opciones": {
+      "a": "La batalla de Stalingrado.",
+      "b": "La batalla de Kursk.",
+      "c": "La batalla de Leningrado.",
+      "d": "La batalla de Moscú."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 16,
+    "numero": 6,
+    "pregunta": "¿Qué fue el Holocausto?",
+    "opciones": {
+      "a": "La persecución y exterminio sistemático de judíos y otros grupos por los nazis.",
+      "b": "La destrucción de ciudades alemanas por los bombardeos aliados.",
+      "c": "El plan de ocupación económica de Alemania.",
+      "d": "El tratado de paz tras la guerra."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 16,
+    "numero": 7,
+    "pregunta": "¿Qué ocurrió el 6 de junio de 1944?",
+    "opciones": {
+      "a": "El ataque a Pearl Harbor.",
+      "b": "El desembarco de Normandía (Día D).",
+      "c": "La rendición de Alemania.",
+      "d": "La conferencia de Yalta."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 16,
+    "numero": 8,
+    "pregunta": "¿Qué ciudades japonesas fueron destruidas por bombas atómicas en 1945?",
+    "opciones": {
+      "a": "Tokio y Osaka.",
+      "b": "Hiroshima y Nagasaki.",
+      "c": "Kioto y Yokohama.",
+      "d": "Nara y Kobe."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 16,
+    "numero": 9,
+    "pregunta": "¿Qué conferencia sentó las bases de la ONU en 1945?",
+    "opciones": {
+      "a": "La Conferencia de Yalta.",
+      "b": "La Conferencia de San Francisco.",
+      "c": "La Conferencia de Potsdam.",
+      "d": "El Congreso de Viena."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 16,
+    "numero": 10,
+    "pregunta": "¿Qué día se firmó la rendición de Alemania en la Segunda Guerra Mundial?",
+    "opciones": {
+      "a": "8 de mayo de 1945.",
+      "b": "6 de junio de 1944.",
+      "c": "11 de noviembre de 1918.",
+      "d": "2 de septiembre de 1945."
+    },
+    "respuesta_correcta": "a"
+  }
+]

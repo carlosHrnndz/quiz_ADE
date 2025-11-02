@@ -1,0 +1,115 @@
+{
+  "unidad": 2,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "Cuando se analiza la empresa dejando de lado las razones por las que una persona decide cooperar con ella cuando podría no hacerlo. ¿Qué tratan de resolver este tipo de teorías?",
+      "opciones": {
+        "a": "La relación, salario y trabajo.",
+        "b": "Cómo conseguir que cada persona sepa lo que se espera de ella y sea capaz de hacerlo.",
+        "c": "Cómo lograr que los trabajadores se identifiquen con la empresa.",
+        "d": "Todas las anteriores son correctas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Cuál es el objetivo del análisis de las causas por las que las personas cooperan con una empresa?",
+      "opciones": {
+        "a": "Comunicar las acciones individuales para el logro de la acción conjunta.",
+        "b": "Planificar la acción por separado.",
+        "c": "Tener en cuenta el individualismo de los trabajadores como algo determinante.",
+        "d": "Motivar el desempeño de las tareas del líder de cada grupo."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Qué aspectos pueden motivar al trabajador?",
+      "opciones": {
+        "a": "El único aspecto que puede motivar al trabajador es el que hace referencia al sueldo.",
+        "b": "Reconocimiento de los éxitos de trabajador.",
+        "c": "Ser el mejor del sector.",
+        "d": "La competencia entre trabajadores., ya que genera un alto grado de autosuperación."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 4,
+      "pregunta": "Según las teorías de Maslow, cuando hablamos necesidades podemos distinguir diferentes tipos. Señale un tipo:",
+      "opciones": {
+        "a": "Filosóficos.",
+        "b": "Culturales.",
+        "c": "Autodeterminación.",
+        "d": "Sociales."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 5,
+      "pregunta": "Defina “categorización abierta”:",
+      "opciones": {
+        "a": "Maslow dice que este modelo es muy importante para el buen funcionamiento de las empresas.",
+        "b": "Explica la aparición de la motivación de las personas.",
+        "c": "Es una teoría que está conectada con una concepción del ser humano.",
+        "d": "El propio Maslow reconoce las limitaciones de este modelo ya que no se explica bien la aparición de la motivación de las personas.."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Qué es la teoría X y Teoría Y (McGregor)?",
+      "opciones": {
+        "a": "Corresponde con los niveles de Maslow: autoestima, autorrealización.",
+        "b": "Se trata de la teoría de la Dirección de los seres humano.",
+        "c": "Se trata de una teoría en el campo de la empresa donde se distinguen dos tipos de factores: Factores de higiene y motivadores.",
+        "d": "Satisfacen necesidades de jerarquía superior."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 7,
+      "pregunta": "Defina motivos trascendentes…",
+      "opciones": {
+        "a": "Aspectos de la realidad que determinan el logro de satisfacciones a consecuencia de la interacción.",
+        "b": "Aspectos de la realidad que determinan el logro de aprendizajes del propio decisor.",
+        "c": "Aspectos de la realidad que determinan el logro de aprendizaje de las otras personas con las que interacciona, podemos encontrar ejemplos como: amor, solidaridad, compasión.",
+        "d": "Ninguna de las anteriores es correcta."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 8,
+      "pregunta": "La motivación…",
+      "opciones": {
+        "a": "Es la calidad motivacional de una persona según la sensibilidad para cada uno de los motivos.",
+        "b": "No se puede confundir los motivos con motivación y con la formación el impulso motivacional del decisor. Los motivos son la causa.",
+        "c": "Se trata del valor real de una acción, según el valor de cada uno de los resultados; pero, no de uno sólo de ellos.",
+        "d": "Todas las anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 9,
+      "pregunta": "La empresa tiene interés a motivar a sus trabajadores…",
+      "opciones": {
+        "a": "Para aumentar la productividad.",
+        "b": "Satisfacción por motivos extrínsecos, Intrínsecos y por motivos trascendentes.",
+        "c": "Satisfacer a los trabajadores a nivel personal.",
+        "d": "Estos intereses son siempre motivos trascendentales."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 10,
+      "pregunta": "El equipo…",
+      "opciones": {
+        "a": "No es importante en una empresa.",
+        "b": "Es importante, pero dependerá siempre del logro individual.",
+        "c": "Es muy importante en una empresa tener en cuenta los factores externos como internos que pueden influir en el funcionamiento del equipo de trabajo.",
+        "d": "Depende siempre de su líder, en China por ejemplo priorizan el logro individual al colectivo, ya que lo más importante en un equipo, es tener un líder que marque el camino."
+      },
+      "respuesta_correcta": "c"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "unidad": 6,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "El proceso sistemático de estimación cuantitativa y cualitativa tiene tres pasos, ¿cuáles son?",
+      "opciones": {
+        "a": "La descripción, la medición y el desarrollo.",
+        "b": "La finalidad, el núcleo y la descripción.",
+        "c": "La descripción, el núcleo y el desarrollo.",
+        "d": "La descripción, la finalidad y el desarrollo."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Cuál es el problema más grave a la hora de realizar un sistema de evaluación del desempeño?",
+      "opciones": {
+        "a": "Es la oposición de los empleados, al considerar, en algunos casos, que la evaluación puede suponer una crítica negativa hacia su trabajo y hacia la forma en que lo realizan.",
+        "b": "Es la oposición de los evaluadores.",
+        "c": "Es la oposición de los directivos.",
+        "d": "Es la oposición de evaluadores y directivos."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 3,
+      "pregunta": "En la fase de diseño se pretende conseguir el objetivo de apoyo que consiste/sirve para...",
+      "opciones": {
+        "a": "El desarrollo de la organización.",
+        "b": "Proporciona un uso activo en la planificación y gestión de los recursos humanos de la empresa.",
+        "c": "Gestionar los recursos humanos.",
+        "d": "Convertirse en un mecanismo de motivación."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Qué objetivo tiene la fase de desarrollo?",
+      "opciones": {
+        "a": "El éxito del sistema respecto a los involucrados en el proceso.",
+        "b": "El mantenimiento y la actualización del sistema para que se mantenga fiel a los objetivos definidos y requeridos por la organización.",
+        "c": "Llevar a cabo los aspectos logísticos del proceso no se pueden olvidar.",
+        "d": "El de realizar una campaña de comunicación sobre la evaluación."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Qué se entiende por enfoque?",
+      "opciones": {
+        "a": "Se entienden las diferentes formas de llevar a cabo el proceso de evaluación.",
+        "b": "Como el grado de consecución de las funciones o actividades.",
+        "c": "Como la evaluación de logros profesionales y en hechos constatables.",
+        "d": "La evaluación de los candidatos."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Qué criterios se utilizan para evaluar las características personales de los empleados?",
+      "opciones": {
+        "a": "Aspecto físico e inteligencia.",
+        "b": "Actitud, aspecto físico y educación.",
+        "c": "Comportamiento y rasgos personales.",
+        "d": "Capacidades, rasgos personales y de comportamiento."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿En qué se basan los criterios expresados en forma de objetivos?",
+      "opciones": {
+        "a": "En la obtención de mayor capital monetario.",
+        "b": "En la obtención de un mayor número de clientes.",
+        "c": "En la obtención de actividades de administración.",
+        "d": "En el análisis de los logros previstos y el de los realmente conseguidos."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 8,
+      "pregunta": "La evaluación por objetivos consiste en…",
+      "opciones": {
+        "a": "Conseguir un mayor rendimiento.",
+        "b": "Encontrar un método idóneo para tener en cuenta la aportación concreta de cada individuo con un alto grado de objetividad.",
+        "c": "Establecer unos niveles de rendimiento para cada uno de los criterios que se van a evaluar.",
+        "d": "Comparar los resultados logrados por el individuo con los resultados que se esperaban de él."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Qué tipos de evaluación por clasificación existe?",
+      "opciones": {
+        "a": "Clasificación simple del personal, clasificación por factores del personal y clasificación o comparación por pares.",
+        "b": "Clasificación por empleados con mayor o menor antigüedad, clasificación por empleados en prácticas.",
+        "c": "Clasificación de empleados hombres, clasificación de empleados mujeres y dentro de estos de mayor o menor antigüedad en la empresa.",
+        "d": "Clasificación de empleados más calificados a menos calificados, clasificación de empleados con estudios superiores y empleados con conocimientos técnicos."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 10,
+      "pregunta": "En la evaluación de 360° se obtiene la información desde diferentes perspectivas, ¿cuáles son estas perspectivas?",
+      "opciones": {
+        "a": "Los directivos evalúan a sus subordinados.",
+        "b": "Los clientes sobre los directivos.",
+        "c": "De los directivos, de posibles subordinados, de compañeros de trabajo próximos y de clientes y/o proveedores. También los empleados mismos evalúan su propio funcionamiento.",
+        "d": "Los directivos se evalúan a su propio funcionamiento."
+      },
+      "respuesta_correcta": "c"
+    }
+  ]
+}

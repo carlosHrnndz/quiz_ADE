@@ -1,0 +1,115 @@
+{
+  "unidad": 1,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "El propósito de organizar puede resumirse mediante los siguientes principios...",
+      "opciones": {
+        "a": "El principio de la unidad de objetivo, el principio de la eficiencia y el principio de justicia.",
+        "b": "El principio de la unidad de recursos, el principio de la eficiencia y el principio de equidad.",
+        "c": "El principio de la unidad de recursos y el principio de la eficiencia.",
+        "d": "El principio de la unidad de objetivo y el principio de la eficiencia."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Qué componentes básicos existen en la organización formal?",
+      "opciones": {
+        "a": "El trabajo, las personas, el ambiente y las relaciones.",
+        "b": "El trabajo, las personas y la empresa.",
+        "c": "Las personas y el trabajo.",
+        "d": "El empresario, la empresa y el trabajo."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 3,
+      "pregunta": "En la búsqueda de la mejor forma de organización de la empresa, se pueden establecer los siguientes tipos de estructuras...",
+      "opciones": {
+        "a": "La lineal, la matricial, el replegado, el 'Lambda', la circular e híbrida.",
+        "b": "El replegado, el 'Lambda' y el circular.",
+        "c": "La lineal, la matricial, por departamentalización, la circular e híbrida.",
+        "d": "La lineal, la matricial, el replegado, el 'Lambda' y el circular."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 4,
+      "pregunta": "La forma de organización de la empresa denominada de estructura lineal...",
+      "opciones": {
+        "a": "Consiste en crear departamentos dentro de una organización.",
+        "b": "Se caracteriza por la existencia de varios jefes al mismo nivel jerárquico.",
+        "c": "Se caracteriza porque es utilizada por pequeñas empresas que se dedican a generar uno o pocos productos en un campo específico del mercado.",
+        "d": "Esta estructura reúne algunas de las características importantes de la estructura matricial y circular."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 5,
+      "pregunta": "En la relación de autoridad de línea....",
+      "opciones": {
+        "a": "Cada individuo responde ante un único jefe.",
+        "b": "Cada individuo responde ante varios jefes diferentes, cada uno de los cuales desarrolla una función particular.",
+        "c": "Son todas las relaciones establecidas entre las múltiples unidades de la organización, que representan relaciones no marcadas ni vinculadas con la estructura organizacional.",
+        "d": "También se denomina staff."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 6,
+      "pregunta": "En la estructura jerárquico-funcional existen los siguientes órganos…",
+      "opciones": {
+        "a": "Los servicios staff y el servicio 'Lambda'.",
+        "b": "Los servicios staff y la línea jerárquica.",
+        "c": "La línea jerárquica y el servicio 'Lambda'.",
+        "d": "Departamentos, servicios 'Lambda' y la línea jerárquica."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 7,
+      "pregunta": "Una empresa tiene un planeamiento inapropiado cuando…",
+      "opciones": {
+        "a": "La organización de la empresa va tomando como base al elemento humano.",
+        "b": "Hay falta de conocimiento del papel de los miembros de una empresa deben desempeñar en equipo.",
+        "c": "Los directivos se niegan a extender la toma de decisiones hacia los niveles inferiores de la empresa.",
+        "d": "Los directivos, en su celo por lograr una descentralización, pueden difundir la toma de decisiones hasta los niveles inferiores de la organización sin límites."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿Cuándo se da una aplicación inadecuada de la función de staff?",
+      "opciones": {
+        "a": "Cuando se rompe la autoridad de mando.",
+        "b": "Cuando los directivos organizan en exceso al tener asistentes o staff cuando no son necesarios.",
+        "c": "Cuando los directivos se niegan a la toma de decisiones hacia los niveles inferiores de la empresa.",
+        "d": "Cuando se utilice al personal staff para mermar la autoridad de los mismos directivos a quienes se pretende que asesoren."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Qué indican las líneas continuas sin interrupciones?",
+      "opciones": {
+        "a": "Son aquellas que indican autoridad formal, relación de línea o mando, comunicación y la vía jerárquica.",
+        "b": "Son aquellas que indican autoridad formal, relación de coordinación.",
+        "c": "Son aquellas que indican una relación de coordinación y autoridad formal.",
+        "d": "Son aquellas que indican especialización, autoridad formal y una relación de coordinación."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 10,
+      "pregunta": "En el organigrama circular...",
+      "opciones": {
+        "a": "La dirección general figura como el vértice de la empresa, en lugar de como su centro.",
+        "b": "Se hace figurar en un espacio limitado un máximo de información, lleva a utilizar un organigrama de este tipo, que permite presentar la estructura detallada del conjunto de los órganos de la empresa.",
+        "c": "La empresa es el centro de todo y no intervienen otros niveles jerárquicos.",
+        "d": "La dirección general figura como el centro de la empresa, en lugar de como su vértice. Las bandas horizontales correspondientes a los niveles jerárquicos se convierten aquí en coronas circulares."
+      },
+      "respuesta_correcta": "d"
+    }
+  ]
+}

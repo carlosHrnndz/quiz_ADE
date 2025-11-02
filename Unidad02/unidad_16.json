@@ -1,0 +1,115 @@
+{
+  "unidad": 16,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Qué etapas tiene un producto?",
+      "opciones": {
+        "a": "Introducción, crecimiento.",
+        "b": "Nacimiento, vida y muerte.",
+        "c": "Desarrollo, madurez y declive.",
+        "d": "Todas las anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 2,
+      "pregunta": "Si nos encontramos en una situación en la que nuestras ventas tienen un crecimiento lento, ¿cómo será nuestro beneficio?",
+      "opciones": {
+        "a": "Negativo.",
+        "b": "Máximo.",
+        "c": "Disminuirá.",
+        "d": "Alto."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 3,
+      "pregunta": "El diseño del producto inicial…",
+      "opciones": {
+        "a": "Es muy costoso.",
+        "b": "Tiene poco importancia.",
+        "c": "Presentará pocas variantes o accesorios, con un número limitado de modelos.",
+        "d": "Tendrá muchos modelos distintos."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 4,
+      "pregunta": "La fase de crecimiento…",
+      "opciones": {
+        "a": "Lenta pero creciente evolución de las ventas.",
+        "b": "El producto ha tenido éxito las ventas comienzan a crecer con rapidez, los primeros usuarios transmiten su satisfacción a otros y se extiende la demanda del producto.",
+        "c": "Esta fase se caracteriza por una más lenta entrada de nuevos competidores y una menor incorporación de nuevos clientes.",
+        "d": "Los competidores de menor tamaño, con peores estructuras de costes, son comprados por otros competidores o expulsados del mercado."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 5,
+      "pregunta": "Defina la fase de declive:",
+      "opciones": {
+        "a": "El declive del mercado no siempre es sinónimo de abandono.",
+        "b": "Aparece con un cambio significativo en la situación de competencia debido a la presión de un nuevo producto.",
+        "c": "El precio y la comunicación se acomodarán a la urgencia que se tenga de eliminar los stocks.",
+        "d": "Todas las anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Por qué tienen marca los productos?",
+      "opciones": {
+        "a": "La marca no es importante.",
+        "b": "La marca identifica al producto ante el comprador, le recuerda sus preferencias por los diversos atributos de dicho producto.",
+        "c": "Por tradición.",
+        "d": "Para que los compradores sepan que producto quieren."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Qué significa “marca paraguas”?",
+      "opciones": {
+        "a": "Son distintas marcas.",
+        "b": "Es una estrategia de marca genérica.",
+        "c": "Significa prestigio.",
+        "d": "Es una marca que tiene mucha notoriedad en el mercado."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 8,
+      "pregunta": "Marque la respuesta correcta:",
+      "opciones": {
+        "a": "Lo importante es que un producto tenga una marca en concreto.",
+        "b": "Los productos genéricos, tienen una marca comercial.",
+        "c": "Crear una marca comercial y aplicarla a un producto puede ser un proceso económico y que proporcione un medio eficaz para obtener la identificación de un producto.",
+        "d": "Todas las anteriores son correctas."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 9,
+      "pregunta": "Defina la distribución amplia/consumo masivo.",
+      "opciones": {
+        "a": "La marca es más importante para productos que tienen una distribución amplia y un consumo masivo.",
+        "b": "Dependerá del lugar de compra.",
+        "c": "La marca es más importante para productos que se venden con una estrategia de “tirar” (pull) más que con una estrategia de “empujar” (push).",
+        "d": "Si un producto va a ser respaldado por una fuerte campaña de publicidad, la marca comercial será importante."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Los consumidores considerarán al nuevo producto como consistente en relación a los otros productos ya introducidos?",
+      "opciones": {
+        "a": "Los consumidores no aceptarán la garantía de una marca comercial que se extienda mucho más allá, para cubrir productos muy distintos de los originales.",
+        "b": "Los consumidores deben percibir que los productos quedan en el ámbito de la experiencia que se le supone de la nueva marca, nunca de la original.",
+        "c": "Sí.",
+        "d": "Sí, siempre y cuando la relación calidad y precio sea la misma que antes de introducir los nuevos productos."
+      },
+      "respuesta_correcta": "a"
+    }
+  ]
+}

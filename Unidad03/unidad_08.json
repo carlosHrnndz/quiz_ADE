@@ -1,0 +1,115 @@
+{
+  "unidad": 8,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "El enfoque formativo denominado formación de demanda…",
+      "opciones": {
+        "a": "Consiste en el diseño de cursos con áreas formativas y materias comunes para todos los trabajadores.",
+        "b": "No tiene en cuenta las necesidades a que se debe dar respuesta.",
+        "c": "Parte de la evaluación previa y la definición de las necesidades específicas de cada puesto de trabajo.",
+        "d": "Consiste en ofrecer indiscriminadamente a todos los trabajadores la misma formación."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 2,
+      "pregunta": "Para que la formación resulte eficaz, es necesario disponer de un plan de formación que contenga…",
+      "opciones": {
+        "a": "Un diagnóstico de necesidades, plantee objetivos y metodologías, defina medios y contenidos y cuente con herramientas para poner en marcha un sistema de evaluación de resultados.",
+        "b": "Únicamente el contenido y el presupuesto de la actividad formativa.",
+        "c": "Únicamente el contenido de la estructura de la organización de la empresa.",
+        "d": "Únicamente aquellos aspectos que consideren oportunos los trabajadores."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 3,
+      "pregunta": "En la fase de preparación del plan de formación se incluye el análisis del entorno. ¿En qué consiste?",
+      "opciones": {
+        "a": "En el análisis de las políticas y objetivos de la empresa a medio y largo plazo.",
+        "b": "En el análisis de los competidores y de las implicaciones del euro y de la UEM en el sector.",
+        "c": "En el análisis de la Política de Recursos Humanos.",
+        "d": "En analizar aquellas acciones desarrolladas, internas o externamente, para comprobar la fiabilidad y la flexibilidad de los planes de formación aplicados."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 4,
+      "pregunta": "En la fase de preparación del plan de formación es necesario el análisis y la evaluación de la formación desarrollada, que consiste…",
+      "opciones": {
+        "a": "En el análisis de los planes de formación precedentes, de las acciones formativas, de la percepción de la gestión de la formación en el resto de la organización.",
+        "b": "En el análisis del entorno, del plan estratégico, de la situación interna actual.",
+        "c": "En el análisis del entorno, del plan estratégico, de la situación interna actual y de la política de recursos humanos.",
+        "d": "En el análisis del entorno, del plan estratégico, de la situación interna actual, de la política de recursos humanos y del análisis de los competidores."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 5,
+      "pregunta": "Los componentes del Comité de formación son…",
+      "opciones": {
+        "a": "Los representantes cualificados de las distintas áreas de la organización, incluyendo, si es posible, al Director general y al Consejero delegado.",
+        "b": "Los trabajadores que se están formando.",
+        "c": "Los trabajadores que quieren formarse.",
+        "d": "Los delegados sindicales y los trabajadores que quieren formarse."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Qué herramientas se pueden utilizar para determinar el diagnóstico de las necesidades?",
+      "opciones": {
+        "a": "Cuestionarios o entrevista.",
+        "b": "Técnicas de grupo nominal.",
+        "c": "El nivel de adecuación persona-puesto y resultados de la evaluación del desempeño.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 7,
+      "pregunta": "En el tríptico del plan de formación deberá constar…",
+      "opciones": {
+        "a": "La preparación y el diagnóstico de las necesidades de la organización empresarial.",
+        "b": "Únicamente la cultura de la empresa.",
+        "c": "El enfoque del plan de formación, el comité de formación, el trámite para inscripciones y los programas y acciones formativas.",
+        "d": "Únicamente el organigrama de la organización de la empresa."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 8,
+      "pregunta": "El presupuesto del plan de formación tiene que contemplar…",
+      "opciones": {
+        "a": "La partida de gastos totales de la actividad formativa.",
+        "b": "Varios conceptos, por lo que deberá desglosarse por grupo y programas formativos y detallarse las diferentes partidas.",
+        "c": "La partida de gastos y de ingresos de la actividad formativa.",
+        "d": "La partida de ingresos totales de la actividad formativa."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Quién debe aprobar el plan de formación?",
+      "opciones": {
+        "a": "El comité de formación.",
+        "b": "Los empleados.",
+        "c": "Los directivos de la empresa.",
+        "d": "Los empleados y directivos de la empresa."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 10,
+      "pregunta": "Para el desarrollo de las acciones formativas…",
+      "opciones": {
+        "a": "Es necesario elaborar manuales para el asistente y para el formador.",
+        "b": "No es necesario elaborar manuales para el asistente y para el formador.",
+        "c": "Siempre es necesaria una prueba piloto de la actividad formativa.",
+        "d": "Nunca es necesaria una prueba piloto de la actividad formativa."
+      },
+      "respuesta_correcta": "a"
+    }
+  ]
+}

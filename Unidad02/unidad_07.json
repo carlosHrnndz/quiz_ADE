@@ -1,0 +1,115 @@
+{
+  "unidad": 7,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Qué es la empresa?",
+      "opciones": {
+        "a": "Una organización de personas.",
+        "b": "Es la organización que permite obtener beneficios.",
+        "c": "Es el activo de un país.",
+        "d": "Todas las anteriores son correctas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Por qué está compuesto el subsistema de las funciones básicas?",
+      "opciones": {
+        "a": "Operaciones.",
+        "b": "Inversión/Financiación.",
+        "c": "Comercial.",
+        "d": "Todas las anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 3,
+      "pregunta": "El subsistema de operaciones...",
+      "opciones": {
+        "a": "Es donde los operadores realizan sus tareas.",
+        "b": "Se ocupa de la producción de los bienes y servicios que habrán de satisfacer las necesidades detectadas por la función comercial.",
+        "c": "Determina las metas a corto plazo.",
+        "d": "No es imprescindible para una empresa."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Qué es necesario en la función de producción para conseguir las metas previstas?",
+      "opciones": {
+        "a": "Concreción de los objetivos de largo plazo, nunca de medio ni de corto plazo.",
+        "b": "La planificación no es importante en una empresa, ya que en muchas ocasiones es una pérdida de tiempo, ya que se debe actuar de inmediato y no con previa previsión.",
+        "c": "Determinando qué elementos o componentes se han de adquirir o producir y en qué fechas, para cumplir con el plan establecido, es decir la programación.",
+        "d": "Saber el número de trabajadores que disponemos y conseguir su máxima implicación."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Qué denominación puede tener el ciclo corto?",
+      "opciones": {
+        "a": "Ciclo de dinero-clientes-dinero.",
+        "b": "Ciclo de explotación.",
+        "c": "Ciclo de expansión.",
+        "d": "Ciclo de madurez."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 6,
+      "pregunta": "Marque la respuesta correcta:",
+      "opciones": {
+        "a": "A raíz de la función de ventas no es posible comparar diferentes productos.",
+        "b": "Si la venta se realiza al contado, la empresa tardara 1 año como mínimo en ingresar dicha cantidad.",
+        "c": "La función de ventas no tiene relación en la comercialización, pero sí que es determinante en el precio final.",
+        "d": "La función de ventas incluye todas las tareas de comercialización de los productos en el mercado."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Qué es el (PMe)?",
+      "opciones": {
+        "a": "Es el tiempo que, por término medio, tardan en venderse los productos acabados.",
+        "b": "Es el tiempo que, por término medio, tardan en consumirse las materias primas.",
+        "c": "Es en este tiempo que, por término medio, tardan en cobrarse a los clientes.",
+        "d": "Es el tiempo que, por término medio, tardan en fabricarse en los productos."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 8,
+      "pregunta": "Marque la descripción de Periodo medio de almacenamiento:",
+      "opciones": {
+        "a": "Adquisición de factores de producción.",
+        "b": "Cobro de los clientes.",
+        "c": "Procesos productivos.",
+        "d": "Venta de los productos acabados."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Qué significa PMp = 365/np?",
+      "opciones": {
+        "a": "Número de veces que al año se remueva la deuda mantenida con los proveedores.",
+        "b": "Número de días que en media se tarda en pagar las deudas a los proveedores.",
+        "c": "Son los días que tarda en cobrar la deuda el cliente.",
+        "d": "Son las veces al año que se renueva el crédito a clientes."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Por qué está compuesto el período de Maduración financiero (PMp)?",
+      "opciones": {
+        "a": "PMc.",
+        "b": "PMr.",
+        "c": "PMi.",
+        "d": "PMi."
+      },
+      "respuesta_correcta": "a"
+    }
+  ]
+}

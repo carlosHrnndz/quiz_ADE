@@ -1,0 +1,122 @@
+[
+  {
+    "unidad": 18,
+    "numero": 1,
+    "pregunta": "¿Qué proceso de cambio político tuvo lugar en España entre 1975 y 1978?",
+    "opciones": {
+      "a": "La Restauración Borbónica.",
+      "b": "La Transición a la democracia.",
+      "c": "La Guerra Civil.",
+      "d": "La dictadura de Primo de Rivera."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 18,
+    "numero": 2,
+    "pregunta": "¿Qué rey asumió la Jefatura del Estado tras la muerte de Franco en 1975?",
+    "opciones": {
+      "a": "Juan Carlos I.",
+      "b": "Alfonso XIII.",
+      "c": "Felipe VI.",
+      "d": "Amadeo de Saboya."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 18,
+    "numero": 3,
+    "pregunta": "¿Quién fue el primer presidente del Gobierno de la democracia en España?",
+    "opciones": {
+      "a": "Adolfo Suárez.",
+      "b": "Felipe González.",
+      "c": "Leopoldo Calvo-Sotelo.",
+      "d": "Santiago Carrillo."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 18,
+    "numero": 4,
+    "pregunta": "¿Qué ley de 1977 permitió la legalización de los partidos políticos en España?",
+    "opciones": {
+      "a": "La Ley de Amnistía.",
+      "b": "La Ley para la Reforma Política.",
+      "c": "La Ley de Partidos.",
+      "d": "La Constitución Española."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 18,
+    "numero": 5,
+    "pregunta": "¿En qué año se aprobó la Constitución Española?",
+    "opciones": {
+      "a": "1975.",
+      "b": "1977.",
+      "c": "1978.",
+      "d": "1981."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 18,
+    "numero": 6,
+    "pregunta": "¿Qué modelo de Estado estableció la Constitución Española de 1978?",
+    "opciones": {
+      "a": "Una república federal.",
+      "b": "Una monarquía parlamentaria.",
+      "c": "Una dictadura militar.",
+      "d": "Una confederación de estados."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 18,
+    "numero": 7,
+    "pregunta": "¿Qué acontecimiento tuvo lugar el 23 de febrero de 1981 en España?",
+    "opciones": {
+      "a": "La entrada de España en la CEE.",
+      "b": "Un intento de golpe de Estado.",
+      "c": "La proclamación de Felipe VI como rey.",
+      "d": "El final de la dictadura."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 18,
+    "numero": 8,
+    "pregunta": "¿En qué año entró España en la Comunidad Económica Europea (hoy Unión Europea)?",
+    "opciones": {
+      "a": "1978.",
+      "b": "1981.",
+      "c": "1986.",
+      "d": "1992."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 18,
+    "numero": 9,
+    "pregunta": "¿Qué partido político ganó las elecciones generales de 1982 en España?",
+    "opciones": {
+      "a": "Unión de Centro Democrático (UCD).",
+      "b": "Partido Popular (PP).",
+      "c": "Partido Socialista Obrero Español (PSOE).",
+      "d": "Partido Comunista de España (PCE)."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 18,
+    "numero": 10,
+    "pregunta": "¿Quién fue presidente del Gobierno español entre 1982 y 1986?",
+    "opciones": {
+      "a": "Adolfo Suárez.",
+      "b": "Felipe González.",
+      "c": "José María Aznar.",
+      "d": "Leopoldo Calvo-Sotelo."
+    },
+    "respuesta_correcta": "b"
+  }
+]

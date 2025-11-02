@@ -1,0 +1,115 @@
+{
+  "unidad": 18,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "Una vez fijado el marco en el que se va a desarrollar la negociación, será necesario...",
+      "opciones": {
+        "a": "Profundizar en lo que será la propia negociación, planificando todo su desarrollo.",
+        "b": "Saber qué interpretación y lectura realizará nuestro oponente.",
+        "c": "Desarrollar una negociación competitiva.",
+        "d": "Ninguna de las anteriores, es correcta."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Qué elementos serán necesarios para garantizar una buena negociación?",
+      "opciones": {
+        "a": "Crear el entorno adecuado.",
+        "b": "Estudiar los objetivos.",
+        "c": "Abrir la reunión y formular propuestas.",
+        "d": "Todas las anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 3,
+      "pregunta": "Para favorecer el estudio del proceso seguido en la negociación, existen tres fases, ¿cuáles son?",
+      "opciones": {
+        "a": "Fase de preparación.",
+        "b": "Fase de ejecución.",
+        "c": "Fase de post-acuerdo.",
+        "d": "Todas las anteriores."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 4,
+      "pregunta": "La fase de preparación…",
+      "opciones": {
+        "a": "Es la más importante, y a la que, generalmente, se le dedica menos tiempo.",
+        "b": "No es muy importante.",
+        "c": "No existe.",
+        "d": "El entorno no es importante en la preparación."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Qué es la regla CREMA?",
+      "opciones": {
+        "a": "Con fecha de Cumplimiento, Relevantes y reales, Específicos, Medibles y Alcanzables.",
+        "b": "Esta regla se produce cuando no asignamos los recursos necesarios para su cumplimiento.",
+        "c": "El término crema tiene una especial significación, en cuanto a que no depende totalmente de las acciones de una parte.",
+        "d": "Todas las anteriores son correctas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Qué es la técnica Minimax?",
+      "opciones": {
+        "a": "Nos indica nuestro máximo y mínimo que podemos aceptar y dar.",
+        "b": "La parte que uno no está dispuesto a renunciar.",
+        "c": "Suponer que la otra persona es razonable igual que nosotros.",
+        "d": "Nos indica sólo el mínimo que estaríamos dispuestos a aceptar sin fijar un máximo."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿En qué se basa la metodología PICO?",
+      "opciones": {
+        "a": "En analizar a las personas.",
+        "b": "En minimizar el problema.",
+        "c": "En separar a las personas, enfocar hacia los intereses, generar alternativas y utilizar criterios objetivos.",
+        "d": "En mirar los intereses del otro y centrar los objetivos de su parte en la nuestra."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿En qué consiste la fase de post acuerdo?",
+      "opciones": {
+        "a": "Consiste en resumir los acuerdos.",
+        "b": "Garantizar el cumplimiento.",
+        "c": "Evaluación de los resultados.",
+        "d": "Todas las anteriores."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Cuál es la regla de oro?",
+      "opciones": {
+        "a": "Garantizar el cumplimiento.",
+        "b": "Resumir lo acordado que más nos convenga.",
+        "c": "Resumir la parte menos significativa de la negociación.",
+        "d": "Resumir lo acordado y conseguir que nuestro oponente acepte el resumen."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿A raíz de qué se evalúan los resultados de una negociación?",
+      "opciones": {
+        "a": "A través de la preparación, apertura, y en la misma negociación.",
+        "b": "Del tono de voz que se emplee en dicha negociación.",
+        "c": "De los resultados finales.",
+        "d": "Ninguna de las anteriores es correcta."
+      },
+      "respuesta_correcta": "a"
+    }
+  ]
+}

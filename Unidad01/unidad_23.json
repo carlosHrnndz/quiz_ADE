@@ -1,0 +1,122 @@
+[
+  {
+    "unidad": 23,
+    "numero": 1,
+    "pregunta": "¿Qué es la ONU Medio Ambiente (PNUMA)?",
+    "opciones": {
+      "a": "Un organismo de la ONU encargado de coordinar las políticas ambientales a nivel mundial.",
+      "b": "Una ONG dedicada a la reforestación.",
+      "c": "Un tratado internacional de libre comercio.",
+      "d": "Una alianza militar internacional."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 23,
+    "numero": 2,
+    "pregunta": "¿Qué es el Protocolo de Kioto de 1997?",
+    "opciones": {
+      "a": "Un tratado internacional para reducir las emisiones de gases de efecto invernadero.",
+      "b": "Un acuerdo económico entre países asiáticos.",
+      "c": "Un protocolo militar de defensa en Asia.",
+      "d": "Un tratado para proteger los océanos."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 23,
+    "numero": 3,
+    "pregunta": "¿Qué tratado sustituyó al Protocolo de Kioto en 2015?",
+    "opciones": {
+      "a": "El Tratado de Roma.",
+      "b": "El Acuerdo de París.",
+      "c": "El Tratado de Lisboa.",
+      "d": "El Protocolo de Montreal."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 23,
+    "numero": 4,
+    "pregunta": "¿Qué es el cambio climático?",
+    "opciones": {
+      "a": "Una variación natural del clima sin intervención humana.",
+      "b": "Una alteración del clima atribuida en gran parte a la actividad humana.",
+      "c": "Un fenómeno exclusivamente volcánico.",
+      "d": "Un proceso de enfriamiento global."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 23,
+    "numero": 5,
+    "pregunta": "¿Qué gas es el principal responsable del efecto invernadero intensificado por la actividad humana?",
+    "opciones": {
+      "a": "El oxígeno.",
+      "b": "El dióxido de carbono (CO₂).",
+      "c": "El nitrógeno.",
+      "d": "El helio."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 23,
+    "numero": 6,
+    "pregunta": "¿Qué es la biodiversidad?",
+    "opciones": {
+      "a": "La variedad de seres vivos en el planeta.",
+      "b": "La uniformidad genética de una especie.",
+      "c": "La domesticación de animales.",
+      "d": "La explotación de recursos minerales."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 23,
+    "numero": 7,
+    "pregunta": "¿Qué organización ecologista internacional nació en 1971?",
+    "opciones": {
+      "a": "WWF.",
+      "b": "Greenpeace.",
+      "c": "SEO/BirdLife.",
+      "d": "Amigos de la Tierra."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 23,
+    "numero": 8,
+    "pregunta": "¿Qué es la Agenda 2030 de la ONU?",
+    "opciones": {
+      "a": "Un plan de acción mundial para el desarrollo sostenible.",
+      "b": "Un tratado comercial europeo.",
+      "c": "Un acuerdo militar internacional.",
+      "d": "Un código penal internacional."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 23,
+    "numero": 9,
+    "pregunta": "¿Qué significa desarrollo sostenible?",
+    "opciones": {
+      "a": "Un crecimiento económico ilimitado.",
+      "b": "Un modelo que satisface las necesidades actuales sin comprometer las de las futuras generaciones.",
+      "c": "Un plan de urbanización acelerada.",
+      "d": "La explotación máxima de los recursos naturales."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 23,
+    "numero": 10,
+    "pregunta": "¿Qué cumbre mundial sobre medio ambiente se celebró en 1992 en Brasil?",
+    "opciones": {
+      "a": "La Cumbre de Río de Janeiro.",
+      "b": "La Cumbre de Estocolmo.",
+      "c": "La Cumbre de Johannesburgo.",
+      "d": "La Cumbre de Kioto."
+    },
+    "respuesta_correcta": "a"
+  }
+]

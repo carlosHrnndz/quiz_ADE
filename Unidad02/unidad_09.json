@@ -1,0 +1,115 @@
+{
+  "unidad": 9,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Qué finalidad tiene la función de producción?",
+      "opciones": {
+        "a": "Dar puestos de trabajo.",
+        "b": "La fabricación de los productos o servicios de la empresa.",
+        "c": "Trabajar en equipo.",
+        "d": "No tiene ninguna finalidad."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Por qué están compuestos los Inputs?",
+      "opciones": {
+        "a": "Materiales, Mano de obra, Capital, Energía, información, Tecnología.",
+        "b": "Por productos.",
+        "c": "De servicios.",
+        "d": "De materiales muy complejos."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Qué forman los outputs?",
+      "opciones": {
+        "a": "De materiales muy complejos.",
+        "b": "Productos y servicios.",
+        "c": "De mano de obra poco cualificada.",
+        "d": "Materiales."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Qué son los outputs?",
+      "opciones": {
+        "a": "Las entradas de los productos.",
+        "b": "Las entradas del proceso.",
+        "c": "Productos o resultados del proceso.",
+        "d": "La maquinaria."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Qué son las tareas?",
+      "opciones": {
+        "a": "Son las maquinas de la empresa.",
+        "b": "Es cualquier realidad por los trabajadores o máquinas sobre las materias primas.",
+        "c": "Son entendidas en términos económicos como el esfuerzo de los directivos en la creación del nuevo producto.",
+        "d": "Los inputs."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Qué tipo de flujos podemos encontrarnos?",
+      "opciones": {
+        "a": "Inputs.",
+        "b": "Outputs.",
+        "c": "Organizativos.",
+        "d": "De bienes y de información."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 7,
+      "pregunta": "Defina el flujo de información:",
+      "opciones": {
+        "a": "Es la robótica de una empresa.",
+        "b": "Es tecnología.",
+        "c": "Es un complemento que aparece en el proceso de transformación de un bien o servicio.",
+        "d": "Son todos los sistemas informáticos de la empresa."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿Qué condiciones podemos encontrar en el entorno genérico?",
+      "opciones": {
+        "a": "Las medioambientales.",
+        "b": "Las condiciones factoriales.",
+        "c": "Las administrativas.",
+        "d": "Las condiciones político-legales, económicas, sociales y tecnológicas, que pueden influir en los inputs, productos o procesos de transformación."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Cómo se obtienen los costes Totales?",
+      "opciones": {
+        "a": "CT = CV - CF",
+        "b": "CT=Cu - CF",
+        "c": "Sumando los Costes unitarios (Cu) a los Costes Variables.",
+        "d": "CT = Costes variables + Costes fijos."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Qué es el apalancamiento operativo?",
+      "opciones": {
+        "a": "Una medida del riesgo económico de la empresa.",
+        "b": "Es cuando la empresa se relaja.",
+        "c": "La empresa se encuentra en una situación crítica.",
+        "d": "Normalmente en esta situación la empresa se encuentra en la etapa de expansión."
+      },
+      "respuesta_correcta": "a"
+    }
+  ]
+}

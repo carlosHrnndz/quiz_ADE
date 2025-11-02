@@ -1,0 +1,115 @@
+{
+  "unidad": 19,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Cómo se manifiesta el liderazgo?",
+      "opciones": {
+        "a": "Se manifiesta cuando un integrante del grupo modifica la motivación o capacidad de los demás integrantes.",
+        "b": "Se manifiesta cuando un integrante del grupo no modifica en nada la motivación y no ejerce ninguna influencia sobre el resto.",
+        "c": "Es un proceso de reflexión interna, por lo que no se manifiesta.",
+        "d": "Todas las respuestas anteriores son incorrectas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Por qué son necesarios los líderes?",
+      "opciones": {
+        "a": "Por temas jerárquicos.",
+        "b": "Para tener un orden dentro de la empresa.",
+        "c": "No existe ningún factor que realice más beneficios a la organización que el de un líder eficaz.",
+        "d": "Ninguna de las respuestas anteriores es correcta."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 3,
+      "pregunta": "Originalmente, en los primeros grupos humanos, el concepto de autoridad estaba relacionado con...",
+      "opciones": {
+        "a": "Hace tiempo el concepto autoridad estaba relacionado en un aura de mágico religioso.",
+        "b": "Un concepto democrático del poder.",
+        "c": "Un concepto republicano y cívico del poder.",
+        "d": "Todas las respuestas anteriores son incorrectas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Cuál de las siguientes funciones es decisional?",
+      "opciones": {
+        "a": "Difusión.",
+        "b": "Representación.",
+        "c": "Enlace.",
+        "d": "Emprendedor."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Cuál de estas funciones es interpersonal?",
+      "opciones": {
+        "a": "Líder.",
+        "b": "Portavoz.",
+        "c": "Emprendedor.",
+        "d": "Negociador."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 6,
+      "pregunta": "De las siguientes funciones, escoja la que no es una función informativa:",
+      "opciones": {
+        "a": "Vigilancia.",
+        "b": "Portavoz.",
+        "c": "Difusión.",
+        "d": "Negociador."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Qué es importante en la planificación de la semana?",
+      "opciones": {
+        "a": "Tener tiempo para los amigos de toda la vida e ir a comer cada día con ellos.",
+        "b": "Es importante que el directivo pase el máximo de horas en la oficina.",
+        "c": "Encontrar tiempo para la lectura, el deporte, el ocio…",
+        "d": "Priorizar las horas en la oficina y tendremos en cuenta a la familia en todo momento."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 8,
+      "pregunta": "El mando…",
+      "opciones": {
+        "a": "Es la persona más importante dentro de una empresa.",
+        "b": "Podrá dar órdenes pero si no es líder éstas serán acatadas y cumplidas sólo por miedo a posibles sanciones disciplinarias.",
+        "c": "No tiene nada que ver con la empresa.",
+        "d": "Lo forman los trabajadores que tienen unas remuneraciones más bajas que el resto, es un acto recompensatorio."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 9,
+      "pregunta": "De las características siguientes, marque la que no sea de un líder:",
+      "opciones": {
+        "a": "Orientado a clientes internos y externos.",
+        "b": "Orientado hacia la visión y un proyecto compartido.",
+        "c": "Eficacia; Know-why (filosofía).",
+        "d": "Eficiencia, Know-how (tecnología)."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 10,
+      "pregunta": "Marque la respuesta correcta:",
+      "opciones": {
+        "a": "Basar el liderazgo en la persuasión y no en la autoridad es un signo de debilidad.",
+        "b": "Ser líder es ser el mejor en todos los aspectos.",
+        "c": "Un líder ha de ser autoritario.",
+        "d": "Basar el liderazgo en la persuasión, y no en la autoridad, no es signo de debilidad."
+      },
+      "respuesta_correcta": "d"
+    }
+  ]
+}

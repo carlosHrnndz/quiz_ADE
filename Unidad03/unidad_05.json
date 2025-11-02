@@ -1,0 +1,115 @@
+{
+  "unidad": 5,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Qué se entiende por plantilla?",
+      "opciones": {
+        "a": "El número de trabajadores fijos que tiene la empresa.",
+        "b": "El inventario cuantitativo y cualitativo de los puestos de trabajo necesarios en una empresa para llevar adelante los objetivos de la misma.",
+        "c": "El análisis el contexto, externo e interno, relevante para la planificación de los Recursos Humanos.",
+        "d": "El estimar las disponibilidades u oferta de personal para un período."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "Cuando realizamos un análisis externo en la planificación de plantillas tenemos en cuenta la situación de la industria o sector ¿por qué?",
+      "opciones": {
+        "a": "La organización identifique su mercado laboral relevante, el cual, vendrá marcado por el ámbito geográfico, la naturaleza del negocio y por la situación competitiva de la empresa.",
+        "b": "La demanda de trabajo a futuro vendrá determinada, entre otros aspectos, por el grado de innovación tecnológica que presida el ambiente exterior.",
+        "c": "El grado de competitividad existente en el entorno específico de la organización y su previsible evolución alertará e informará sobre las líneas a seguir en la planificación de Recursos Humanos.",
+        "d": "El estado del sistema productivo así como las inversiones previstas ligadas a él, son determinantes a la hora de indicar si los índices de productividad poblados en un tiempo más o menos próximo."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 3,
+      "pregunta": "En el análisis interno de la planificación de plantillas existen varios factores localizados en el propio seno de la organización, una de ellos es el contenido del trabajo que trata de…",
+      "opciones": {
+        "a": "Uno de los factores que en mayor grado dificultan la tarea de planificar los recursos humanos.",
+        "b": "Mantener relaciones directamente proporcionales con la productividad y, por tanto, inversamente proporcionales con las necesidades futuras de personal.",
+        "c": "Determinar las necesidades de personal.",
+        "d": "Realizar una investigación sistemática centrada en los puestos y procesos de trabajo, tratando de prever los requisitos que sean garantes de un eficaz desempeño."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 4,
+      "pregunta": "Los métodos cualitativos de estimación o previsión están basados fundamentalmente en:",
+      "opciones": {
+        "a": "La pericia, experiencia o intuición del responsable de realizar la previsión y la información obtenida y tratada al respecto.",
+        "b": "Cuanto más estable sea el entorno de la organización, más exactas serán las estimaciones.",
+        "c": "La información obtenida y tratada al respecto.",
+        "d": "La pericia y la experiencia."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Qué empresas suelen utilizar la técnica de estimaciones unipersonales?",
+      "opciones": {
+        "a": "Esta técnica de previsión es propia de las grandes multinacionales.",
+        "b": "Esta técnica de previsión es propia de las medianas y grandes empresas.",
+        "c": "Esta técnica de previsión es propia de pequeñas y medianas empresas.",
+        "d": "Esta técnica de previsión no se utiliza en ningún tipo de empresas."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 6,
+      "pregunta": "En las estimaciones pluripersonales se emplea la Técnica Delphi (consensus delphi) que requiere…",
+      "opciones": {
+        "a": "Una única estimación sobre la oferta y demanda futura de personal.",
+        "b": "Un elevado grado de coordinación por parte de sus administradores y de cooperación por parte de los expertos encuestados.",
+        "c": "Que un coordinador o líder del grupo presente el tema.",
+        "d": "Que los métodos cuantitativos de previsión sea más comprensible, se va a centrar exclusivamente en la estimación de las necesidades de personal (demanda)."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 7,
+      "pregunta": "Para aplicar la técnica basada en la ratio de proporcionalidad es necesario disponer de…",
+      "opciones": {
+        "a": "Una estimación de la demanda futura del producto o servicio que ofrece la organización y un indicador que relacione el nivel de empleo con el nivel de actividad.",
+        "b": "Las distintas categorías profesionales existentes.",
+        "c": "Los factores que van a mantener su influencia constante en el futuro.",
+        "d": "Los métodos cuantitativos de previsión que sea más comprensible, se va a centrar exclusivamente en la estimación de las necesidades de personal (demanda)."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 8,
+      "pregunta": "En el ajuste colectivo una vez realizadas las estimaciones y obtenidos los pronósticos de oferta y demanda de empleo, las situaciones resultantes pueden ser dos:",
+      "opciones": {
+        "a": "Las soluciones posibles pasan por promoción y las disponibilidades superan a las necesidades.",
+        "b": "La constatación de un desequilibrio entre las necesidades de la empresa y los recursos humanos.",
+        "c": "Las disponibilidades no superan las necesidades y no hay necesidad de personal.",
+        "d": "Las necesidades de personal superan a las disponibilidades y las disponibilidades superan a las necesidades."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 9,
+      "pregunta": "Los planes de desarrollo de la carrera pretenden…",
+      "opciones": {
+        "a": "Una vez aplicados los anteriores planes derivados, aportar a la empresa los recursos humanos que necesita en un momento dado, procedentes del mercado de trabajo exterior.",
+        "b": "El desarrollo de las personas en sucesivos puestos de trabajo programados a lo largo del tiempo, y el mantenimiento del sentido de pertenencia e integración en la empresa.",
+        "c": "Mantener la capacidad operativa de la empresa intacta en todo momento.",
+        "d": "Ninguna de las anteriores es correcta."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 10,
+      "pregunta": "Los costes de personal se pueden modificar por dos causas fundamentales o por combinaciones entre ellas ¿cuáles son?",
+      "opciones": {
+        "a": "Elevación de salarios y seguros sociales, manteniendo igual la plantilla y aumento o disminución de la plantilla, con igual estructura salarial.",
+        "b": "Disminución plantilla y aumento salario.",
+        "c": "Disminuyendo la plantilla y disminuir el salario de los otros trabajadores.",
+        "d": "Aumentar la plantilla y aumentar el salario."
+      },
+      "respuesta_correcta": "a"
+    }
+  ]
+}

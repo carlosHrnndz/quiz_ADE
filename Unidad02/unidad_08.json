@@ -1,0 +1,115 @@
+{
+  "unidad": 8,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "Los objetivos a alcanzar por el subsistema de operaciones de una empresa se suelen concretar en los siguientes aspectos:",
+      "opciones": {
+        "a": "El producto y el envase.",
+        "b": "El coste, la entrega, la flexibilidad, la calidad y el servicio a cliente.",
+        "c": "El producto, la calidad y el just in time.",
+        "d": "El producto."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Se pueden disminuir los costes sin tener que disminuir la calidad del producto?",
+      "opciones": {
+        "a": "No se puede.",
+        "b": "Si aumentamos la mano de obra sí que podremos reducir costes, obteniendo así, la misma o mejor calidad.",
+        "c": "Sí, por ejemplo si reducimos la mano de obra, y si realizamos inversiones que sirvan para mejorar la tecnología de producción empleada y permitan obtener economías de escala o de economías de alcance.",
+        "d": "Es imposible."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 3,
+      "pregunta": "Los costes fijos...",
+      "opciones": {
+        "a": "Son el equivalente monetario de todos los factores consumidos en el proceso de fabricación.",
+        "b": "Son los que no varían con la cantidad de unidades producidas (Q).",
+        "c": "Siguen una función creciente de ésta, CF (Q), que podrá adoptar diferentes formas según el caso concreto.",
+        "d": "CF (Q) = CT + CV (Q)."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 4,
+      "pregunta": "Define el coste unitario.",
+      "opciones": {
+        "a": "Son aquellos que pueden calcularse e imputarse a un producto concreto (por ejemplo: la materia prima o la mano de obra).",
+        "b": "Es la variación producida en el CT como consecuencia de aumentar la unidad producida en una unidad.",
+        "c": "Es el coste de unidad de producto, resultado de dividir el coste correspondiente a un cierto volumen de producción por dicho volumen.",
+        "d": "Afectan a varios productos a la vez, y es preciso, por tanto, utilizar algún criterio para su reparto (por ejemplo: el sueldo del Director)."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Cuáles son los costes históricos?",
+      "opciones": {
+        "a": "Los que se determinan en función del precio de adquisición que se pagó por el producto o servicio consumido.",
+        "b": "Los que se establecen en función de consumos predeterminados a un precio establecido a priori.",
+        "c": "Son los causados por una utilización de las instalaciones por debajo de si capacidad productiva.",
+        "d": "Son provocados por el hecho de tener que producir por encima de la capacidad."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Cuál de los siguientes costes es de infrautilización o subempleo?",
+      "opciones": {
+        "a": "Son los que afectan a varios productos a la vez, y es preciso, por tanto, utilizar algún criterio para su reparto.",
+        "b": "Son provocados por el hecho de tener que producir por encima de la capacidad instalada.",
+        "c": "Son aquellos que pueden calcularse e imputarse a un producto concreto (por ejemplo: la materia prima o la mano de obra).",
+        "d": "Son los causados por una utilización de las instalaciones por debajo de si capacidad productiva."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 7,
+      "pregunta": "Sabiendo que la productividad está orientada a la medida, su numerador y denominador deben poder ser expresados numéricamente. ¿Qué problemas podemos encontrarnos?",
+      "opciones": {
+        "a": "Imputación o determinación de cómo los distintos factores contribuyen a la obtención del producto.",
+        "b": "Medida o elección del tipo de unidades a utilizar en el cálculo.",
+        "c": "Formulación de la relación a emplear, según el objetivo que se busque.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿Qué factores pueden influir en la productividad?",
+      "opciones": {
+        "a": "Los materiales, la mano de obra y el equipo.",
+        "b": "El beneficio.",
+        "c": "El tiempo de fabricación.",
+        "d": "Ninguna de las anteriores es correcta."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 9,
+      "pregunta": "En los productos defectuosos identificados, marca el que sea un coste tangible.",
+      "opciones": {
+        "a": "Disgusto de clientes por los retrasos.",
+        "b": "Coste del material, de la mano de obra y generales (menos los ingresos producidos por la venta de esos residuos).",
+        "c": "Reducción de la autoestima.",
+        "d": "Pérdidas en la producción."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 10,
+      "pregunta": "Define la flexibilidad en la maquinaria.",
+      "opciones": {
+        "a": "Vienen determinados por la introducción de nuevas tecnologías de proceso.",
+        "b": "El origen de la variabilidad está motivado por las averías, actividades de mantenimiento o preparación de los equipos.",
+        "c": "Variedad de operaciones que pueden desempeñar una máquina al pasar de una operación a otra sin incurrir en altos costes o un tiempo excesivo.",
+        "d": "Habilidad para operar económicamente con diferentes niveles de output."
+      },
+      "respuesta_correcta": "c"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "unidad": 1,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Qué es una organización?",
+      "opciones": {
+        "a": "Es un conjunto de personas cuyas acciones se coordinan para conseguir un resultado común, aunque su interés pueda deberse a motivos distintos.",
+        "b": "Son un conjunto de competencias personales necesarias para desarrollar las capacidades técnicas.",
+        "c": "Recogen los aspectos relacionados en la capacidad técnica que demuestra un directivo.",
+        "d": "Son un conjunto de competencias personales necesarias para desarrollar las capacidades individuales."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "pregunta": "Los elementos esenciales de una organización son:",
+      "opciones": {
+        "a": "La comunicación profesional.",
+        "b": "Acciones Humanas, Necesidades Humanas y una fórmula o modo de coordinar las acciones para satisfacer las necesidades.",
+        "c": "Llegar a un propósito común.",
+        "d": "Coordinar las actividades de forma conjunta."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Qué es la organización real?",
+      "opciones": {
+        "a": "Es una fórmula.",
+        "b": "Es la que existe cuando un conjunto concreto de personas aplica una organización formal.",
+        "c": "Intenta satisfacer las necesidades de las personas.",
+        "d": "Es una forma de comunicación interpersonal."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 4,
+      "pregunta": "La organización real consta de…",
+      "opciones": {
+        "a": "De un objetivo común entre todos los miembros de la organización.",
+        "b": "De un sistema espontáneo.",
+        "c": "La organización formal y la organización informal.",
+        "d": "De diferentes puntos de vista lo que llevan a formar una organización real."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 5,
+      "pregunta": "La organización formal se compone de:",
+      "opciones": {
+        "a": "Un sistema comercial.",
+        "b": "Un sistema financiero.",
+        "c": "Un acuerdo común.",
+        "d": "Un sistema productivo-distributivo y un sistema de incentivos."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 6,
+      "pregunta": "Las funciones o tareas esenciales de los directivos de una organización son:",
+      "opciones": {
+        "a": "Definición operacional del propósito, estructuración del propósito y puesta en práctica del propósito.",
+        "b": "Dirigir y mandar.",
+        "c": "Comunicar.",
+        "d": "Motivar."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 7,
+      "pregunta": "Los procesos vitales de la organización:",
+      "opciones": {
+        "a": "Formulación.",
+        "b": "Comunicación.",
+        "c": "Motivación.",
+        "d": "Todas las respuestas son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 8,
+      "pregunta": "Las teorías o modelos para explicar las organizaciones son:",
+      "opciones": {
+        "a": "Modelo mecánico.",
+        "b": "Modelo orgánico.",
+        "c": "Modelo antropológico.",
+        "d": "Todas las respuestas son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Qué son los modelos mecánicos o de sistema técnico?",
+      "opciones": {
+        "a": "Los modelos mecánicos son teorías que influyen en la maquinaria de la organización.",
+        "b": "En un sistema técnico la organización se contempla como una simple coordinación de acciones humanas con el fin de producir y distribuir una serie de objetos y/o servicios.",
+        "c": "Sólo contempla el sistema productivo – distributivo.",
+        "d": "El sistema técnico apoya la logística de la organización."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Qué son los modelos orgánicos?",
+      "opciones": {
+        "a": "Es un modelo relacionado con el medioambiente.",
+        "b": "Explica las motivaciones que actualmente sienten las personas que forman la organización.",
+        "c": "Su principal objetivo es reciclar y tomar conciencia del medioambiente.",
+        "d": "Ninguna respuesta es correcta."
+      },
+      "respuesta_correcta": "b"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "unidad": 26,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "Una emoción es",
+      "opciones": {
+        "a": "un impulso que lleva irremediablemente al individuo a moverse",
+        "b": "una alteración del ánimo intensa y pasajera",
+        "c": "una conmoción somatizada",
+        "d": "Ninguna de las respuestas anteriores es correcta."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "Si los directivos tienen un elevado nivel de inteligencia emocional, ¿qué ocurrirá?",
+      "opciones": {
+        "a": "Se obtiene más beneficio, llegando a aumentarlo entre un 4% y un 6%.",
+        "b": "Son menos productivos.",
+        "c": "Son demasiado aprensivos y será un inconveniente para la empresa.",
+        "d": "Ninguna de las anteriores."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Qué establecieron Mayer y Solovey?",
+      "opciones": {
+        "a": "El plan general emocional.",
+        "b": "Un método para obtener más beneficios.",
+        "c": "Publicaron un libro que defendía la tesis del líder con carácter.",
+        "d": "Todas las anteriores."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Qué determinan las competencias sociales?",
+      "opciones": {
+        "a": "El grado de amistad que podemos obtener al actuar de una manera u otra.",
+        "b": "Si somos muy populares.",
+        "c": "El modo en que nos relacionamos con los demás.",
+        "d": "Si somos más importantes que los demás."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 5,
+      "pregunta": "En las competencias emocionales, ¿qué tipos de motivación podemos encontrar?",
+      "opciones": {
+        "a": "Personal.",
+        "b": "Colectiva.",
+        "c": "Grupal.",
+        "d": "Motivación de logro, de compromiso y de optimismo."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Qué hace la conciencia emocional?",
+      "opciones": {
+        "a": "Interpreta el grado de felicidad de los trabajadores.",
+        "b": "Ser más receptivo.",
+        "c": "Reconocer las propias emociones y sus efectos.",
+        "d": "La conciencia emocional no existe."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Qué es la confiabilidad?",
+      "opciones": {
+        "a": "Sentirse cómodo y abierto ante las nuevas ideas, enfoques e información.",
+        "b": "Capacidad de manejar adecuadamente las emociones y los impulsos.",
+        "c": "Asumir la responsabilidad de nuestra actuación personal.",
+        "d": "Fidelidad al criterio de sinceridad e integridad."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 8,
+      "pregunta": "Las capacidades de la inteligencia emocional son…",
+      "opciones": {
+        "a": "Independencia e interdependencia.",
+        "b": "Jerarquización y capacidades.",
+        "c": "Necesidad pero no suficiencia.",
+        "d": "Todas las anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 9,
+      "pregunta": "El feedback continuo...",
+      "opciones": {
+        "a": "Alienta y ayuda a dirigir el cambio.",
+        "b": "Es signo de continuidad del proyecto.",
+        "c": "Indica una mala gestión.",
+        "d": "Es lo mismo que realizar un DAFO."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Qué entiendes por evaluación?",
+      "opciones": {
+        "a": "Establecer formas de evaluar el esfuerzo del desarrollo para ver si tiene efectos duraderos.",
+        "b": "Decidir por los demás.",
+        "c": "Estar seguros de que la empresa valora el cambio mediante el elogio.",
+        "d": "Utilizar las competencias que se desean desarrollar como criterio de decisión en los procesos de promoción y gestión del desempeño."
+      },
+      "respuesta_correcta": "a"
+    }
+  ]
+}

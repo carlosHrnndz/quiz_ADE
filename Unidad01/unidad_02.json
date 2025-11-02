@@ -1,0 +1,122 @@
+[
+  {
+    "unidad": 2,
+    "numero": 1,
+    "pregunta": "La posición del individuo en la sociedad medieval derivaba de…",
+    "opciones": {
+      "a": "Su vinculación a un Reino como ciudadano del mismo.",
+      "b": "Las relaciones de dependencia que sostenía con un señor.",
+      "c": "Las relaciones de dependencia con un rey.",
+      "d": "Las relaciones de dependencia con un rey y con la Iglesia."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 2,
+    "numero": 2,
+    "pregunta": "En la Edad Media, en la división de las tierras de cultivo, el manso era…",
+    "opciones": {
+      "a": "La residencia del señor en uno de sus dominios.",
+      "b": "El núcleo del dominio del señor.",
+      "c": "Cada división de la tierra del señor ocupada por una familia de colonos.",
+      "d": "La extensión de tierra cultivable que en señor se reserva para sí en su dominio."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 2,
+    "numero": 3,
+    "pregunta": "El clima atlántico permitió en la Edad Media la introducción de un nuevo sistema de rotación para la explotación agrícola…",
+    "opciones": {
+      "a": "Trienal.",
+      "b": "Itinerante.",
+      "c": "Año y vez.",
+      "d": "Otros."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 2,
+    "numero": 4,
+    "pregunta": "En los procesos de colonización agrícola de la Edad Media surge el pólder en los Países Bajos. ¿Qué es un pólder?",
+    "opciones": {
+      "a": "Un método nuevo de cultivo.",
+      "b": "Un sistema para ganar tierra al mar.",
+      "c": "Un modo de repoblación.",
+      "d": "Ninguna respuesta es correcta."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 2,
+    "numero": 5,
+    "pregunta": "Los gremios medievales brindaban protección…",
+    "opciones": {
+      "a": "Al productor y al consumidor.",
+      "b": "Sólo al productor.",
+      "c": "Unicamente al consumidor.",
+      "d": "La protección no era función suya."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 2,
+    "numero": 6,
+    "pregunta": "Ejercieron el comercio mediterráneo este – oeste durante la Edad Media…",
+    "opciones": {
+      "a": "Inglaterra, Portugal y Génova.",
+      "b": "Castilla, Portugal y Venecia.",
+      "c": "Venecia y Castilla.",
+      "d": "Génova y Venecia."
+    },
+    "respuesta_correcta": "d"
+  },
+  {
+    "unidad": 2,
+    "numero": 7,
+    "pregunta": "Durante la Edad Media, la Hansa dominó el comercio de…",
+    "opciones": {
+      "a": "El mar Báltico.",
+      "b": "El mar del Norte.",
+      "c": "El mar Báltico y el mar del Norte.",
+      "d": "El mar Báltico, el mar del Norte y el mar Mediterráneo."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 2,
+    "numero": 8,
+    "pregunta": "En la Edad Media, las letras de cambio…",
+    "opciones": {
+      "a": "Encubrían operaciones de crédito.",
+      "b": "Se giraban sobre una plaza distinta de la de emisión.",
+      "c": "La oscilación de los tipos ocultaba el cobro de intereses.",
+      "d": "Todas las respuestas son correctas."
+    },
+    "respuesta_correcta": "d"
+  },
+  {
+    "unidad": 2,
+    "numero": 9,
+    "pregunta": "A finales de 1347, los primeros casos de peste negra aparecieron en…",
+    "opciones": {
+      "a": "Los puertos italianos.",
+      "b": "Los puertos del sur de Francia.",
+      "c": "Los puertos del Levante español.",
+      "d": "Los puertos de Andalucía."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 2,
+    "numero": 10,
+    "pregunta": "En Europa, a inicios de la segunda mitad del siglo XV…",
+    "opciones": {
+      "a": "Se produjeron revueltas en el campo y en la ciudad.",
+      "b": "Hubo un auge económico general. Las ciudades crecieron y también el volumen del comercio.",
+      "c": "La peste negra acabó con un porcentaje alto de población.",
+      "d": "Todas las respuestas son incorrectas."
+    },
+    "respuesta_correcta": "b"
+  }
+]

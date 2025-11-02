@@ -1,0 +1,115 @@
+{
+  "unidad": 21,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "De las siguientes frases, que definen al líder, ¿cuál de ellas es incorrecta? Un líder…",
+      "opciones": {
+        "a": "Conoce el momento de la toma de decisión.",
+        "b": "Sus reflexiones están meditadas.",
+        "c": "La mayoría de sus decisiones resultan ser acertadas.",
+        "d": "Todas sus decisiones son acertadas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Quién es el autor de la siguiente frase? 'Existen pocas cosas tan inútiles -no peligrosas- como la respuesta correcta a una pregunta equivocada.'",
+      "opciones": {
+        "a": "Aristóteles.",
+        "b": "Peter E. Drucker.",
+        "c": "Covey.",
+        "d": "Cubeiro Drucker."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Cómo debe ser un líder?",
+      "opciones": {
+        "a": "Siempre basará su opinión en función a la de los expertos.",
+        "b": "Ha de ser un especialista en cada tema.",
+        "c": "Ha de tener un conocimiento sólido sobre cada tema.",
+        "d": "Ninguna de las respuestas anteriores."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Cómo debe actuar en momentos de crisis un líder?",
+      "opciones": {
+        "a": "Basándose en la opinión de los expertos.",
+        "b": "Mirar lo que hace la competencia y copiarlos.",
+        "c": "Rodearse de un equipo de primer nivel y mantener el grupo unido.",
+        "d": "Separar el grupo, para trabajar mejor."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Qué es lo mejor para un buen líder?",
+      "opciones": {
+        "a": "Tener la capacidad de saber copiar a los demás líderes.",
+        "b": "Lo mejor es saber gestionar a los trabajadores, la comunicación no importa.",
+        "c": "Que tenga gran visión de futuro y que sea un muy buen comunicador.",
+        "d": "Todas las anteriores son correctas."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Qué pasa con la información en la empresa?",
+      "opciones": {
+        "a": "Es muy importante compartir la información con todos los que forman parte de la empresa.",
+        "b": "La información en una empresa no es importante.",
+        "c": "Lo más importante es la información de las otras empresas.",
+        "d": "Ninguna de las anteriores es correcta."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 7,
+      "pregunta": "Según Cubeiro (2002:XXVIII), ¿qué es el líder?",
+      "opciones": {
+        "a": "Es una persona envidiada por el resto de compañeros, ya que todos quisieran ser como él.",
+        "b": "Un ser superior.",
+        "c": "Es una especie de alquimista capaz de convertir el metal (el individuo) en oro puro (el equipo).",
+        "d": "Ninguna de las anteriores es correcta."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿A qué se tiene que orientar la cultura de la organización?",
+      "opciones": {
+        "a": "A castigar los hechos que perjudiquen a la organización.",
+        "b": "Premiar el buen comportamiento.",
+        "c": "Castigar a los que no actúen acorde con las políticas de la organización.",
+        "d": "Todas las anteriores."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 9,
+      "pregunta": "Marque la respuesta correcta, en relación a los premios:",
+      "opciones": {
+        "a": "Se han de dar en público.",
+        "b": "Los premios se han de dar en privado.",
+        "c": "Son una pérdida de tiempo.",
+        "d": "Una vez a la semana es recomendable premiar a los trabajadores."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 10,
+      "pregunta": "El premio a los trabajadores…",
+      "opciones": {
+        "a": "Es algo excepcional.",
+        "b": "Se da con regularidad.",
+        "c": "Por lo menos una vez a la semana es recomendado para motivar a los trabajadores.",
+        "d": "Los premios no son importantes."
+      },
+      "respuesta_correcta": "a"
+    }
+  ]
+}

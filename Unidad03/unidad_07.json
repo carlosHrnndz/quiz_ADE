@@ -1,0 +1,115 @@
+{
+  "unidad": 7,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿De qué dependerá el tipo de cuestionario para la evaluación del desempeño?",
+      "opciones": {
+        "a": "Del evaluado.",
+        "b": "Del método de evaluación que se ha adoptado.",
+        "c": "De la estrategia de implantación del sistema.",
+        "d": "De la aplicación piloto en una área de la organización."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿En qué consiste el trabajo de un evaluador de un programa de evaluación del desempeño?",
+      "opciones": {
+        "a": "Es la persona encargada de realizar la evaluación de la actuación y de conducir las entrevistas individuales, debiendo fijar los objetivos para el siguiente período.",
+        "b": "Es la persona encargada de implantar el sistema de evaluación.",
+        "c": "Es la persona encargada de intervenir en caso de que surjan conflictos.",
+        "d": "Es la persona que da conformidad a las apreciaciones realizadas por los responsables."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Qué contenidos debe incluir una acción formativa para preparar a los evaluadores de un programa de evaluación del desempeño?",
+      "opciones": {
+        "a": "Una evaluación de los evaluadores.",
+        "b": "Los rendimientos del evaluado.",
+        "c": "Una estrategia de comunicación.",
+        "d": "La evaluación del desempeño, el conocimiento de la evaluación del desempeño y la entrevista de evaluación."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Cuáles son los principales objetivos de la fase de preparación de la entrevista de evaluación?",
+      "opciones": {
+        "a": "Solución de dudas y cuestiones que puedan surgir.",
+        "b": "Analizar las causas de problemas de rendimiento.",
+        "c": "Eliminar tensiones.",
+        "d": "Hacer una preevaluación justa y objetiva, elaborar un plan para la entrevista y asegurarse de que con todo ello el evaluado tendrá claro lo que se espera de él en el próximo período."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Cuáles son los objetivos en el desarrollo de la entrevista de evaluación?",
+      "opciones": {
+        "a": "Crear un clima relajado, pero sin restarle importancia a la entrevista ni a la evaluación.",
+        "b": "Analizar, con el evaluado, los resultados conseguidos durante el período de evaluación considerado.",
+        "c": "Manifestar una actitud positiva con respecto a las causas que pueden provocar problemas de rendimiento.",
+        "d": "Predisponer al evaluado de forma más positiva."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Para qué es necesario realizar reuniones de orientación?",
+      "opciones": {
+        "a": "Para garantizar que el evaluado no ha perdido el interés en la actividad a realizar.",
+        "b": "Para garantizar que las actividades del trabajo siguen siendo viables.",
+        "c": "Para garantizar que el proceso se ajuste constantemente a las actividades del trabajo y a la situación de la empresa.",
+        "d": "Para garantizar el buen rendimiento del trabajado."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Qué es el efecto halo?",
+      "opciones": {
+        "a": "Ocurre cuando el evaluador se deja influir por una característica, buena o mala, del evaluado, interfiriendo de esta manera en la evaluación global final.",
+        "b": "Es la incoherencia o falta de constancia del evaluador para valorar los diferentes criterios o personas.",
+        "c": "Consiste en evaluar un equipo de trabajo en función de sus resultados, otorgando una misma valoración para todos sus integrantes.",
+        "d": "Es la evaluación permanente de las personas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿Qué es el efecto espejo?",
+      "opciones": {
+        "a": "Consiste en dejarse influir por el juicio inicial que se obtiene del evaluado, ignorando otras informaciones que permitieran modificar esa impresión.",
+        "b": "Consiste en la valoración errónea de un comportamiento por suponer que coincide con un juicio de valor predeterminado y globalizante.",
+        "c": "Es la tendencia a valorar de forma más positiva a aquellas personas que tienen características, habilidades o criterios más similares o cercanos a los del propio evaluador.",
+        "d": "Consiste en dejarse influir por el juicio inicial que se obtiene del evaluado, ignorando otras informaciones que permitieran modificar esa impresión."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Cuáles son los mecanismos de control de un sistema de evaluación del desempeño para lograr su máxima eficacia?",
+      "opciones": {
+        "a": "El control de implantación, el control sobre el funcionamiento del sistema y el control para el desarrollo.",
+        "b": "El establecimiento de un calendario para ejecutar los contenidos del programa establecido.",
+        "c": "El control de un plan de acción para que no se deleguen responsabilidades.",
+        "d": "Los mecanismos de control varían según los criterios de evaluación."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 10,
+      "pregunta": "En los mecanismos de control de la evaluación del desempeño, ¿en qué mecanismo de control se determinarán las reformas e innovaciones necesarias para que el sistema de evaluación mantenga su utilidad y credibilidad?",
+      "opciones": {
+        "a": "El control para el desarrollo.",
+        "b": "En el control sobre el funcionamiento.",
+        "c": "En el control de implantación.",
+        "d": "En el control de ejecución."
+      },
+      "respuesta_correcta": "a"
+    }
+  ]
+}

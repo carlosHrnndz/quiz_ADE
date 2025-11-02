@@ -1,0 +1,115 @@
+{
+  "unidad": 17,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Cuáles son las 6 interpretaciones del tiempo?",
+      "opciones": {
+        "a": "Como amor y señor, como amigo, como ámbito, como flujo, como cultura, como esclavo.",
+        "b": "Como amigo.",
+        "c": "Agua, sol, lluvia, tormenta, tornado y huracán.",
+        "d": "Como árbitro, como flujo natural, como amo y señor, como esclavo, como enemigo y como misterio."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 2,
+      "pregunta": "Las expresiones 'El tiempo lo dirá', 'El tiempo no espera':",
+      "opciones": {
+        "a": "Con el tiempo todo pasa.",
+        "b": "A largo plazo, aumenta la capacidad para actuar.",
+        "c": "Convierte al pasajero en conductor.",
+        "d": "Son un agente pasivo, sin capacidad para actuar."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 3,
+      "pregunta": "El tiempo como enemigo...",
+      "opciones": {
+        "a": "Tendremos constantes batallas con el reloj.",
+        "b": "Es decir, ganarle al reloj.",
+        "c": "Capitalizaremos los pocos minutos que se ganen.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 4,
+      "pregunta": "Cuando el tiempo actúa como árbitro...",
+      "opciones": {
+        "a": "En este caso, quien señala el reloj es el juez.",
+        "b": "Se considera el tiempo como un juez.",
+        "c": "Tenemos en cuenta el estudio de la gestión del tiempo.",
+        "d": "La preocupación central es el control."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿En qué se basa la gestión del tiempo?",
+      "opciones": {
+        "a": "En la programación de las actividades a realizar.",
+        "b": "En llevar siempre un reloj.",
+        "c": "En no llegar tarde.",
+        "d": "Ninguna de las anteriores."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 6,
+      "pregunta": "Gracias a los datos de análisis podemos obtener...",
+      "opciones": {
+        "a": "Una visión negativa de la situación.",
+        "b": "Una solución al problema.",
+        "c": "Más información del tiempo.",
+        "d": "Un diagnóstico real, determinando los efectos generados por el problema."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Qué frase utiliza Seneca para definir el tiempo?",
+      "opciones": {
+        "a": "Nunca perdemos el tiempo.",
+        "b": "El tiempo es oro.",
+        "c": "Nos roban el tiempo.",
+        "d": "Nuestro tiempo en parte nos lo roban, en parte nos lo quitan y el que nos queda, lo perdemos sin darnos cuenta."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 8,
+      "pregunta": "La revista Fortune realizó un estudio entre 50 presidentes, donde se resaltó que:",
+      "opciones": {
+        "a": "Los presidentes no pierden tiempo en el teléfono.",
+        "b": "Donde más tiempo pierden es en la correspondencia, papeleo, lectura, y sobre todo en el teléfono.",
+        "c": "Las reuniones no influyen en el tiempo perdido.",
+        "d": "Las exigencias familiares tienen un peso muy significativo en la pérdida de su tiempo."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 9,
+      "pregunta": "Marque la respuesta incorrecta:",
+      "opciones": {
+        "a": "La gestión a impulsos depende mucho de la disciplina personal.",
+        "b": "Ser autodisciplinado, puede ayudar en el uso del teléfono.",
+        "c": "Es importante incluir en el plan diario los momentos de descanso.",
+        "d": "Si hemos de realizar tareas desagradables es aconsejable realizarlas intermitentemente."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 10,
+      "pregunta": "La relación 20/80:",
+      "opciones": {
+        "a": "Es lineal.",
+        "b": "No es lineal.",
+        "c": "Suma 100.",
+        "d": "No suma 100, al ser lineal."
+      },
+      "respuesta_correcta": "b"
+    }
+  ]
+}

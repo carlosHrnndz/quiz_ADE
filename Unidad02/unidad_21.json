@@ -1,0 +1,115 @@
+{
+  "unidad": 21,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Qué son las fuentes de financiación externas?",
+      "opciones": {
+        "a": "Aquellas que la empresa solicita a terceros para poder desarrollar su actividad.",
+        "b": "Cuando la empresa pide dinero a los trabajadores.",
+        "c": "Se realizan siempre con una ampliación de capital.",
+        "d": "Cuando los trabajadores invierten su dinero en la misma empresa que trabajan."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Qué son las aportaciones de los socios directamente?",
+      "opciones": {
+        "a": "Por medio de la autofinanciación.",
+        "b": "Se entiende por autofinanciación la capitalización que se produce en la empresa por su propia actividad.",
+        "c": "Se realizan a través de emisiones o ampliaciones de capital.",
+        "d": "La autofinanciación se considera un tipo de financiación 'interna'."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Qué enunciado es correcto respecto de una S.A.?",
+      "opciones": {
+        "a": "Lo divide en participaciones.",
+        "b": "S.A. = S.L.",
+        "c": "Divide su capital en partes alícuotas denominadas acciones.",
+        "d": "El que forma parte de la S.A. tiene participaciones de la empresa en cuestión."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Qué derecho confieren las acciones ordinarias?",
+      "opciones": {
+        "a": "Derecho a participar en el reparto de beneficios o en la liquidación del patrimonio.",
+        "b": "Derecho a suscripción preferente de acciones nuevas u obligaciones convertibles.",
+        "c": "Derecho a asistir y votar en la junta general de accionistas.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 5,
+      "pregunta": "Define las acciones sin voto:",
+      "opciones": {
+        "a": "Son aquellas que otorgan a sus titulares algún tipo de privilegio adicional frente a las acciones ordinarias.",
+        "b": "Si nos encontramos en una situación de quiebra, los accionistas privilegiados se sitúan detrás de los acreedores.",
+        "c": "Sirve para internacionalizar la empresa.",
+        "d": "Dan derecho a un dividendo mínimo, que debe estar contemplado en los estatutos y que no puede ser inferior al 5% del capital desembolsado por cada acción sin voto."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 6,
+      "pregunta": "Marque la definición correcta de la bolsa:",
+      "opciones": {
+        "a": "Es un mercado organizado que centraliza la oferta demanda de los valores admitidos de cotización.",
+        "b": "En el mercado de valores donde sólo se negocian acciones.",
+        "c": "Trata de un mercado primario y no oficial.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Qué son los índices no oficiales?",
+      "opciones": {
+        "a": "Son todos aquellos índices que no están publicados por el Banco de España en el BOE como oficiales.",
+        "b": "Los que están publicados en el BOE.",
+        "c": "Son aquellos índices que son susceptibles de influenciarse por la entidad financiera.",
+        "d": "Son los que dependen exclusivamente de la propia entidad financiera."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿Qué significan las siglas TAE?",
+      "opciones": {
+        "a": "Tasa de retorno de la inversión.",
+        "b": "Tasa de actividad económica.",
+        "c": "Tasa anual equivalente.",
+        "d": "Tasa actual equivalente."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Qué es un préstamo bancario?",
+      "opciones": {
+        "a": "Es un contrato por el cual la entidad financiera (prestamista) pone a disposición de su cliente (prestatario) una cantidad de dinero, comprometiéndose este último a devolverlo según las condiciones de coste y plazo acordadas.",
+        "b": "Es cuando una persona a título personal (prestamista) deja una cantidad de dinero a una tercera persona (prestatario).",
+        "c": "En el préstamo bancario a diferencia de otros préstamos no existen intereses ni comisiones.",
+        "d": "La entidad financiera (prestario), deja a su cliente (prestamista) una cantidad determinada de dinero."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Qué tipo de ventaja puede ofrecer el renting para el arrendatario?",
+      "opciones": {
+        "a": "Afecta los ratios de solvencia de la empresa.",
+        "b": "Se trata de un 'producto abierto'.",
+        "c": "No permite una mayor flexibilidad para adaptarse a la evolución tecnológica.",
+        "d": "La cuota pagada es un gasto fiscalmente deducible en su totalidad."
+      },
+      "respuesta_correcta": "d"
+    }
+  ]
+}

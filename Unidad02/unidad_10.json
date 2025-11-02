@@ -1,0 +1,115 @@
+{
+  "unidad": 10,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "Durante la fase de diseño de un bien o servicio...",
+      "opciones": {
+        "a": "Se entra en cómo organizar el proceso de transformación para producirlo.",
+        "b": "Se desarrollan las características funcionales de los productos.",
+        "c": "La empresa se encuentra en situación de declive.",
+        "d": "Los trabajadores deberán aumentar su jornada laboral."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Por qué se caracteriza la etapa de fluidez?",
+      "opciones": {
+        "a": "Por no tener ventaja competitiva de la empresa.",
+        "b": "En el sistema de producción se emplean herramientas y máquinas de tipo específico.",
+        "c": "Beneficios > 0",
+        "d": "Aunque los costes de producción son altos, se puede vender el producto a un precio elevado ya que prácticamente no existirán competidores."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Qué ocurre en la etapa de transición?",
+      "opciones": {
+        "a": "Aparece la automatización de los procesos y la expansión de los mercados a través de la extensión de la línea de productos.",
+        "b": "El mercado no está definido.",
+        "c": "Se introducen en el mercado las pequeñas empresas.",
+        "d": "La organización tiende a eliminar la burocratización."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Por qué se caracteriza la etapa de carácter específico?",
+      "opciones": {
+        "a": "Las PYMES dominan el mercado con un producto original y innovador.",
+        "b": "Las mejoras en producto y en proceso son muy pronunciadas.",
+        "c": "El proceso de producción empieza a ser eficiente.",
+        "d": "Estas empresas se aprovechan también de su sólida imagen corporativa, resultado de los muchos años de presencia en el mercado."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 5,
+      "pregunta": "Define capacidad:",
+      "opciones": {
+        "a": "El output que puede obtenerse en un período de tiempo, con los recursos disponibles y en condiciones de operación normales.",
+        "b": "Es ignorar el tiempo.",
+        "c": "Las empresas con más recursos económicos tratan de conseguir una elevada capacidad para obtener economías de alcance.",
+        "d": "Todas las anteriores son ciertas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Es lo mismo la capacidad y la dimensión de una fábrica?",
+      "opciones": {
+        "a": "Sí.",
+        "b": "La capacidad está relacionada con la cantidad y variedad de productos fabricados, mientras que la dimensión incluye, además de los productos, el número de componentes que se fabrican internamente.",
+        "c": "Es prácticamente lo mismo.",
+        "d": "No es lo mismo ya que la capacidad es el número de componentes que se fabrican."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Qué persigue la alianza en producción?",
+      "opciones": {
+        "a": "Obtener economías de escala y de alcance.",
+        "b": "Aumentar la mano de obra.",
+        "c": "Obtener economías de enlace.",
+        "d": "Aumentar la productividad y sus costes."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿Cuáles son las causas que pueden determinar la necesidad de una nueva localización para una fábrica?",
+      "opciones": {
+        "a": "Lanzamiento de nuevos productos.",
+        "b": "Una insuficiente capacidad productiva para un mercado en expansión.",
+        "c": "Fusiones de empresas.",
+        "d": "Todas las opciones anteriores son ciertas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 9,
+      "pregunta": "Ciertas empresas se localizan próximas a los lugares en los que se obtienen sus materias primas o a sus proveedores. ¿Por qué?",
+      "opciones": {
+        "a": "Outputs perecederos.",
+        "b": "Cuando es más fácil o más económico transportar los inputs que los outputs.",
+        "c": "Cuando casi no se genera material de desecho.",
+        "d": "La necesidad de asegurarse el abastecimiento. Es el caso de las firmas que extraen recursos naturales (minas, las explotaciones agrícolas, las pesqueras, las granjas o explotaciones forestales)."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 10,
+      "pregunta": "Marque la afirmación respuesta_correcta:",
+      "opciones": {
+        "a": "Si la presión fiscal es alta aumenta el atractivo de un lugar.",
+        "b": "Los gobiernos locales intentan que las empresas no estén en sus poblaciones por motivos de seguridad.",
+        "c": "Las condiciones climatológicas de la zona no son importantes.",
+        "d": "La disponibilidad de terrenos y unos costes de construcción razonables son factores adicionales a considerar ya que pueden variar mucho en función del lugar."
+      },
+      "respuesta_correcta": "d"
+    }
+  ]
+}

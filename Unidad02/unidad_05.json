@@ -1,0 +1,115 @@
+{
+  "unidad": 5,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "En la competencia perfecta hay…",
+      "opciones": {
+        "a": "Pocas empresas",
+        "b": "Muchas empresas",
+        "c": "No importa las empresas que hayan",
+        "d": "Dos empresas"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "En el monopolio…",
+      "opciones": {
+        "a": "No hay barreras",
+        "b": "Nos encontramos con barreras altas",
+        "c": "Es una situación donde las barreras son muy significativas",
+        "d": "Ninguna de las anteriores es correcta."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Qué hemos de hacer antes de decidir la posición competitiva de una empresa?",
+      "opciones": {
+        "a": "Conocer y evaluar el sector en el que se debe operar",
+        "b": "Tener mucha calidad en el producto que queremos comercializar.",
+        "c": "Evaluar nuestros activos",
+        "d": "Hemos de realizar un estudio previo para determinar lo que puede ocurrir en el corto plazo."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 4,
+      "pregunta": "Marca la respuesta que no pertenezca a las cinco fuerzas que conforman la estructura del sector económico.",
+      "opciones": {
+        "a": "La intensidad de la rivalidad entre los competidores que operan en el sector",
+        "b": "La amenaza de productos sustitutivos",
+        "c": "No hay rivalidad entre los competidores cuando nos encontramos en esta situación.",
+        "d": "El poder de negociación de los compradores"
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿De qué modo pueden tener poder los compradores?",
+      "opciones": {
+        "a": "Depende del número de compradores importantes y de la rentabilidad",
+        "b": "Dependiendo de los costes totales del sector contribuido por los proveedores.",
+        "c": "Por la diferenciación",
+        "d": "Todas las anteriores son correctas"
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Qué tipo de rivalidad puede existir entre los competidores?",
+      "opciones": {
+        "a": "En una situación de oligopolio nunca hay rivalidad.",
+        "b": "Si decrece el sector.",
+        "c": "Costes de cambio del usuario.",
+        "d": "La rivalidad que exista entre los distintos competidores será siempre consecuencia de una mala gestión empresarial, ya que las empresas tienden a monopolizar el mercado."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Qué pasa cuando un sector es dinámico?",
+      "opciones": {
+        "a": "Crece a un ritmo inferior a la media.",
+        "b": "Suele presentar buenas oportunidades para el desarrollo de todos los participantes.",
+        "c": "Tiende a estancarse.",
+        "d": "Crece a un ritmo demasiado rápido, y la empresa no puede sustentar la situación."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 8,
+      "pregunta": "En la diferenciación del producto...",
+      "opciones": {
+        "a": "La marca no es importante.",
+        "b": "No es necesario invertir mucho en publicidad.",
+        "c": "En esta situación si queremos promocionar el producto es importante previamente realizar economías de escala.",
+        "d": "Los nuevos entrantes deben gastar unas cantidades desproporcionadamente elevadas en publicidad y promoción."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Qué factor contribuye al poder de negociación de los proveedores?",
+      "opciones": {
+        "a": "Número de proveedores importantes.",
+        "b": "Disponibilidad de sustitutos para los productos de los proveedores.",
+        "c": "Diferenciación o costes de cambio de los productos de los proveedores.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 10,
+      "pregunta": "Indique el poder de negociación que no sea de los compradores:",
+      "opciones": {
+        "a": "Importancia del sector para los beneficios de los proveedores.",
+        "b": "Amenaza de los compradores de integración hacia atrás.",
+        "c": "Costes de cambio de los compradores.",
+        "d": "Disponibilidad de sustitutos para los productos del sector."
+      },
+      "respuesta_correcta": "a"
+    }
+  ]
+}

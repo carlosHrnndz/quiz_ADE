@@ -1,0 +1,115 @@
+{
+  "unidad": 15,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Qué piensa Stephen Covey del éxito?",
+      "opciones": {
+        "a": "Cree que el éxito puede ser alcanzado a raíz de “fórmulas mágicas”.",
+        "b": "Se basa en principios.",
+        "c": "No se basa en principios, ya que rechaza el éxito entendido como la fórmula de “fórmulas mágicas”.",
+        "d": "Las respuestas b) y c) son ciertas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "Elija la opción correcta con respecto del pensamiento de Covey:",
+      "opciones": {
+        "a": "Ser proactivo es un hábito de la visión profesional.",
+        "b": "Ser proactivo es un hábito de la visión interpersonal.",
+        "c": "Empezar con un fin en mente es un hábito del liderazgo interpersonal.",
+        "d": "Pensar en ganar/ganar es un hábito del liderazgo interpersonal."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 3,
+      "pregunta": "Indique de los siguientes hábitos de Stephen Covey cuál es el correcto:",
+      "opciones": {
+        "a": "Procure primero ser comprendido y después le podrán comprender mejor.",
+        "b": "El comunicado efectivo es entender el punto de vista de uno mismo, antes de buscar que le comprendan.",
+        "c": "El hábito de la operación creativa son las sinergias.",
+        "d": "Alguien eficaz es capaz de reconocer sus limitaciones y de valorar los recursos que tiene alrededor."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 4,
+      "pregunta": "Según Covey…",
+      "opciones": {
+        "a": "No existen principios ni ética más allá de: “El hombre es un lobo para el hombre”.",
+        "b": "Los principios de la ética del carácter son una debilidad para el empresario.",
+        "c": "Los principios que constituyen la ética del carácter tienen un carácter universal.",
+        "d": "Los principios que constituyen la ética del carácter tienen un claro contenido religioso."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 5,
+      "pregunta": "Según el pensamiento de Covey…",
+      "opciones": {
+        "a": "Si no hay confianza no importa, que la retórica y las intenciones sean buenas.",
+        "b": "Nunca podrá tener éxito a largo plazo, si el carácter es imperfecto, y existe duplicidad y falta de sinceridad en él.",
+        "c": "La duplicidad alimentará la desconfianza.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Por quién fue introducida la expresión “cambio de paradigma”?",
+      "opciones": {
+        "a": "Thomas Kuhn.",
+        "b": "Covey.",
+        "c": "Aristóteles.",
+        "d": "Phillips."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 7,
+      "pregunta": "El falso encanto de la ética de la personalidad consiste…",
+      "opciones": {
+        "a": "En pretender alcanzar la calidad de vida de forma lenta, progresiva y esforzada.",
+        "b": "En pretender alcanzar la calidad de vida de una forma rápida y sencilla.",
+        "c": "En no pretender nada, no hacer nada, pues la nada es la mejor calidad de vida posible.",
+        "d": "En no referirse ni a la ética ni a la personalidad."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿Quién utilizó esta frase para describir el significado de hábito?: “Somos lo que hacemos día a día. De modo que la excelencia no es un acto, sino un hábito”.",
+      "opciones": {
+        "a": "Stephen Covey.",
+        "b": "Thomas Kuhn.",
+        "c": "Aristóteles.",
+        "d": "Albert Einstein."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 9,
+      "pregunta": "El nuevo nivel de pensamiento, en el que Covey desarrolla sus siete hábitos…",
+      "opciones": {
+        "a": "Exige un enfoque “de adentro hacia fuera”.",
+        "b": "Significa empezar por la persona.",
+        "c": "Debemos hacernos promesas a nosotros mismos y mantenerlas entre nosotros.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 10,
+      "pregunta": "Marque la respuesta correcta:",
+      "opciones": {
+        "a": "Las personas independientes necesitan de los demás para conseguir lo que quieren.",
+        "b": "Las personas dependientes necesitan de los demás para conseguir lo que quieren.",
+        "c": "Las personas dependientes consiguen lo que quieren gracias a su esfuerzo.",
+        "d": "Las personas interdependientes consiguen lo que quieren gracias a su esfuerzo."
+      },
+      "respuesta_correcta": "b"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "unidad": 15,
+    "numero": 1,
+    "pregunta": "¿Qué fue el crack de 1929?",
+    "opciones": {
+      "a": "Un hundimiento de la Bolsa de Nueva York que provocó una gran depresión económica.",
+      "b": "Una crisis agrícola en Estados Unidos.",
+      "c": "Un colapso bancario en Europa.",
+      "d": "La quiebra del Imperio británico."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 15,
+    "numero": 2,
+    "pregunta": "¿Qué presidente estadounidense impulsó el New Deal para superar la crisis?",
+    "opciones": {
+      "a": "Herbert Hoover.",
+      "b": "Franklin D. Roosevelt.",
+      "c": "Woodrow Wilson.",
+      "d": "Harry S. Truman."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 15,
+    "numero": 3,
+    "pregunta": "¿Qué régimen político se instauró en Italia en los años 20?",
+    "opciones": {
+      "a": "El nazismo.",
+      "b": "El comunismo.",
+      "c": "El fascismo de Mussolini.",
+      "d": "La monarquía absoluta."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 15,
+    "numero": 4,
+    "pregunta": "¿Qué líder alemán llegó al poder en 1933?",
+    "opciones": {
+      "a": "Stalin.",
+      "b": "Hitler.",
+      "c": "Mussolini.",
+      "d": "Churchill."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 15,
+    "numero": 5,
+    "pregunta": "¿Qué nombre recibe la ideología racista y expansionista impuesta por Hitler?",
+    "opciones": {
+      "a": "Nazismo.",
+      "b": "Fascismo.",
+      "c": "Comunismo.",
+      "d": "Liberalismo."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 15,
+    "numero": 6,
+    "pregunta": "¿Qué guerra tuvo lugar en España entre 1936 y 1939?",
+    "opciones": {
+      "a": "La Guerra de la Independencia.",
+      "b": "La Guerra Civil Española.",
+      "c": "La Primera Guerra Mundial.",
+      "d": "La Guerra de Sucesión."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 15,
+    "numero": 7,
+    "pregunta": "¿Qué ideología defendía Stalin en la Unión Soviética?",
+    "opciones": {
+      "a": "El socialismo y el comunismo.",
+      "b": "El fascismo.",
+      "c": "El liberalismo.",
+      "d": "El nazismo."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 15,
+    "numero": 8,
+    "pregunta": "¿Qué política económica aplicó Stalin en la URSS?",
+    "opciones": {
+      "a": "La colectivización agraria y los planes quinquenales.",
+      "b": "El capitalismo de libre mercado.",
+      "c": "El liberalismo económico.",
+      "d": "El mercantilismo."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 15,
+    "numero": 9,
+    "pregunta": "¿Qué acontecimiento marcó el inicio de la Segunda Guerra Mundial?",
+    "opciones": {
+      "a": "El ataque a Pearl Harbor.",
+      "b": "La invasión alemana de Polonia en 1939.",
+      "c": "La Guerra Civil Española.",
+      "d": "La invasión alemana de Francia."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 15,
+    "numero": 10,
+    "pregunta": "¿Qué régimen se instauró en España tras la Guerra Civil?",
+    "opciones": {
+      "a": "Una república democrática.",
+      "b": "Una monarquía parlamentaria.",
+      "c": "Una dictadura franquista.",
+      "d": "Un estado comunista."
+    },
+    "respuesta_correcta": "c"
+  }
+]

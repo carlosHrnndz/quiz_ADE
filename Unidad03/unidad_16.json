@@ -1,0 +1,115 @@
+{
+  "unidad": 16,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Qué tienen en común los condicionamientos y los determinismos?",
+      "opciones": {
+        "a": "No tienen nada en común.",
+        "b": "Su dependencia con la teoría platónica de separación de cuerpo y alma.",
+        "c": "Su dependencia con el imperativo categórico kantiano y el subconsciente en Freud.",
+        "d": "Su dependencia con la teoría del estímulo-respuesta."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 2,
+      "pregunta": "El modelo reactivo...",
+      "opciones": {
+        "a": "Explica el comportamiento humano.",
+        "b": "Es insuficiente para explicar el comportamiento humano.",
+        "c": "Es un esquema determinado basado en la acción.",
+        "d": "Es un esquema determinado basado en la reacción."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 3,
+      "pregunta": "El modelo proactivo lo encontramos cuando tenemos la libertad de elegir. Indique los factores que pueden influir en dicha elección:",
+      "opciones": {
+        "a": "Autoconocimiento, imaginación, conocimiento moral, voluntad independiente.",
+        "b": "Autocontrol, imaginación. Conocimiento moral, voluntad dependiente.",
+        "c": "Autoconciencia, imaginación, conciencia moral, voluntad dependiente.",
+        "d": "Autoconciencia, voluntad independiente, conciencia moral e imaginación."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 4,
+      "pregunta": "En el modelo proactivo...",
+      "opciones": {
+        "a": "Nuestras reacciones dependen de nuestras decisiones.",
+        "b": "Nuestras reacciones dependen de nuestras condiciones.",
+        "c": "Nuestras reacciones dependen de nuestras decisiones y condiciones.",
+        "d": "Significa tomar la iniciativa."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Qué significa la proactividad?",
+      "opciones": {
+        "a": "Tomar la iniciativa.",
+        "b": "Que no nos afectan los acontecimientos externos al tener un comportamiento reactivo.",
+        "c": "Desarrollar los estados de ánimo y condiciones.",
+        "d": "Somos responsables de nuestras propias decisiones."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Qué aporta la misión?",
+      "opciones": {
+        "a": "Seguridad en tiempos de cambio.",
+        "b": "Inseguridad en tiempos de cambio.",
+        "c": "Seguridad cuando no hay cambios.",
+        "d": "Inseguridad cuando no hay cambios."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Cómo se llama el libro de Frankl que habla de proactividad?",
+      "opciones": {
+        "a": "El hombre, la autoconciencia y la imaginación.",
+        "b": "Capacidad de autoconciencia.",
+        "c": "El hombre en busca de sentido.",
+        "d": "El hombre en busca de la libertad."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿Qué es necesario para que la misión resulte efectiva?",
+      "opciones": {
+        "a": "Todos los miembros de la empresa tienen que participar de un modo significativo.",
+        "b": "Sólo los planificadores superiores han de ser partícipes de la misión.",
+        "c": "El proceso de participación es menos importante que el producto final escrito.",
+        "d": "El producto final escrito es menor importante que el proceso de participación."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 9,
+      "pregunta": "Cuando una tarea es urgente, pero no importante...",
+      "opciones": {
+        "a": "Son las llamadas “crisis”.",
+        "b": "Se deben posponer, archivar, ya que son minucias.",
+        "c": "Se deben delegar y, en caso que requieran nuestra participación, planificamos su resolución.",
+        "d": "Se deben delegar y, en caso que requieran nuestra participación, será necesario dedicarse a ella personalmente."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 10,
+      "pregunta": "Podemos definir la sinergia como:",
+      "opciones": {
+        "a": "Donde la función 1+1 > 2",
+        "b": "El resultado total será inferior a la suma de las partes, ya que la función de la sinergia así lo indica (1+1 >2).",
+        "c": "1+1> 2, esto se explica por el desequilibrio de las debilidades.",
+        "d": "La función 1+1 < 2."
+      },
+      "respuesta_correcta": "a"
+    }
+  ]
+}

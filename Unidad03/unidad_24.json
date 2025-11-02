@@ -1,0 +1,115 @@
+{
+  "unidad": 24,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Qué factores intervienen en el sentido de la ubicación?",
+      "opciones": {
+        "a": "El entorno, los consumidores/mercado.",
+        "b": "Las empresas y las personas.",
+        "c": "Tecnología, la información, la competencia.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Quién hace posible el incremento en cifras de negocio?",
+      "opciones": {
+        "a": "El líder.",
+        "b": "El equipo de trabajo, y sus familias.",
+        "c": "Los empresarios.",
+        "d": "Las personas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 3,
+      "pregunta": "Las competencias son...",
+      "opciones": {
+        "a": "Características propias que permiten diferenciar a un individuo de otro.",
+        "b": "Las habilidades necesarias para competir por un puesto de trabajo.",
+        "c": "Características de la persona relacionadas con una actuación en su puesto de trabajo.",
+        "d": "Las actividades necesarias para destacar en un puesto de trabajo."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 4,
+      "pregunta": "Señale los conceptos que formen parte de competencias de una empresa:",
+      "opciones": {
+        "a": "Motivaciones, capacidades.",
+        "b": "En una empresa no hay competencias.",
+        "c": "Ser individualista.",
+        "d": "Ninguna de las anteriores."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 5,
+      "pregunta": "En el ejemplo del camarero que expone el material docente sobre competencias diferenciadoras, ¿qué cualidades distinguen al mejor camarero?",
+      "opciones": {
+        "a": "Tener buena presencia, ser amable, comunicativo, educado y sonriente.",
+        "b": "No existe ningún ejemplo en el material docente sobre un camarero.",
+        "c": "El camarero intentará trabajar de la peor forma posible, y con uniforme siempre.",
+        "d": "El camarero debe ser muy presumido."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Qué son las habilidades?",
+      "opciones": {
+        "a": "Capacidades específicas.",
+        "b": "Valores y actitudes.",
+        "c": "Son lo mismo que las capacidades.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Qué es el análisis y la síntesis?",
+      "opciones": {
+        "a": "Utilizar una técnica en concreto para poder resolver los problemas.",
+        "b": "Es un pequeño resumen de la situación futura.",
+        "c": "Es la capacidad para desglosar en partes una situación o problema, así como integrarla para manejarla de forma global.",
+        "d": "Al no desglosar las partes, permite identificar las relaciones existentes."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 8,
+      "pregunta": "La gestión de personas es la que...",
+      "opciones": {
+        "a": "Adecua su estilo de dirección según las personas y circunstancias.",
+        "b": "Detecta oportunidad de venta.",
+        "c": "Plasma la necesidad del cliente y empresa.",
+        "d": "Se ajusta a demandas múltiples."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Qué hace la gestión económica de recursos?",
+      "opciones": {
+        "a": "Ante una situación concreta analiza y evalúa los recursos necesarios.",
+        "b": "Ajusta los gastos y márgenes iniciales del servicio.",
+        "c": "Mantiene control sobre la rentabilidad y la productividad.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Es importante la vinculación de los empleados a la compañía?",
+      "opciones": {
+        "a": "No.",
+        "b": "En ocasiones sí, pero no siempre.",
+        "c": "Sí porque ayuda a cumplir los compromisos y objetivos globales de la organización.",
+        "d": "Sí, en caso de que la compañía lo requiera."
+      },
+      "respuesta_correcta": "c"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "unidad": 4,
+    "numero": 1,
+    "pregunta": "¿Qué fue la Escuela de Sagres impulsada por Enrique el Navegante?",
+    "opciones": {
+      "a": "Una escuela de cartografía y navegación en Portugal.",
+      "b": "Un monasterio dedicado al estudio de las Escrituras.",
+      "c": "Una academia militar del reino de Castilla.",
+      "d": "Un centro universitario en Florencia."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 4,
+    "numero": 2,
+    "pregunta": "¿Cuál fue la primera ruta marítima que abrió el camino hacia Asia bordeando África?",
+    "opciones": {
+      "a": "El paso por el estrecho de Magallanes.",
+      "b": "La ruta del Cabo de Buena Esperanza.",
+      "c": "La ruta de la seda.",
+      "d": "El cruce por el océano Pacífico."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 4,
+    "numero": 3,
+    "pregunta": "¿Qué tratado dividió las zonas de influencia entre España y Portugal en 1494?",
+    "opciones": {
+      "a": "El Tratado de Utrecht.",
+      "b": "El Tratado de París.",
+      "c": "El Tratado de Tordesillas.",
+      "d": "El Tratado de Versalles."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 4,
+    "numero": 4,
+    "pregunta": "¿Qué monarcas financiaron el viaje de Colón en 1492?",
+    "opciones": {
+      "a": "Los Reyes Católicos, Isabel de Castilla y Fernando de Aragón.",
+      "b": "Carlos V y Juana la Loca.",
+      "c": "Felipe II y Ana de Austria.",
+      "d": "Manuel I de Portugal y Leonor de Avis."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 4,
+    "numero": 5,
+    "pregunta": "¿Cuál fue el principal producto que España trajo de América a Europa en el siglo XVI?",
+    "opciones": {
+      "a": "Especias.",
+      "b": "Metales preciosos, sobre todo plata.",
+      "c": "Esclavos africanos.",
+      "d": "Piedras preciosas."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 4,
+    "numero": 6,
+    "pregunta": "¿Qué fue la Casa de Contratación de Sevilla?",
+    "opciones": {
+      "a": "Un organismo encargado de controlar el comercio con las Indias.",
+      "b": "Un gremio de mercaderes del Atlántico.",
+      "c": "Un tribunal que juzgaba delitos marítimos.",
+      "d": "Un banco dedicado a financiar expediciones."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 4,
+    "numero": 7,
+    "pregunta": "¿Qué nombre recibió el sistema económico basado en la acumulación de metales preciosos procedentes de América?",
+    "opciones": {
+      "a": "Capitalismo industrial.",
+      "b": "Mercantilismo.",
+      "c": "Feudalismo.",
+      "d": "Liberalismo."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 4,
+    "numero": 8,
+    "pregunta": "¿Qué expedición dio la primera vuelta al mundo (1519-1522)?",
+    "opciones": {
+      "a": "La de Hernán Cortés.",
+      "b": "La de Cristóbal Colón.",
+      "c": "La de Magallanes y Elcano.",
+      "d": "La de Francisco Pizarro."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 4,
+    "numero": 9,
+    "pregunta": "¿Cuál fue la consecuencia económica de la llegada masiva de plata americana a Europa?",
+    "opciones": {
+      "a": "Un fuerte proceso inflacionario.",
+      "b": "La deflación y la caída de precios.",
+      "c": "La desaparición de la moneda de oro.",
+      "d": "La reducción de la actividad comercial."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 4,
+    "numero": 10,
+    "pregunta": "¿Qué era la encomienda en América?",
+    "opciones": {
+      "a": "Un sistema de explotación minera en el que trabajaban esclavos africanos.",
+      "b": "Un sistema por el cual los colonos recibían indígenas para trabajar a cambio de evangelizarlos.",
+      "c": "Un impuesto que pagaban los pueblos indígenas al rey de España.",
+      "d": "Un título nobiliario concedido a los conquistadores."
+    },
+    "respuesta_correcta": "b"
+  }
+]

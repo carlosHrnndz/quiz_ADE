@@ -1,0 +1,115 @@
+{
+  "unidad": 3,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Qué se les plantea a las empresas de forma genérica?",
+      "opciones": {
+        "a": "Qué bienes producir.",
+        "b": "Cómo producirlos.",
+        "c": "Para quién producirlos.",
+        "d": "Las respuestas a, b, y c son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Qué entiendes por corriente real?",
+      "opciones": {
+        "a": "Productos y factores.",
+        "b": "Inputs.",
+        "c": "Outputs.",
+        "d": "Importe de los productos y retribución de los factores."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 3,
+      "pregunta": "La empresa es...",
+      "opciones": {
+        "a": "El conjunto de condiciones sociales y culturales.",
+        "b": "Un medio exterior.",
+        "c": "Un sistema abierto ya que interactúa con su entorno.",
+        "d": "Ninguna de las anteriores."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Qué aspectos del entorno afectan a las empresas?",
+      "opciones": {
+        "a": "La internacionalización.",
+        "b": "La disminución de la competencia internacional.",
+        "c": "La internacionalización no afecta a las PYMES.",
+        "d": "El entorno es cada vez más simple, por este motivo los aspectos del entorno afectan muy poco a las empresas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Qué es el entorno genérico o general?",
+      "opciones": {
+        "a": "Está formado por todos aquellos elementos que afectan a todas las empresas situadas en un mismo espacio geográfico y existente en un mismo período de tiempo.",
+        "b": "Está constituido por aquellos elementos o factores que afectan de una forma específica a una o varias empresas",
+        "c": "Es el constituido por la rama de actividad o sector al que pertenece y en el que compite la empresa.",
+        "d": "Afecta a todas las empresas por este motivo se dice entorno genérico o general."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Cuál de los siguientes elementos es Político?",
+      "opciones": {
+        "a": "Carácter rural o urbano de la población",
+        "b": "Grado de alfabetización",
+        "c": "Proporción de personas con alto nivel de especialización profesional",
+        "d": "Pluralidad y funcionamiento de partidos"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Cuál de los siguientes elementos económicos no es de carácter permanente?",
+      "opciones": {
+        "a": "Tipo de sistema económico",
+        "b": "Disponibilidad del factor trabajo",
+        "c": "Nivel de salarios",
+        "d": "Estado del comercio exterior"
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 8,
+      "pregunta": "Un modo de empezar a hacer explícita la misión es…",
+      "opciones": {
+        "a": "Tiene una orientación externa y orientada al mercado y debería expresar cómo desea la organización ser percibida por el resto del mundo",
+        "b": "El de contestar a preguntas como las siguientes: ¿Para qué existe nuestra institución? ¿En qué negocio estamos?",
+        "c": "Es una propuesta concisa que define los objetivos a medio y largo plazo de la organización",
+        "d": "La misión es importante solo en el inicio de una empresa."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Cuál de las siguientes afirmaciones es falsa?",
+      "opciones": {
+        "a": "La definición de la misión ha de quedar escrita",
+        "b": "La misión habrá de ser motivante",
+        "c": "La definición ha de ser válida para periodos largos de tiempo",
+        "d": "Una definición estrecha podría ampliar la organización de las actividades futuras de la institución."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 10,
+      "pregunta": "La misión del negocio es el punto de partida de la formulación de la estrategia. ¿En qué se debe centrar?",
+      "opciones": {
+        "a": "Detectar los cambios que deben emprenderse en el alcance y las competencias esenciales del negocio;",
+        "b": "Identificar los desafíos resultantes que surgen de dichos cambios",
+        "c": "Alcanzar el consenso que debe crearse en cuanto a la orientación del negocio",
+        "d": "Todas las anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    }
+  ]
+}

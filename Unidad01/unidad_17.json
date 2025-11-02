@@ -1,0 +1,122 @@
+[
+  {
+    "unidad": 17,
+    "numero": 1,
+    "pregunta": "¿Qué fue la Guerra Fría?",
+    "opciones": {
+      "a": "Un enfrentamiento directo entre Estados Unidos y la URSS.",
+      "b": "Un conflicto ideológico, político y económico entre Estados Unidos y la URSS sin enfrentamiento militar directo.",
+      "c": "Una guerra civil en Europa del Este.",
+      "d": "Un conflicto militar en Asia."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 17,
+    "numero": 2,
+    "pregunta": "¿Qué doctrina formuló EE.UU. para frenar la expansión del comunismo?",
+    "opciones": {
+      "a": "La Doctrina Monroe.",
+      "b": "La Doctrina Truman.",
+      "c": "El Plan Marshall.",
+      "d": "El New Deal."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 17,
+    "numero": 3,
+    "pregunta": "¿Qué fue el Plan Marshall?",
+    "opciones": {
+      "a": "Un plan económico de ayuda a Europa occidental tras la Segunda Guerra Mundial.",
+      "b": "Un tratado militar entre la URSS y EE.UU.",
+      "c": "Un acuerdo comercial entre América y Asia.",
+      "d": "Un plan de reconstrucción en Japón."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 17,
+    "numero": 4,
+    "pregunta": "¿Qué organización militar creó EE.UU. y sus aliados en 1949?",
+    "opciones": {
+      "a": "El Pacto de Varsovia.",
+      "b": "La OTAN.",
+      "c": "La ONU.",
+      "d": "La Liga de Naciones."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 17,
+    "numero": 5,
+    "pregunta": "¿Qué organización militar creó la URSS en 1955?",
+    "opciones": {
+      "a": "El Pacto de Varsovia.",
+      "b": "La OTAN.",
+      "c": "La UE.",
+      "d": "La Liga Árabe."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 17,
+    "numero": 6,
+    "pregunta": "¿Qué muro se levantó en 1961 como símbolo de la Guerra Fría?",
+    "opciones": {
+      "a": "El muro de Varsovia.",
+      "b": "El muro de Berlín.",
+      "c": "El muro de Moscú.",
+      "d": "El muro de Praga."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 17,
+    "numero": 7,
+    "pregunta": "¿Qué conflicto enfrentó a EE.UU. y a Vietnam del Norte entre 1955 y 1975?",
+    "opciones": {
+      "a": "La Guerra de Corea.",
+      "b": "La Guerra de Vietnam.",
+      "c": "La Guerra del Golfo.",
+      "d": "La Guerra de Camboya."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 17,
+    "numero": 8,
+    "pregunta": "¿Qué líder soviético impulsó la Perestroika y la Glasnost en los años 80?",
+    "opciones": {
+      "a": "Stalin.",
+      "b": "Nikita Jrushchov.",
+      "c": "Mijaíl Gorbachov.",
+      "d": "Borís Yeltsin."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 17,
+    "numero": 9,
+    "pregunta": "¿Qué año cayó el muro de Berlín?",
+    "opciones": {
+      "a": "1985.",
+      "b": "1989.",
+      "c": "1991.",
+      "d": "1993."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 17,
+    "numero": 10,
+    "pregunta": "¿Qué año se disolvió oficialmente la URSS?",
+    "opciones": {
+      "a": "1989.",
+      "b": "1990.",
+      "c": "1991.",
+      "d": "1992."
+    },
+    "respuesta_correcta": "c"
+  }
+]

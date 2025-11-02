@@ -1,0 +1,115 @@
+{
+  "unidad": 10,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Qué se entiende por retribución fija?",
+      "opciones": {
+        "a": "Por aquella retribución que se nos da sólo en períodos excepcionales.",
+        "b": "Se entiende como un sistema de incentivos.",
+        "c": "Es aquel elemento del paquete de retribución que el empleado percibe, de forma garantizada, durante el tiempo que dura la relación con el empleador.",
+        "d": "Relaciona el esquema de incentivos con el plan de negocio."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Qué pretenden los bonos plurianuales?",
+      "opciones": {
+        "a": "Alinear sus intereses con los de sus directivos.",
+        "b": "Una forma de remuneración variable en la que la empresa ofrece una opción de compra sobre un número determinado de acciones de la organización.",
+        "c": "Favorecer el uso y disfrute por parte del empleado de bienes o servicios aportados por la empresa.",
+        "d": "Fidelizar a los profesionales clave de la organización, involucrar y comprometer a los directivos y premiar el acierto estratégico."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 3,
+      "pregunta": "La compensación flexible en el sistema de retribución permite...",
+      "opciones": {
+        "a": "Al empleado elegir, de forma voluntaria, cómo percibir su retribución anual y así adaptarla a sus necesidades individuales.",
+        "b": "Facilitar un estilo de vida atractivo a los empleados.",
+        "c": "Satisfacer las necesidades cambiantes de los empleados.",
+        "d": "Motivar y fidelizar."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 4,
+      "pregunta": "Los servicios de gastos corrientes que puede ofrecer la empresa relacionados con la retribución en especies consisten en...",
+      "opciones": {
+        "a": "Tiques restaurante, tiques gasolina, gastos de transporte/parquing, gastos de guardería/colegios, etc.",
+        "b": "Vehículos, teléfono móvil, equipos informáticos, conexión a Internet, etc.",
+        "c": "Seguro de asistencia sanitaria, seguro de viajes, etc.",
+        "d": "Planes de jubilación o ahorro, participación en la propiedad de la empresa."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 5,
+      "pregunta": "Uno de los principales inconvenientes del plan flexible de compensaciones es la falta de interés de los trabajadores que es necesario para...",
+      "opciones": {
+        "a": "Conseguir una mayor competitividad en el sector.",
+        "b": "Una inversión de medios técnicos para gestionar el plan.",
+        "c": "Modificar el sistema de retribución.",
+        "d": "Lograr la respuesta de los empleados, y que el sistema tenga éxito, es importante contar con su opinión durante la fase de diseño y mantener una comunicación constante."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Cuál es el propósito de los incentivos?",
+      "opciones": {
+        "a": "Para que los trabajadores tengan mayor nivel de vida.",
+        "b": "Su propósito es la realización del trabajo adicional.",
+        "c": "Estimular o inducir a los trabajadores a observar una conducta determinada.",
+        "d": "Que el trabajador se sienta a gusto en su lugar de trabajo y se relaje."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 7,
+      "pregunta": "Dentro de los principios, el establecimiento de incentivos, el efecto “trinquete” se refiere a...",
+      "opciones": {
+        "a": "La práctica de determinar los objetivos de actuación a conseguir, en función del desempeño anterior de la misma actividad.",
+        "b": "Incentivos para cada una de las actividades que deba realizar un mismo individuo.",
+        "c": "Una prima de producción.",
+        "d": "Garantiza al trabajador una retribución fija."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 8,
+      "pregunta": "En los salarios basados en la economía de tiempos existe el sistema Rowan que consiste en que...",
+      "opciones": {
+        "a": "El tiempo ahorrado por el empleado se computa tomando como base la duración estándar de la tarea.",
+        "b": "El incentivo aumenta proporcionalmente al tiempo economizado, pero sólo hasta el punto en que se empieza a incentivar la calidad.",
+        "c": "El valor del tiempo ahorrado es distribuido entre el empleado y la organización.",
+        "d": "Garantiza al trabajador el salario base."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 9,
+      "pregunta": "En el salario por puntos o sistemas de puntos Bedaux entre los principales incentivos que se proporcionan destaca la prima para el personal de almacén que se establece...",
+      "opciones": {
+        "a": "En la eficiencia en la calidad del producto.",
+        "b": "A la cantidad del trabajo realizado.",
+        "c": "Una prima a proporción, consistente en aplicar una tarifa, o baremo establecido, al rendimiento promedio del grupo de producción al que suministran las piezas necesarias.",
+        "d": "A la calidad y empeño en el trabajo realizado."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 10,
+      "pregunta": "Los incentivos para directivos tienen unas compensaciones extrasalariales que tienen como objeto...",
+      "opciones": {
+        "a": "El rendimiento actual y dependiendo también el futuro.",
+        "b": "Incrementar o asegurar la permanencia del individuo en la empresa por un largo período.",
+        "c": "La eficacia del equipo directivo.",
+        "d": "El beneficiar a este grupo dentro de la empresa."
+      },
+      "respuesta_correcta": "b"
+    }
+  ]
+}

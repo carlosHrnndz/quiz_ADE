@@ -1,0 +1,115 @@
+{
+  "unidad": 23,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Cuándo suelen surgir los líderes carismáticos?",
+      "opciones": {
+        "a": "En periodos de crisis social.",
+        "b": "Un líder nunca será carismático.",
+        "c": "En una situación de bonanza económica.",
+        "d": "En momentos de máximos beneficios."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Cuántas etapas tiene el modelo de Conger?",
+      "opciones": {
+        "a": "3",
+        "b": "5",
+        "c": "1",
+        "d": "Ninguna de las respuestas anteriores es correcta."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 3,
+      "pregunta": "En la primera etapa del modelo de Conger, ¿qué se evalúa?",
+      "opciones": {
+        "a": "El entorno.",
+        "b": "La comunicación.",
+        "c": "La comprensión.",
+        "d": "El trabajo en equipo."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿En qué etapa el líder carismático sirve de modelo y motivador?",
+      "opciones": {
+        "a": "En la quinta.",
+        "b": "En la primera.",
+        "c": "En la tercera.",
+        "d": "En la cuarta."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Qué características tienen los líderes carismáticos?",
+      "opciones": {
+        "a": "Visión de futuro.",
+        "b": "Inspirar confianza.",
+        "c": "Orientación al riesgo.",
+        "d": "Todas las anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 6,
+      "pregunta": "Cuando nos encontramos ante un líder carismático…",
+      "opciones": {
+        "a": "Será muy difícil trabajar en dicha empresa.",
+        "b": "El equipo suele perder cierta objetividad.",
+        "c": "Nunca se perdonarán sus fallos.",
+        "d": "El líder será muy exigente con todo su equipo."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 7,
+      "pregunta": "El término transformación, ¿a qué se vincula?",
+      "opciones": {
+        "a": "Cambia el statu quo apelando a los valores y el sentido de propósito alto.",
+        "b": "A su carácter estático.",
+        "c": "Al 'statu diem'.",
+        "d": "Líder y seguidores consiguen sus objetivos."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿Qué cualidades nos dice 'Ser tolerante con la ambigüedad familiarizándose con ella'?",
+      "opciones": {
+        "a": "Probarse.",
+        "b": "Curiosita.",
+        "c": "Adaptamiento.",
+        "d": "Ambigüedad."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 9,
+      "pregunta": "Describa la cualidad 'Conocerse':",
+      "opciones": {
+        "a": "Aprender constantemente.",
+        "b": "Ser realista respecto de uno mismo.",
+        "c": "Ser surrealista.",
+        "d": "Profundizar en los temas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 10,
+      "pregunta": "En un mundo tan cambiante como el actual, ¿cuál es la ventaja competitiva de una empresa?",
+      "opciones": {
+        "a": "Reside principalmente en la valía de sus equipos humanos.",
+        "b": "La empresa que disponga de más dinero será la que disponga de mayor ventaja competitiva.",
+        "c": "Producir mucho.",
+        "d": "Todas las anteriores son correctas."
+      },
+      "respuesta_correcta": "a"
+    }
+  ]
+}

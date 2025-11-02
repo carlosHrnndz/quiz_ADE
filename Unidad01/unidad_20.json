@@ -1,0 +1,122 @@
+[
+  {
+    "unidad": 20,
+    "numero": 1,
+    "pregunta": "¿Qué es la globalización?",
+    "opciones": {
+      "a": "Un proceso de integración económica, política, tecnológica y cultural a nivel mundial.",
+      "b": "Una alianza militar internacional.",
+      "c": "Un sistema político democrático universal.",
+      "d": "Un plan de desarrollo de la ONU."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 20,
+    "numero": 2,
+    "pregunta": "¿Qué institución internacional se encarga de regular el comercio mundial?",
+    "opciones": {
+      "a": "El Fondo Monetario Internacional (FMI).",
+      "b": "El Banco Mundial.",
+      "c": "La Organización Mundial del Comercio (OMC).",
+      "d": "La OTAN."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 20,
+    "numero": 3,
+    "pregunta": "¿Qué significa I+D en el ámbito económico?",
+    "opciones": {
+      "a": "Importación y Deuda.",
+      "b": "Investigación y Desarrollo.",
+      "c": "Inversión y Distribución.",
+      "d": "Industria y Demografía."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 20,
+    "numero": 4,
+    "pregunta": "¿Qué organismo internacional concede préstamos a países en crisis económica?",
+    "opciones": {
+      "a": "El FMI.",
+      "b": "La OTAN.",
+      "c": "La OMC.",
+      "d": "La UNESCO."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 20,
+    "numero": 5,
+    "pregunta": "¿Qué grupo económico forman Alemania, Canadá, Estados Unidos, Francia, Italia, Japón y Reino Unido?",
+    "opciones": {
+      "a": "El G-20.",
+      "b": "La OCDE.",
+      "c": "El G-7.",
+      "d": "La OPEP."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 20,
+    "numero": 6,
+    "pregunta": "¿Qué significa PIB?",
+    "opciones": {
+      "a": "Producto Interior Bruto.",
+      "b": "Producción Industrial Básica.",
+      "c": "Programa Internacional de Bienestar.",
+      "d": "Política Internacional Bancaria."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 20,
+    "numero": 7,
+    "pregunta": "¿Qué es el desarrollo sostenible?",
+    "opciones": {
+      "a": "El crecimiento económico ilimitado.",
+      "b": "El uso de recursos que satisface las necesidades presentes sin comprometer las futuras.",
+      "c": "Un modelo económico basado en la industrialización.",
+      "d": "Un plan de urbanización global."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 20,
+    "numero": 8,
+    "pregunta": "¿Qué es la brecha digital?",
+    "opciones": {
+      "a": "La diferencia entre países ricos y pobres en el acceso a las tecnologías de la información.",
+      "b": "Una nueva moneda virtual.",
+      "c": "El déficit comercial entre países.",
+      "d": "Una técnica de ciberseguridad."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 20,
+    "numero": 9,
+    "pregunta": "¿Qué organización internacional sustituyó a la Sociedad de Naciones en 1945?",
+    "opciones": {
+      "a": "La OTAN.",
+      "b": "La Unión Europea.",
+      "c": "La ONU.",
+      "d": "El FMI."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 20,
+    "numero": 10,
+    "pregunta": "¿Qué problema ambiental global está relacionado con el aumento de gases de efecto invernadero?",
+    "opciones": {
+      "a": "La deforestación.",
+      "b": "El cambio climático.",
+      "c": "La desertificación.",
+      "d": "La pérdida de biodiversidad."
+    },
+    "respuesta_correcta": "b"
+  }
+]

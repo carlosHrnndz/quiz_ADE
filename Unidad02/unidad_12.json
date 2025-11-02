@@ -1,0 +1,115 @@
+{
+  "unidad": 12,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Qué es la distribución en planta?",
+      "opciones": {
+        "a": "El proceso de determinación de la mejor ordenación de los factores disponibles.",
+        "b": "Tiene relación con el personal de cada empresa.",
+        "c": "La organización de los trabajadores.",
+        "d": "Ninguna de las anteriores es respuesta_correcta."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "pregunta": "Los cambios en el producto...",
+      "opciones": {
+        "a": "Pueden hacer necesarias modificaciones similares a las requeridas por un cambio en la tecnología.",
+        "b": "Se realizarán cuando la empresa esté en expansión.",
+        "c": "La tecnología no tiene ninguna relación con los cambios en el producto.",
+        "d": "No son importantes."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Por qué redistribuiremos una planta productiva?",
+      "opciones": {
+        "a": "Pocos accidentes laborales.",
+        "b": "Cuando la mano de obra se encuentra en un clima positivo.",
+        "c": "Por culpa de recorrer distancias cortas.",
+        "d": "Acumulación excesiva de materiales en proceso."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Qué objetivo tiene la distribución en planta?",
+      "opciones": {
+        "a": "Optimizar la ordenación de las máquinas, hombres, materiales y servicios auxiliares de manera que el valor creado sea máximo.",
+        "b": "Mejorar la calidad de los trabajadores.",
+        "c": "Mejor imagen.",
+        "d": "La mejora de la calidad."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 5,
+      "pregunta": "La distribución en planta por producto, ¿cuál es su flujo de trabajo?",
+      "opciones": {
+        "a": "Flujo variable.",
+        "b": "Todas las unidades siguen la misma secuencia de operaciones.",
+        "c": "Cada ítem puede requerir una secuencia de operaciones propia.",
+        "d": "El personal, la maquinaria y los materiales van al producto cuando se necesitan."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Cómo es la mano de obra en la distribución en planta por producto?",
+      "opciones": {
+        "a": "Fundamentalmente cualificada, sin necesidad de estrecha supervisión y moderadamente adaptable.",
+        "b": "Alta flexibilidad de la mano de obra.",
+        "c": "La asignación de tareas es variable.",
+        "d": "Capaz de realizar tareas rutinarias y repetitivas a ritmo constante."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Qué tipo de personal staff existe en la distribución en planta por producto?",
+      "opciones": {
+        "a": "Poco personal.",
+        "b": "Fundamental en la programación y coordinación de actividades.",
+        "c": "Numeroso personal auxiliar en supervisión, control y mantenimiento.",
+        "d": "Necesario en programación de manejo de materiales y control de la producción y los inventarios."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 8,
+      "pregunta": "Señale una característica del manejo de materiales en una distribución en planta por proceso:",
+      "opciones": {
+        "a": "Previsible, sistematizado y, a menudo, automatizado.",
+        "b": "En ocasiones se requieren equipos (de tipo universal) para cargas pesadas.",
+        "c": "Constante.",
+        "d": "Variable, a menudo hay duplicaciones, esperas y retrocesos."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 9,
+      "pregunta": "En la distribución en planta por posición fija, marque una característica de su producto:",
+      "opciones": {
+        "a": "Volumen de producción bajo (con frecuencia una sola unidad).",
+        "b": "Alto volumen de producción.",
+        "c": "Diversificados.",
+        "d": "Tasas de producción variables."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 10,
+      "pregunta": "En la distribución en planta por posición fija, marque una característica de su inventario:",
+      "opciones": {
+        "a": "Inventarios variables y frecuentes inmovilizaciones (ciclo de trabajo largo).",
+        "b": "Escaso inventario de productos terminados.",
+        "c": "Ciclo de trabajo corto.",
+        "d": "Alto inventario de productos terminados."
+      },
+      "respuesta_correcta": "a"
+    }
+  ]
+}

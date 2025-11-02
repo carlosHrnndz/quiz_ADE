@@ -1,0 +1,115 @@
+{
+  "unidad": 28,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Qué pasa con los líderes que saben actuar positivamente, aun en condiciones de extrema presión?",
+      "opciones": {
+        "a": "Son líderes con poco respeto por parte del resto de compañeros.",
+        "b": "Irradian sentimientos positivos que despiertan la resonancia de los demás.",
+        "c": "En ocasiones si actúan de ese modo pueden parecer un poco prepotentes.",
+        "d": "Ninguna de las respuestas anteriores es correcta."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Qué significa Empatía?",
+      "opciones": {
+        "a": "Escuchar.",
+        "b": "Ser buena persona.",
+        "c": "Tener feedback.",
+        "d": "Ser honesto."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 3,
+      "pregunta": "Las competencias que con más frecuencia conducen al éxito del líder son:",
+      "opciones": {
+        "a": "Empatía.",
+        "b": "Afán de éxito.",
+        "c": "Iniciativa para aprovechar las oportunidades.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 4,
+      "pregunta": "Dentro de las competencias que conducen al éxito, ¿para qué sirve la conciencia política?",
+      "opciones": {
+        "a": "Permite al líder percibir y prever la reacción que los mensajes y/o actitudes causarán en su grupo de influencia.",
+        "b": "Para interpretar las corrientes emocionales de un grupo y sus relaciones de poder.",
+        "c": "Fomentar y apoyar las innovaciones emprendedoras.",
+        "d": "Ser flexible para reaccionar ante los cambios."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 5,
+      "pregunta": "Como derivación de la autoconciencia aparece...",
+      "opciones": {
+        "a": "Una segunda dimensión que es la autogestión.",
+        "b": "Una primera dimensión.",
+        "c": "Una segunda dimensión que es el autocontrol.",
+        "d": "La autoconciencia es única y no admite derivación alguna."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Quiénes fueron los psicólogos que acuñaron el concepto de inteligencia emocional?",
+      "opciones": {
+        "a": "Covey.",
+        "b": "Goleman.",
+        "c": "Johnson.",
+        "d": "Peter Salovey y John Mayer."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Qué propone el gran teórico e investigador de la inteligencia emocional, Goleman?",
+      "opciones": {
+        "a": "Una teoría del desempeño que se alza sobre el modelo básico de inteligencia emocional, adaptándolo para poder predecir la eficacia del personal en el trabajo y en el liderazgo.",
+        "b": "Ser el padre de la inteligencia emocional.",
+        "c": "Promover la aceptación científica de la inteligencia emocional.",
+        "d": "La capacidad de percibir y expresar el poder de los empresarios."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 8,
+      "pregunta": "Según la neurociencia el cerebro emocional aprende de una forma diferente a como lo hace el cerebro pensante...",
+      "opciones": {
+        "a": "Esto explica los muchos errores que se han cometido en todas las empresas y organizaciones que han desarrollado, y desarrollan, programas de formación.",
+        "b": "Esa afirmación es falsa.",
+        "c": "Por este motivo las empresas no cometen errores y las organizaciones sí.",
+        "d": "Las respuestas a) y c) son ciertas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Qué buscan los empresarios?",
+      "opciones": {
+        "a": "Capacidad de escucha y comunicación verbal, y adaptabilidad y capacidad de respuesta ante contratiempos y obstáculos.",
+        "b": "Control sobre uno mismo, trabajo por objetivos, confianza, motivación y habilidades para negociar, trabajar en equipo y cooperar.",
+        "c": "Participación activa en la empresa, capacidad de liderazgo y repercusiones de la inteligencia emocional.",
+        "d": "Todas las respuestas anteriores son ciertas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Cuál de las siguientes frases es cierta?",
+      "opciones": {
+        "a": "Los sistemas de gestión de la calidad debilitan la organización al orientarla hacia el cliente y a la mejora continua.",
+        "b": "La gestión de la calidad garantiza el futuro de la empresa, potencia la organización, desarrolla a las personas y va en este sentido el gran impacto de la calidad.",
+        "c": "En los sistemas de gestión de la calidad las personas, no tienen un papel clave.",
+        "d": "Los sistemas de gestión de la calidad total carecen de un fuerte liderazgo dentro de la empresa."
+      },
+      "respuesta_correcta": "b"
+    }
+  ]
+}

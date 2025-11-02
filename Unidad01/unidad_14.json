@@ -1,0 +1,122 @@
+[
+  {
+    "unidad": 14,
+    "numero": 1,
+    "pregunta": "¿Qué conflicto bélico tuvo lugar entre 1914 y 1918?",
+    "opciones": {
+      "a": "La Segunda Guerra Mundial.",
+      "b": "La Guerra Civil Española.",
+      "c": "La Primera Guerra Mundial.",
+      "d": "La Guerra de Corea."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 14,
+    "numero": 2,
+    "pregunta": "¿Qué hecho desencadenó la Primera Guerra Mundial?",
+    "opciones": {
+      "a": "El asesinato del archiduque Francisco Fernando en Sarajevo.",
+      "b": "La invasión alemana de Polonia.",
+      "c": "La firma del Tratado de Versalles.",
+      "d": "El ataque a Pearl Harbor."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 14,
+    "numero": 3,
+    "pregunta": "¿Qué países formaron parte de la Triple Entente?",
+    "opciones": {
+      "a": "Alemania, Austria-Hungría e Italia.",
+      "b": "Francia, Rusia y Reino Unido.",
+      "c": "Italia, Japón y Estados Unidos.",
+      "d": "Turquía, Bulgaria y Grecia."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 14,
+    "numero": 4,
+    "pregunta": "¿Qué países formaban la Triple Alianza antes de la guerra?",
+    "opciones": {
+      "a": "Alemania, Austria-Hungría e Italia.",
+      "b": "Francia, Reino Unido y Rusia.",
+      "c": "Estados Unidos, Japón y China.",
+      "d": "Turquía, Grecia y Bulgaria."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 14,
+    "numero": 5,
+    "pregunta": "¿Qué nueva forma de guerra caracterizó al frente occidental?",
+    "opciones": {
+      "a": "La guerra de guerrillas.",
+      "b": "La guerra de trincheras.",
+      "c": "La guerra nuclear.",
+      "d": "La guerra naval."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 14,
+    "numero": 6,
+    "pregunta": "¿Qué país se unió a la guerra en 1917 inclinando la balanza hacia los aliados?",
+    "opciones": {
+      "a": "Italia.",
+      "b": "Japón.",
+      "c": "Estados Unidos.",
+      "d": "España."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 14,
+    "numero": 7,
+    "pregunta": "¿Qué revolución provocó la retirada de Rusia de la guerra en 1917?",
+    "opciones": {
+      "a": "La Revolución Francesa.",
+      "b": "La Revolución Rusa bolchevique.",
+      "c": "La Revolución Industrial.",
+      "d": "La Revolución de 1848."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 14,
+    "numero": 8,
+    "pregunta": "¿Qué tratado puso fin oficialmente a la Primera Guerra Mundial?",
+    "opciones": {
+      "a": "El Tratado de Utrecht.",
+      "b": "El Tratado de Versalles.",
+      "c": "El Tratado de París.",
+      "d": "El Tratado de Viena."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 14,
+    "numero": 9,
+    "pregunta": "¿Qué organización internacional se creó tras la Primera Guerra Mundial para garantizar la paz?",
+    "opciones": {
+      "a": "La ONU.",
+      "b": "La OTAN.",
+      "c": "La Sociedad de Naciones.",
+      "d": "La Unión Europea."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 14,
+    "numero": 10,
+    "pregunta": "¿Qué imperios desaparecieron tras la Primera Guerra Mundial?",
+    "opciones": {
+      "a": "El Imperio alemán, el austrohúngaro, el otomano y el ruso.",
+      "b": "El Imperio británico y el francés.",
+      "c": "El Imperio español y el portugués.",
+      "d": "El Imperio bizantino y el carolingio."
+    },
+    "respuesta_correcta": "a"
+  }
+]

@@ -1,0 +1,115 @@
+{
+  "unidad": 13,
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "Las necesidades directivas...",
+      "opciones": {
+        "a": "Recogen los aspectos relacionados en la capacidad técnica que demuestra un directivo.",
+        "b": "Son un conjunto de competencias personales necesarias para desarrollar las capacidades técnicas.",
+        "c": "Son un conjunto de competencias personales necesarias para desarrollar las capacidades individuales.",
+        "d": "Buscan ofrecer una visión de las habilidades lo menos integradora posible, ya que es fundamental la idea de un líder."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "Para ser un líder es necesario…",
+      "opciones": {
+        "a": "Ser poco carismático en relación a tus empleados, ya que así demuestras la autoridad e influencia.",
+        "b": "Ser poco carismático, tener capacidad de comunicación y habilidades para motivar y dirigir.",
+        "c": "Ser carismático en relación a tus empleados, transmitiendo un bajo grado de comunicación obteniendo así una mayor motivación.",
+        "d": "Un conjunto de habilidades directivas necesarias para desarrollar un puesto de responsabilidad en la empresa."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿En qué se basan los criterios de Puchol?",
+      "opciones": {
+        "a": "Solo en comunicación y decisión.",
+        "b": "Comunicación, decisión, influencia y carisma.",
+        "c": "Decisión y carisma.",
+        "d": "Comunicación, decisión y gestión."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 4,
+      "pregunta": "La comunicación es una herramienta…",
+      "opciones": {
+        "a": "De comunicación personal.",
+        "b": "De comunicación interprofesional.",
+        "c": "De comunicación interpersonal.",
+        "d": "De comunicación profesional."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Qué es la empatía?",
+      "opciones": {
+        "a": "Capacidad para ponernos al lado del otro, dejándonos llevar por sus sensaciones y emociones.",
+        "b": "Es escuchar al otro y ayudar siempre que sea posible.",
+        "c": "Permite aumentar la hostilidad y tranquilizar a la persona.",
+        "d": "Resulta muy útil en situaciones como, la atención de una queja."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 6,
+      "pregunta": "Según la teoría de Vall (1998), ¿cuáles son las habilidades para interactuar con éxito con otras personas?",
+      "opciones": {
+        "a": "Negociación, gestión del tiempo y gestión del estrés.",
+        "b": "Interacción personal, negociación, 'gestionar' al jefe, asertividad.",
+        "c": "Negociación, motivación y liderazgo.",
+        "d": "Asertividad, motivación y 'gestionar' al jefe."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Qué se entiende por Visión?",
+      "opciones": {
+        "a": "El hecho de hacer cosas, realizar tareas, en concordancia a los objetivos fijados.",
+        "b": "Es ver un estado futuro con el ojo de la mente.",
+        "c": "Es una hoja de ruta, entendiendo como el camino a seguir para únicamente poder lograr algo.",
+        "d": "Ninguna de las anteriores es correcta."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 8,
+      "pregunta": "Según Cubeiro, el management se centra…",
+      "opciones": {
+        "a": "En la dirección visual.",
+        "b": "En la comida.",
+        "c": "En la dirección.",
+        "d": "En las manos, el tacto."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Cuál es la clave para entender el trabajo en equipo?",
+      "opciones": {
+        "a": "No trabajar nunca en equipo.",
+        "b": "La dependencia.",
+        "c": "La independencia.",
+        "d": "La interdependencia."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Qué es la innovación?",
+      "opciones": {
+        "a": "Es una función específica de los emprendedores.",
+        "b": "Es muy costosa para las empresas en comparación al rendimiento que se obtienen.",
+        "c": "Medio por el cual se crea un nuevo producto, con las mismas características.",
+        "d": "Constituye una ventaja competitiva de tercer orden y permite que las empresas ganen posiciones."
+      },
+      "respuesta_correcta": "a"
+    }
+  ]
+}

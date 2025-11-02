@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Quiz | RRHH y Dirección de Equipos</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <h1>Quiz · RRHH y Dirección de Equipos</h1>
+      <div class="controls">
+        <label>
+          Modo:
+          <select id="mode">
+            <option value="study">Estudio</option>
+            <option value="quiz">Examen</option>
+          </select>
+        </label>
+        <button id="startBtn">Comenzar</button>
+        <button id="resetBtn" class="secondary" title="Reiniciar (borra progreso)">Reiniciar</button>
+      </div>
+    </header>
+
+    <main id="main" class="container">
+      <section id="loader" class="card hidden">Cargando preguntas…</section>
+
+      <section id="intro" class="card">
+        <p>
+          Este quiz lee las preguntas desde <code>questions.json</code> y funciona 100% en el navegador (GitHub Pages).
+        </p>
+        <ul>
+          <li>Modo <strong>Estudio</strong>: ves la solución al responder.</li>
+          <li>Modo <strong>Examen</strong>: al final verás tu puntuación y revisión.</li>
+        </ul>
+      </section>
+
+      <section id="quiz" class="card hidden">
+        <div class="meta">
+          <span id="progress">Pregunta 1 / 1</span>
+          <span id="score">Aciertos: 0</span>
+        </div>
+        <h2 id="q-text">Texto de la pregunta…</h2>
+        <form id="options" class="options"></form>
+        <div class="actions">
+          <button id="checkBtn">Comprobar</button>
+          <button id="nextBtn" class="secondary">Siguiente ▶</button>
+        </div>
+        <p id="feedback" class="feedback"></p>
+      </section>
+
+      <section id="results" class="card hidden">
+        <h2>Resultados</h2>
+        <p id="finalScore"></p>
+        <details>
+          <summary>Revisión pregunta por pregunta</summary>
+          <ol id="reviewList"></ol>
+        </details>
+        <div class="actions">
+          <button id="restartBtn">Volver a empezar</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <small>Hecho con HTML/CSS/JS · Carga <code>questions.json</code> sin servidor.</small>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

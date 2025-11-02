@@ -1,0 +1,122 @@
+[
+  {
+    "unidad": 24,
+    "numero": 1,
+    "pregunta": "¿Qué son los Derechos Humanos?",
+    "opciones": {
+      "a": "Normas internacionales de comercio.",
+      "b": "Derechos fundamentales que posee toda persona por el hecho de ser humana.",
+      "c": "Un conjunto de leyes de cada país.",
+      "d": "Un código penal internacional."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 24,
+    "numero": 2,
+    "pregunta": "¿En qué año se proclamó la Declaración Universal de los Derechos Humanos?",
+    "opciones": {
+      "a": "1776.",
+      "b": "1789.",
+      "c": "1948.",
+      "d": "1955."
+    },
+    "respuesta_correcta": "c"
+  },
+  {
+    "unidad": 24,
+    "numero": 3,
+    "pregunta": "¿Qué organismo aprobó la Declaración Universal de los Derechos Humanos?",
+    "opciones": {
+      "a": "La OTAN.",
+      "b": "La ONU.",
+      "c": "La Unión Europea.",
+      "d": "El Tribunal de La Haya."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 24,
+    "numero": 4,
+    "pregunta": "¿Qué documento inspiró la Declaración Universal de los Derechos Humanos?",
+    "opciones": {
+      "a": "La Declaración de Independencia de EE.UU. (1776) y la Declaración de los Derechos del Hombre y del Ciudadano (1789).",
+      "b": "El Tratado de Versalles.",
+      "c": "La Carta Magna inglesa.",
+      "d": "El Código Napoleónico."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 24,
+    "numero": 5,
+    "pregunta": "¿Qué derecho establece el artículo 3 de la Declaración Universal?",
+    "opciones": {
+      "a": "Derecho a la vida, la libertad y la seguridad personal.",
+      "b": "Derecho a la propiedad privada.",
+      "c": "Derecho al voto.",
+      "d": "Derecho a la educación."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 24,
+    "numero": 6,
+    "pregunta": "¿Qué derecho reconoce el artículo 19 de la Declaración Universal?",
+    "opciones": {
+      "a": "Derecho a la libertad de opinión y de expresión.",
+      "b": "Derecho a la vivienda.",
+      "c": "Derecho al trabajo.",
+      "d": "Derecho a la igualdad ante la ley."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 24,
+    "numero": 7,
+    "pregunta": "¿Qué derecho recoge el artículo 26 de la Declaración Universal?",
+    "opciones": {
+      "a": "Derecho a la educación.",
+      "b": "Derecho a la propiedad.",
+      "c": "Derecho a la libertad religiosa.",
+      "d": "Derecho a la salud."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 24,
+    "numero": 8,
+    "pregunta": "¿Qué derechos son considerados de primera generación?",
+    "opciones": {
+      "a": "Derechos civiles y políticos.",
+      "b": "Derechos económicos y sociales.",
+      "c": "Derechos culturales.",
+      "d": "Derechos medioambientales."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 24,
+    "numero": 9,
+    "pregunta": "¿Qué derechos son considerados de segunda generación?",
+    "opciones": {
+      "a": "Derechos civiles.",
+      "b": "Derechos sociales, económicos y culturales.",
+      "c": "Derechos políticos.",
+      "d": "Derechos de solidaridad."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 24,
+    "numero": 10,
+    "pregunta": "¿Qué derechos son considerados de tercera generación?",
+    "opciones": {
+      "a": "Derechos de solidaridad, como el derecho a la paz, al desarrollo y al medio ambiente.",
+      "b": "Derechos a la propiedad privada.",
+      "c": "Derechos a la libre empresa.",
+      "d": "Derechos a la religión oficial."
+    },
+    "respuesta_correcta": "a"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "unidad": 21,
+    "numero": 1,
+    "pregunta": "¿Qué es la ONU?",
+    "opciones": {
+      "a": "Una organización internacional fundada en 1945 para mantener la paz y la cooperación entre los países.",
+      "b": "Una alianza militar defensiva.",
+      "c": "Un tratado económico entre países de Europa.",
+      "d": "Una organización religiosa internacional."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 21,
+    "numero": 2,
+    "pregunta": "¿Dónde tiene su sede la ONU?",
+    "opciones": {
+      "a": "París.",
+      "b": "Nueva York.",
+      "c": "Ginebra.",
+      "d": "Bruselas."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 21,
+    "numero": 3,
+    "pregunta": "¿Cuáles son los principales órganos de la ONU?",
+    "opciones": {
+      "a": "El Consejo de Seguridad, la Asamblea General y el Secretario General.",
+      "b": "La OTAN y la UE.",
+      "c": "El Parlamento Europeo y la Comisión Europea.",
+      "d": "El Tribunal de La Haya y el Banco Mundial."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 21,
+    "numero": 4,
+    "pregunta": "¿Qué función tiene el Consejo de Seguridad de la ONU?",
+    "opciones": {
+      "a": "Aprobar leyes internacionales.",
+      "b": "Mantener la paz y la seguridad internacionales.",
+      "c": "Regular el comercio mundial.",
+      "d": "Defender los derechos laborales."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 21,
+    "numero": 5,
+    "pregunta": "¿Qué países son miembros permanentes del Consejo de Seguridad de la ONU?",
+    "opciones": {
+      "a": "Alemania, Italia, Japón, Brasil y Canadá.",
+      "b": "Estados Unidos, Rusia, China, Francia y Reino Unido.",
+      "c": "España, Portugal, México, India y Sudáfrica.",
+      "d": "Países Bajos, Suiza, Suecia, Noruega y Dinamarca."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 21,
+    "numero": 6,
+    "pregunta": "¿Qué es UNICEF?",
+    "opciones": {
+      "a": "Un organismo de la ONU dedicado a la infancia.",
+      "b": "Un tratado militar defensivo.",
+      "c": "Una organización de países exportadores de petróleo.",
+      "d": "Un tribunal internacional de justicia."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 21,
+    "numero": 7,
+    "pregunta": "¿Qué es la UNESCO?",
+    "opciones": {
+      "a": "Un organismo de la ONU para la educación, la ciencia y la cultura.",
+      "b": "Una alianza militar.",
+      "c": "Una organización de comercio internacional.",
+      "d": "Un tribunal de justicia internacional."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 21,
+    "numero": 8,
+    "pregunta": "¿Qué es ACNUR?",
+    "opciones": {
+      "a": "El Alto Comisionado de la ONU para los Refugiados.",
+      "b": "Una agencia para el control nuclear.",
+      "c": "Un organismo de seguridad alimentaria.",
+      "d": "Una organización de defensa militar."
+    },
+    "respuesta_correcta": "a"
+  },
+  {
+    "unidad": 21,
+    "numero": 9,
+    "pregunta": "¿Qué documento proclamó la ONU en 1948?",
+    "opciones": {
+      "a": "La Carta de San Francisco.",
+      "b": "La Declaración Universal de los Derechos Humanos.",
+      "c": "El Tratado de Maastricht.",
+      "d": "La Carta Magna."
+    },
+    "respuesta_correcta": "b"
+  },
+  {
+    "unidad": 21,
+    "numero": 10,
+    "pregunta": "¿Qué organismo de la ONU se encarga de juzgar crímenes de guerra y lesa humanidad?",
+    "opciones": {
+      "a": "El Tribunal Internacional de Justicia.",
+      "b": "El Consejo de Seguridad.",
+      "c": "La Corte Penal Internacional.",
+      "d": "La Asamblea General."
+    },
+    "respuesta_correcta": "c"
+  }
+]
