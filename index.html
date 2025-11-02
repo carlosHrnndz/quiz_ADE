@@ -1,66 +1,102 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Quiz · RRHH y Dirección de Equipos</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <h1>Quiz · RRHH y Dirección de Equipos</h1>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Quiz · RRHH y Dirección</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* Estilos mínimos para móvil/oscuro */
+      :root { color-scheme: dark; }
+      body{background:#0f1115;color:#e8e8ea;margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Ubuntu,Arial,sans-serif}
+      .app-header{position:sticky;top:0;background:#141722;border-bottom:1px solid #262938;padding:12px 16px;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+      .controls{margin-left:auto;display:flex;gap:8px;align-items:center}
+      select,button,input{background:#1b2030;color:#e8e8ea;border:1px solid #2a2f43;border-radius:10px;padding:8px 12px}
+      button{background:#2a66ff;border:none;cursor:pointer}
+      button.secondary{background:#2a2f43}
+      .container{max-width:900px;margin:24px auto;padding:0 16px;display:grid;gap:16px}
+      .card{background:#141a26;border:1px solid #23283a;border-radius:16px;padding:16px;box-shadow:0 6px 20px rgba(0,0,0,.25)}
+      .hidden{display:none}
+      .meta{display:flex;justify-content:space-between;margin-bottom:8px;color:#b7bfd6}
+      .options{display:grid;gap:10px;margin:12px 0}
+      .option{display:flex;gap:10px;align-items:flex-start;background:#101521;border:1px solid #23283a;border-radius:12px;padding:10px;cursor:pointer}
+      .correct{border-color:#2ecc71!important}
+      .incorrect{border-color:#ff6b6b!important}
+      .feedback{min-height:1.2em;margin:8px 0;color:#b7ffd6}
+      .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+      .grow{flex:1}
+      footer{color:#9aa3b2;text-align:center;padding:24px}
+    </style>
+  </head>
+  <body>
+    <header class="app-header">
+      <h1>Quiz · RRHH y Dirección</h1>
+      <div class="controls">
+        <label>Módulo:
+          <select id="moduloSelect">
+            <option value="">Detectando…</option>
+          </select>
+        </label>
+        <label>Modo:
+          <select id="mode">
+            <option value="study">Estudio</option>
+            <option value="quiz">Examen</option>
+          </select>
+        </label>
+        <button id="startBtn">Comenzar</button>
+        <button id="resetBtn" class="secondary" title="Reiniciar">Reiniciar</button>
+      </div>
+    </header>
 
-  <div class="config">
-    <label for="mode">Modo:</label>
-    <select id="mode">
-      <option value="study" selected>Estudio</option>
-      <option value="quiz">Examen</option>
-    </select>
+    <main class="container">
+      <!-- Nombre -->
+      <section id="askName" class="card">
+        <h2>¿Cómo te llamas?</h2>
+        <div class="row">
+          <input id="nameInput" class="grow" type="text" placeholder="Escribe tu nombre…" autocomplete="name"/>
+          <button id="saveNameBtn">Guardar</button>
+        </div>
+        <p style="color:#9aa3b2;margin-top:8px">Tu nombre se guarda solo en este dispositivo.</p>
+      </section>
 
-    <label for="unidadSelector">Unidad:</label>
-    <select id="unidadSelector">
-      <option value="Unidad01">Unidad 01</option>
-      <option value="Unidad02">Unidad 02</option>
-      <option value="Unidad03">Unidad 03</option>
-    </select>
+      <section id="intro" class="card">
+        <p>
+          El sistema detecta automáticamente los módulos disponibles
+          (<code>Modulo01</code>, <code>Modulo02</code>, …) y sus archivos
+          <code>unidad_XX.json</code>. Al comenzar se combinan todas las preguntas de ese módulo.
+        </p>
+      </section>
 
-    <label for="archivoSelector">Test:</label>
-    <select id="archivoSelector">
-      <option value="01">Test 01</option>
-      <option value="02">Test 02</option>
-      <option value="03">Test 03</option>
-      <option value="04">Test 04</option>
-      <option value="05">Test 05</option>
-      <option value="06">Test 06</option>
-      <option value="07">Test 07</option>
-      <option value="08">Test 08</option>
-      <option value="09">Test 09</option>
-      <option value="10">Test 10</option>
-    </select>
+      <section id="loader" class="card hidden">Cargando preguntas…</section>
 
-    <button id="startBtn">Comenzar</button>
-    <button id="resetBtn" title="Reiniciar (borra progreso)">Reiniciar</button>
-  </div>
+      <section id="quiz" class="card hidden">
+        <div class="meta">
+          <span id="progress">Pregunta 1 / 1</span>
+          <span id="score">Aciertos: 0</span>
+        </div>
+        <h2 id="q-text">Texto de la pregunta…</h2>
+        <form id="options" class="options"></form>
+        <div class="row">
+          <button id="checkBtn">Comprobar</button>
+          <button id="nextBtn" class="secondary">Siguiente ▶</button>
+        </div>
+        <p id="feedback" class="feedback"></p>
+      </section>
 
-  <div id="quizContainer" class="hidden">
-    <div id="questionHeader">
-      <span id="questionCount"></span> ·
-      Aciertos: <span id="score">0</span>
-    </div>
-    <p id="questionText"></p>
-    <div id="options"></div>
+      <section id="results" class="card hidden">
+        <h2>Resultados</h2>
+        <p id="finalScore"></p>
+        <details>
+          <summary>Revisión pregunta por pregunta</summary>
+          <ol id="reviewList"></ol>
+        </details>
+        <div class="row">
+          <button id="restartBtn">Volver a empezar</button>
+        </div>
+      </section>
+    </main>
 
-    <button id="checkBtn">Comprobar</button>
-    <button id="nextBtn">Siguiente ▶</button>
-  </div>
-
-  <div id="results" class="hidden">
-    <h2>Resultados</h2>
-    <p id="finalScore"></p>
-    <button id="restartBtn">Volver a empezar</button>
-  </div>
-
-  <p class="footer">Hecho con HTML/CSS/JS · Carga JSON sin servidor</p>
-
-  <script src="app.js"></script>
-</body>
+    <footer>Hecho con HTML/CSS/JS · GitHub Pages</footer>
+    <script src="app.js"></script>
+  </body>
 </html>
