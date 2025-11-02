@@ -1,23 +1,23 @@
-// ====== CONFIG ======
+// ================== CONFIG ==================
 const MODULE_MIN = 1, MODULE_MAX = 30;  // Modulo01..Modulo30
 const UNIT_MIN   = 1, UNIT_MAX   = 60;  // unidad_01..unidad_60
-const EXAM_COUNT = 40;                  // preguntas en modo examen
+const EXAM_COUNT = 40;                  // nº preguntas en modo examen
 
-// ====== STATE ======
+// ================== STATE ===================
 let bank = [];                  // [{gid, texto, opciones, correcta}]
-let order = [];                 // índices del banco para el pase actual
-let idx = 0;                    // puntero en 'order'
+let order = [];                 // índices del banco en el pase actual
+let idx = 0;                    // puntero dentro de order
 let mode = "repaso";            // 'repaso' | 'examen' | 'errores'
 let name = "";
 let moduleId = null;
 
-// progreso
-const selections = new Map();   // gid -> 'a'|'b'|'c'|'d' (última selección)
-const finalized  = new Map();   // gid -> selección consolidada al pasar de pregunta
-const wrongSet   = new Set();   // gid marcados como "erróneos" (fallados en finalizadas)
-const pendingSet = new Set();   // gid marcados manualmente como "pendiente"
+// progreso persistente
+const selections = new Map();   // gid -> 'a'|'b'|'c'|'d' (elección actual)
+const finalized  = new Map();   // gid -> 'a'|'b'|'c'|'d' (consolidada al pasar)
+const wrongSet   = new Set();   // gid marcadas como falladas (en finalizadas)
+const pendingSet = new Set();   // gid marcadas manualmente como pendientes
 
-// ====== DOM ======
+// ================== DOM =====================
 const $ = id => document.getElementById(id);
 const el = {
   userNameHead: $("userNameHead"),
@@ -58,13 +58,15 @@ const el = {
 function pad2(n){ return String(n).padStart(2,"0"); }
 const gidOf = (mod,u,i) => `${mod}|${pad2(u)}|${i}`;
 
-// ====== PERSISTENCIA ======
+// ================== PERSISTENCIA =============
 const KEY = "quiz_clone_app_examen_v1";
 function saveState(){
   const payload = {
-    name, moduleId, selections: Array.from(selections.entries()),
-    finalized: Array.from(finalized.entries()),
-    wrong: Array.from(wrongSet), pending: Array.from(pendingSet)
+    name, moduleId,
+    selections: Array.from(selections.entries()),
+    finalized:  Array.from(finalized.entries()),
+    wrong:      Array.from(wrongSet),
+    pending:    Array.from(pendingSet),
   };
   localStorage.setItem(KEY, JSON.stringify(payload));
 }
@@ -82,10 +84,14 @@ function loadState(){
   }catch{}
 }
 
-// ====== DETECCIÓN DE MÓDULOS ======
+// ================== DETECCIÓN MÓDULOS =========
 async function existsJson(url){
-  try{ const r = await fetch(url+`?_=${Date.now()}`, {cache:"no-store"}); if(!r.ok) return false; await r.clone().json(); return true; }
-  catch{ return false; }
+  try{
+    const r = await fetch(url+`?_=${Date.now()}`, {cache:"no-store"});
+    if(!r.ok) return false;
+    await r.clone().json();
+    return true;
+  }catch{ return false; }
 }
 async function detectModules(){
   el.moduloSelect.innerHTML = `<option>Detectando…</option>`;
@@ -93,6 +99,7 @@ async function detectModules(){
   for(let m=MODULE_MIN; m<=MODULE_MAX; m++){
     const id = `Modulo${pad2(m)}`;
     let any = false;
+    // probamos varias unidades "rápidas"
     for(let u=UNIT_MIN; u<UNIT_MIN+5 && u<=UNIT_MAX; u++){
       if(await existsJson(`${id}/unidad_${pad2(u)}.json`)){ any = true; break; }
     }
@@ -104,53 +111,54 @@ async function detectModules(){
     return;
   }
   el.moduloSelect.innerHTML = found.map(m=>`<option value="${m}">${m}</option>`).join("");
-  el.detectedMsg.textContent = `Detectados: ${found.join(", ")}`;
   if(!moduleId) moduleId = found[0];
   el.moduloSelect.value = moduleId;
+  el.detectedMsg.textContent = `Detectados: ${found.join(", ")}`;
 }
 
-// ====== CARGA DEL BANCO ======
+// ================== CARGA BANCO ===============
 async function loadModuleBank(modId){
   const all = [];
   for(let u=UNIT_MIN; u<=UNIT_MAX; u++){
     const url = `${modId}/unidad_${pad2(u)}.json`;
     try{
-      const r = await fetch(url+`?_=${Date.now()}`, {cache:"no-store"}); if(!r.ok) continue;
+      const r = await fetch(url+`?_=${Date.now()}`, {cache:"no-store"});
+      if(!r.ok) continue;
       const data = await r.json();
       const preguntas = data?.preguntas || data || [];
       preguntas.forEach((q,i)=>{
         all.push({
-          gid: gidOf(modId, u, i),
+          gid: gidOf(modId,u,i),
           texto: q.pregunta || q.texto || "",
           opciones: q.opciones || q.options || {},
           correcta: (q.respuesta_correcta || q.correcta || "").toString().trim().toLowerCase(),
         });
       });
-    }catch{}
+    }catch{ /* ignora unidad inexistente */ }
   }
   return all;
 }
 
-// ====== UTIL DE ORDEN ======
+// ================== ORDENES ===================
 function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]];} return a; }
 
 function makeOrderAll(){ order = bank.map((_,i)=>i); shuffle(order); idx = 0; }
 function makeOrderExam(){
-  const all = bank.map((_,i)=>i); shuffle(all);
+  const all = bank.map((_,i)=>i);
+  shuffle(all);
   order = all.slice(0, Math.min(EXAM_COUNT, all.length));
   idx = 0;
 }
 function makeOrderErrors(){
-  // “Errores” = falladas + pendientes
   const errGids = new Set([...wrongSet, ...pendingSet]);
   const idxs = bank.map((q,i)=>({i,q})).filter(x=>errGids.has(x.q.gid)).map(x=>x.i);
   order = shuffle(idxs);
   idx = 0;
 }
 
-// ====== UI ======
-function show(elm){ elm.classList.remove("hidden"); }
-function hide(elm){ elm.classList.add("hidden"); }
+// ================== UI HELPERS ================
+function show(e){ e.classList.remove("hidden"); }
+function hide(e){ e.classList.add("hidden"); }
 
 function updateHeader(){
   el.userNameHead.textContent = name || "";
@@ -161,9 +169,10 @@ function renderStats(){
   const total = bank.length;
   const answered = finalized.size;
   const ok = Array.from(finalized.entries()).reduce((acc,[gid,sel])=>{
-    const q = bank.find(x=>x.gid===gid); return acc + (q && sel.toLowerCase()===q.correcta ? 1 : 0);
+    const q = bank.find(x=>x.gid===gid);
+    return acc + (q && sel.toLowerCase()===q.correcta ? 1 : 0);
   },0);
-  const pct = total ? Math.round(ok*100/answered || 0) : 0;
+  const pct = answered ? Math.round(ok*100/answered) : 0;
   const err = new Set([...wrongSet, ...pendingSet]).size;
 
   el.ansCount.textContent = answered;
@@ -173,13 +182,13 @@ function renderStats(){
 }
 
 function renderQuestion(){
-  if(!order.length){ // sin preguntas en este modo
+  if(!order.length){
     hide(el.quizView); show(el.statsView); renderStats(); return;
   }
   const q = bank[order[idx]];
   el.qCounter.textContent = `Pregunta ${idx+1} / ${order.length}`;
 
-  // mini score
+  // mini score (recalcula por finalizadas)
   const okNow = Array.from(finalized.entries()).reduce((acc,[gid,sel])=>{
     const qq = bank.find(x=>x.gid===gid);
     return acc + (qq && sel.toLowerCase()===qq.correcta ? 1 : 0);
@@ -203,7 +212,6 @@ function renderQuestion(){
 
     input.addEventListener("change", ()=>{
       selections.set(q.gid, k);
-      // feedback inmediato solo en "repaso"
       if(mode === "repaso"){
         const isOK = k.toLowerCase() === q.correcta;
         el.options.querySelectorAll(".option").forEach(o=>o.classList.remove("correct","incorrect"));
@@ -236,77 +244,63 @@ function renderQuestion(){
   saveState();
 }
 
-// ====== NAV ======
+// ================== NAVEGACIÓN ================
 function finalizeCurrent(){
   const q = bank[order[idx]];
   const sel = selections.get(q.gid) || null;
   if(sel){
     finalized.set(q.gid, sel);
-    // recalcular wrong
     if(sel.toLowerCase() !== q.correcta) wrongSet.add(q.gid);
     else wrongSet.delete(q.gid);
   }
 }
-
 function nextQ(){
   finalizeCurrent();
   if(idx < order.length-1){ idx++; renderQuestion(); }
-  else { showEnd(); }
+  else showEnd();
 }
-function prevQ(){
-  if(idx>0){ idx--; renderQuestion(); }
-}
+function prevQ(){ if(idx>0){ idx--; renderQuestion(); } }
 function markPending(){
   const q = bank[order[idx]];
   pendingSet.add(q.gid);
   updateHeader(); saveState();
 }
-function showEnd(){
-  hide(el.quizView); show(el.statsView); renderStats();
-}
+function showEnd(){ hide(el.quizView); show(el.statsView); renderStats(); }
 
-// ====== FLOWS ======
+// ================== FLUJOS ====================
 async function ensureBankLoaded(){
-  const selMod = el.moduloSelect.value;
-  if(!selMod) return alert("Selecciona un módulo.");
-  moduleId = selMod;
+  const val = el.moduloSelect.value;
+  if(!val) return alert("Selecciona un módulo.");
+  moduleId = val;
   bank = await loadModuleBank(moduleId);
-  if(!bank.length){ alert("No se encontraron preguntas para este módulo."); return false; }
+  if(!bank.length){ alert("No se encontraron preguntas en este módulo."); return false; }
   return true;
 }
-
 async function startRepaso(){
   if(!(await ensureBankLoaded())) return;
   mode = "repaso";
   makeOrderAll();
-  hide(el.mainMenu); hide(el.statsView);
-  show(el.quizView);
+  hide(el.mainMenu); hide(el.statsView); show(el.quizView);
   renderQuestion();
 }
 async function startExamen(){
   if(!(await ensureBankLoaded())) return;
   mode = "examen";
   makeOrderExam();
-  hide(el.mainMenu); hide(el.statsView);
-  show(el.quizView);
+  hide(el.mainMenu); hide(el.statsView); show(el.quizView);
   renderQuestion();
 }
 async function startErrores(){
   if(!(await ensureBankLoaded())) return;
   mode = "errores";
   makeOrderErrors();
-  hide(el.mainMenu); hide(el.statsView);
-  show(el.quizView);
+  hide(el.mainMenu); hide(el.statsView); show(el.quizView);
   renderQuestion();
 }
-function openStats(){
-  hide(el.quizView); show(el.statsView); renderStats();
-}
-function backMenu(){
-  hide(el.statsView); show(el.mainMenu);
-}
+function openStats(){ hide(el.quizView); show(el.statsView); renderStats(); }
+function backMenu(){ hide(el.statsView); show(el.mainMenu); }
 
-// ====== INIT ======
+// ================== INIT ======================
 window.addEventListener("DOMContentLoaded", async ()=>{
   loadState();
 
@@ -341,6 +335,6 @@ window.addEventListener("DOMContentLoaded", async ()=>{
     if((ev.key||"").toLowerCase()==="f") showEnd();
   });
 
-  // pinta contadores iniciales
+  // contadores iniciales
   updateHeader();
 });

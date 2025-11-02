@@ -1,45 +1,88 @@
-:root { color-scheme: dark; }
-* { box-sizing: border-box; }
-body {
-  margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif;
-  background:#0f1115; color:#e9e9ee;
-}
-.wrap { max-width: 980px; margin: 0 auto; padding: 0 16px; }
-.top { background:#141a26; border-bottom:1px solid #23283a; }
-h1 { margin: 0; padding: 20px 0 10px; font-weight: 700; }
-small { opacity:.8; font-weight: normal; display:block; }
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Práctica de Examen</title>
+  <!-- Hoja de estilos separada (NO pegues CSS aquí) -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <h1 id="title">Bienvenido, <span id="userNameHead"></span>, a tu Práctica de Examen</h1>
 
-.setup { display:flex; gap:10px; flex-wrap:wrap; align-items:center; padding: 0 0 14px; }
-.setup input, .setup select { background:#182033; color:#e9e9ee; border:1px solid #2a3147; border-radius:10px; padding:8px 12px; }
+      <!-- Barra inicial -->
+      <div id="setupBar" class="setup">
+        <label>Módulo:
+          <select id="moduloSelect"><option>Detectando…</option></select>
+        </label>
+        <label>Nombre:
+          <input id="nameInput" type="text" placeholder="Escribe tu nombre…" autocomplete="name">
+        </label>
+        <button id="saveNameBtn" class="btn ghost" type="button">Guardar nombre</button>
+      </div>
 
-.menu { display:grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap:10px; padding:14px 0 20px; }
-.btn {
-  background:#2a66ff; border:0; color:white; padding:12px 14px; border-radius:10px; cursor:pointer;
-}
-.btn.ghost { background:transparent; border:1px dashed #2a3147; color:#c9cedd; }
-.btn:disabled { opacity:.5; cursor:not-allowed; }
+      <!-- Menú principal -->
+      <div id="mainMenu" class="menu">
+        <button id="btnRepaso" class="btn" type="button">Repaso Aleatorio <small>(todas las preguntas)</small></button>
+        <button id="btnExamen" class="btn" type="button">Modo Examen <small>(40 preguntas al azar)</small></button>
+        <button id="btnErrores" class="btn" type="button">Repasar solo Errores</button>
+        <button id="btnStats" class="btn ghost" type="button">Ver Estadísticas</button>
+      </div>
+    </div>
+  </header>
 
-main { padding: 18px 0 28px; }
-.card { background:transparent; padding:0; }
-.hidden { display:none; }
+  <main class="wrap">
+    <!-- Vista de pregunta -->
+    <section id="quizView" class="card hidden">
+      <div class="quizHead">
+        <div id="qCounter">Pregunta 0 / 0</div>
+        <div class="spacer"></div>
+        <div id="scoreMini">Aciertos: 0</div>
+      </div>
 
-.quizHead { display:flex; align-items:center; gap:10px; margin-bottom:10px; color:#b9c2d6; }
-.qText { font-size:20px; font-weight:600; margin: 10px 0 12px; }
-.options { display:grid; gap:10px; }
-.option {
-  display:flex; gap:10px; align-items:flex-start;
-  background:#101521; border:1px solid #22283a; border-radius:12px; padding:12px; cursor:pointer;
-}
-.option input { margin-top:3px; }
-.option.correct { border-color:#25c47a; }
-.option.incorrect { border-color:#ff6b6b; }
+      <div id="qText" class="qText">Cargando pregunta…</div>
+      <form id="options" class="options"></form>
 
-.quizNav { display:flex; gap:8px; align-items:center; margin-top:14px; }
-.spacer { flex:1; }
-.feedback { min-height: 1.2em; color:#b9c2d6; margin-top:8px; }
+      <div class="quizNav">
+        <button id="btnAnt" class="btn ghost" type="button">◀◀ Ant</button>
+        <button id="btnPend" class="btn ghost" type="button">Pendiente (<span id="pendCount">0</span>)</button>
+        <button id="btnFin" class="btn ghost" type="button">Ver Fin (F)</button>
+        <button id="btnSig" class="btn" type="button">Sig ▶▶</button>
+      </div>
 
-.statsGrid { display:grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap:12px; }
-.center { text-align:center; }
-.mt { margin-top: 16px; }
+      <div id="feedback" class="feedback"></div>
+    </section>
 
-.footer { color:#9aa4bb; padding:16px 0 28px; }
+    <!-- Estadísticas -->
+    <section id="statsView" class="card hidden">
+      <h2>Tus Estadísticas</h2>
+      <div class="statsGrid">
+        <div>
+          <h3>Respondidas</h3>
+          <div><span id="ansCount">0</span> / <span id="totalCount">0</span></div>
+        </div>
+        <div>
+          <h3>% Correctas</h3>
+          <div><span id="pctOK">0</span>%</div>
+        </div>
+        <div>
+          <h3>Para repasar (errores + pendientes)</h3>
+          <div><span id="errCount">0</span></div>
+        </div>
+      </div>
+      <div class="center mt">
+        <button id="btnBackMenu" class="btn ghost" type="button">Volver al Menú</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <div id="detectedMsg"></div>
+  </footer>
+
+  <!-- Lógica -->
+  <script src="app.js?v=ae-clone"></script>
+</body>
+</html>
