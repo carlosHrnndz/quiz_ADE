@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="styles.css" />
   <style>
     :root { color-scheme: dark }
+    /* Base limpia, sin “tarjetas” en todo salvo opciones */
     body{margin:0;background:#0f1115;color:#e8e8ea;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif}
     header{background:#141a26;border-bottom:1px solid #23283a;padding:16px 20px}
     h1{margin:0 0 10px 0}
@@ -16,24 +17,36 @@
     button.secondary{background:#2a3147}
     button.ghost{background:transparent;border:1px dashed #2a3147}
     main{max-width:900px;margin:20px auto;padding:0 16px;display:grid;gap:14px}
-    .card{background:#141a26;border:1px solid #23283a;border-radius:14px;padding:16px}
+    section{padding:0} /* sin cajas */
     .hidden{display:none}
     .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
     .grow{flex:1}
-    .meta{display:flex;justify-content:space-between;margin-bottom:8px;color:#b7bfd6}
+
+    /* Píldoras superior e info */
+    .pills{display:flex;gap:8px;flex-wrap:wrap;align-items:center;justify-content:space-between;margin-bottom:8px}
+    .pill{display:inline-flex;gap:6px;align-items:center;padding:4px 8px;border-radius:999px;border:1px solid #2a3147;background:#101521;color:#b7bfd6}
+    .muted{color:#a2aab9}
+
+    /* Zona de pregunta */
+    .q-header{display:flex;justify-content:space-between;align-items:center;margin:6px 0 8px}
+    .q-title{font-size:20px;font-weight:600;margin:6px 0 12px 0}
     .options{display:grid;gap:10px;margin:12px 0}
     .option{display:flex;gap:10px;background:#101521;border:1px solid #23283a;border-radius:12px;padding:12px;cursor:pointer}
     .option input{margin-top:2px}
     .correct{border-color:#25c47a!important}
     .incorrect{border-color:#ff6b6b!important}
-    .pill{display:inline-flex;gap:6px;align-items:center;padding:4px 8px;border-radius:999px;border:1px solid #2a3147;background:#101521;color:#b7bfd6}
+
+    .nav{display:flex;gap:8px;align-items:center;margin-top:8px}
+    .spacer{flex:1}
     footer{color:#a2aab9;text-align:center;padding:22px}
   </style>
 </head>
 <body>
   <header>
-    <h1>Quiz · ADE Tecnológico</h1>
-    <div class="toolbar">
+    <h1>Quiz · RRHH y Dirección</h1>
+
+    <!-- Barra inicial (se oculta al empezar) -->
+    <div id="toolbar" class="toolbar">
       <label>Módulo:
         <select id="moduloSelect"><option>Detectando…</option></select>
       </label>
@@ -48,49 +61,58 @@
       <button id="pendingOnlyBtn" class="ghost hidden" title="Iniciar un pase con solo las pendientes">Solo pendientes</button>
       <button id="resetBtn" class="secondary">Reiniciar</button>
     </div>
-    <small id="detectMsg" style="color:#a2aab9"></small>
+
+    <!-- Píldoras (quedan visibles durante el pase) -->
+    <div id="pills" class="pills hidden">
+      <div class="pill"><span id="pillModulo">Módulo: —</span></div>
+      <div class="pill"><span id="pillStats">0 respondidas · 0 pendientes · 0 totales</span></div>
+    </div>
+
+    <small id="detectMsg" class="muted"></small>
   </header>
 
   <main>
-    <section id="askName" class="card">
+    <section id="askName">
       <h2>¿Cómo te llamas?</h2>
       <div class="row">
         <input id="nameInput" class="grow" type="text" placeholder="Escribe tu nombre…" autocomplete="name"/>
         <button id="saveNameBtn">Guardar</button>
       </div>
-      <p style="color:#a2aab9;margin-top:8px">Se guarda solo en este dispositivo.</p>
+      <p class="muted" style="margin-top:8px">Tu nombre se guarda solo en este dispositivo.</p>
     </section>
 
-    <section id="intro" class="card">
-      <div class="row" style="justify-content:space-between">
-        <div class="pill"><span id="pillModulo">Módulo: —</span><span id="pillStats">0 respondidas · 0 pendientes</span></div>
-        <div class="row">
-          <button id="clearPendBtn" class="ghost hidden" title="Vaciar lista de pendientes del módulo">Vaciar pendientes</button>
-        </div>
-      </div>
-      <p>Flujo <b>auto-avanzado</b> como tu app de Python: al elegir respuesta se pasa a la siguiente. Puedes <b>marcar pendiente</b> cualquier pregunta para repasarla después. El progreso queda guardado.</p>
+    <section id="intro">
+      <p class="muted">
+        Flujo como tu app de Python: eliges respuesta, ves feedback (en Estudio) y avanzas cuando quieras con los botones
+        <b>Anterior</b> / <b>Siguiente</b>. Puedes <b>marcar pendiente</b> y repasar “Solo pendientes”.
+      </p>
     </section>
 
-    <section id="loader" class="card hidden">Cargando preguntas…</section>
+    <!-- Sin loader visual permanente -->
 
-    <section id="quiz" class="card hidden">
-      <div class="meta">
-        <span id="progress">Pregunta 1 / 1</span>
-        <span>
+    <section id="quiz" class="hidden">
+      <div class="q-header">
+        <div id="progress" class="muted">Pregunta 1 / 1</div>
+        <div class="muted">
           <span id="score">Aciertos: 0</span> ·
           <span id="pendingCount">Pendientes: 0</span>
-        </span>
+        </div>
       </div>
-      <h2 id="q-text">Texto de la pregunta…</h2>
+
+      <div id="q-text" class="q-title">Texto de la pregunta…</div>
       <form id="options" class="options"></form>
+
       <div class="row">
         <button id="markPendingBtn" type="button" class="ghost">Marcar como pendiente</button>
-        <button id="skipBtn" type="button" class="secondary" title="Omitir (se marca pendiente)">Omitir</button>
+        <div class="spacer"></div>
+        <button id="prevBtn" type="button" class="secondary">Anterior</button>
+        <button id="nextBtn" type="button">Siguiente ▶</button>
       </div>
-      <p id="feedback" style="min-height:1.2em"></p>
+
+      <p id="feedback" class="muted" style="min-height:1.2em"></p>
     </section>
 
-    <section id="results" class="card hidden">
+    <section id="results" class="hidden">
       <h2>Resultados</h2>
       <p id="finalScore"></p>
       <details>
@@ -105,6 +127,6 @@
   </main>
 
   <footer>Hecho con HTML/CSS/JS · GitHub Pages</footer>
-  <script src="app.js?v=auto"></script>
+  <script src="app.js?v=nav-manual"></script>
 </body>
 </html>
